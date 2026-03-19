@@ -1536,11 +1536,10 @@
     });
   }
 
-  // 统一播放入口
+  // 统一播放入口：优先浏览器语音（无需登录），备用有道
   async function speak(text) {
-    let ok = await puterSpeak(text);
+    let ok = await synthSpeak(text);
     if (!ok) ok = await ydSpeak(text);
-    if (!ok) ok = await synthSpeak(text);
     return ok;
   }
 
