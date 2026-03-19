@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="theme-color" content="#0d1117">
+  <meta name="description" content="某公司产品线英语学习系统 - 医疗器械行业专业英语">
+  <title>某公司产品线 · 英语学习系统 v3.0</title>
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏥</text></svg>">
+
+  <!-- Preload critical resources -->
+  <link rel="preload" href="data/products.json" as="fetch" crossorigin>
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- Apple PWA -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="某公司学习">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-spinner"></div>
+    <p>加载中...</p>
+  </div>
+
+  <!-- App Container -->
+  <div id="app" class="app" style="display:none">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-bg"></div>
+      <div class="header-content">
+        <div class="header-badge">某公司产品线 · 英语学习系统 v3.0</div>
+        <h1>Medical <span>English Learning</span></h1>
+        <div class="header-stats">
+          <span id="stats-categories">0</span>大类 ·
+          <span id="stats-products">0</span>产品 ·
+          <span id="stats-terms">0</span>词汇
+        </div>
+
+        <!-- Mode Toggle -->
+        <div class="mode-bar">
+          <button class="mode-btn active" data-mode="study">
+            <span class="mode-icon">📖</span>
+            <span class="mode-text">产品学习</span>
+          </button>
+          <button class="mode-btn" data-mode="tutor">
+            <span class="mode-icon">👨‍🏫</span>
+            <span class="mode-text">外教课程</span>
+          </button>
+          <button class="mode-btn" data-mode="quiz">
+            <span class="mode-icon">🎯</span>
+            <span class="mode-text">测验模式</span>
+          </button>
+          <button class="mode-btn" data-mode="vocab">
+            <span class="mode-icon">📚</span>
+            <span class="mode-text">生词本</span>
+          </button>
+          <button class="mode-btn" data-mode="progress">
+            <span class="mode-icon">📊</span>
+            <span class="mode-text">学习进度</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs" id="nav-tabs">
+      <!-- Dynamically generated -->
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container" id="main-content">
+      <!-- Dynamically generated -->
+    </main>
+
+    <!-- Bottom Navigation (Mobile) -->
+    <nav class="bottom-nav">
+      <button class="bottom-nav-btn active" data-mode="study">
+        <span>📖</span>
+        <span>产品</span>
+      </button>
+      <button class="bottom-nav-btn" data-mode="tutor">
+        <span>👨‍🏫</span>
+        <span>外教</span>
+      </button>
+      <button class="bottom-nav-btn" data-mode="quiz">
+        <span>🎯</span>
+        <span>测验</span>
+      </button>
+      <button class="bottom-nav-btn" data-mode="vocab">
+        <span>📚</span>
+        <span>生词</span>
+      </button>
+      <button class="bottom-nav-btn" data-mode="progress">
+        <span>📊</span>
+        <span>进度</span>
+      </button>
+    </nav>
+
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Scripts -->
+  <script src="js/storage.js"></script>
+  <script src="js/audio.js"></script>
+  <script src="js/spaced-repetition.js"></script>
+  <script src="js/tutor.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js')
+          .then(reg => console.log('SW registered'))
+          .catch(err => console.log('SW registration failed'));
+      });
+    }
+  </script>
+
+</body>
+</html>
