@@ -1536,10 +1536,23 @@
     });
   }
 
-  // 统一播放入口：优先浏览器语音（无需登录），备用有道
+  // Google TTS（最接近真人，美式）
+  function googleSpeak(text) {
+    return new Promise(resolve => {
+      const url = 'https://translate.google.com/translate_tts?ie=UTF-8&tl=en-US&client=tw-ob&q=' + encodeURIComponent(text);
+      const a = new Audio(url);
+      a.playbackRate = 0.95; curAudio = a;
+      a.onended = () => { curAudio = null; resolve(true); };
+      a.onerror = () => { curAudio = null; resolve(false); };
+      a.play().catch(() => { curAudio = null; resolve(false); });
+    });
+  }
+
+  // 统一播放入口：Google真人音 → 有道备用 → 浏览器兜底
   async function speak(text) {
-    let ok = await synthSpeak(text);
+    let ok = await googleSpeak(text);
     if (!ok) ok = await ydSpeak(text);
+    if (!ok) ok = await synthSpeak(text);
     return ok;
   }
 
