@@ -2942,60 +2942,148 @@ function switchPanel(panel) {
 const tutorData = {
   lessons: [
     {
+      id: "lesson_2026_03_02",
+      date: "2026-03-02",
+      tutor: "Maxim",
+      duration: "50分钟",
+      topics: ["工作入职延迟","财务报告阅读","政府与行业政策区别","集中带量采购","竞业限制","医疗器械产品介绍"],
+      grammarErrors: [
+        { incorrect: "It was been good", correct: "I have been good", errorType: "现在完成时错误" },
+        { incorrect: "infect the company", correct: "affect the company", errorType: "词汇混淆" },
+        { incorrect: "they won't operating", correct: "they won't be operating", errorType: "进行时结构" },
+        { incorrect: "we product", correct: "we produce", errorType: "动词错误" }
+      ],
+      pronunciation: [],
+      vocabulary: [
+        { en: "centralized procurement", cn: "集中带量采购", cat: "商务" },
+        { en: "competitive restriction", cn: "竞业限制", cat: "商务" },
+        { en: "non-compete clause", cn: "竞业条款", cat: "商务" },
+        { en: "breach the contract", cn: "违反合同", cat: "商务" },
+        { en: "regulations", cn: "法规", cat: "商务" },
+        { en: "supervision", cn: "监管", cat: "商务" },
+        { en: "guidance", cn: "指导意见", cat: "商务" }
+      ]
+    },
+    {
+      id: "lesson_2026_03_06",
+      date: "2026-03-06",
+      tutor: "Maxim",
+      duration: "48分钟",
+      topics: ["公司详情介绍","留置针词汇","平台商业模式","公私企业对比"],
+      grammarErrors: [
+        { incorrect: "I don't have the contact way", correct: "I don't have the contact information", errorType: "中式英语" },
+        { incorrect: "when I will go", correct: "when I go", errorType: "时间状语从句不用将来时" },
+        { incorrect: "they can't get money publicly", correct: "they can't raise money publicly", errorType: "动词搭配" }
+      ],
+      pronunciation: [],
+      vocabulary: [
+        { en: "indwelling needle", cn: "留置针", cat: "医疗" },
+        { en: "infusion", cn: "输液", cat: "医疗" },
+        { en: "R&D", cn: "研发", cat: "商务" },
+        { en: "platform", cn: "平台", cat: "商务" },
+        { en: "investor", cn: "投资者", cat: "商务" },
+        { en: "public company", cn: "上市公司", cat: "商务" },
+        { en: "private enterprise", cn: "民营企业", cat: "商务" },
+        { en: "cash flow", cn: "现金流", cat: "商务" },
+        { en: "profit and loss", cn: "损益", cat: "商务" }
+      ]
+    },
+    {
+      id: "lesson_2026_03_09",
+      date: "2026-03-09",
+      tutor: "Maxim",
+      duration: "52分钟",
+      topics: ["周末活动","手术机器人介绍","骨科植入物","SP/ST发音规则"],
+      grammarErrors: [
+        { incorrect: "for four fours", correct: "for four hours", errorType: "词汇混淆" },
+        { incorrect: "There are not much people", correct: "There are not many people", errorType: "可数名词量词" },
+        { incorrect: "I haven't learn", correct: "I haven't learned", errorType: "过去分词" }
+      ],
+      pronunciation: [
+        { word: "spine", ipa: "/spaɪn/", tip: "SP后面P不变B，读/sp/不读/sb/" },
+        { word: "speak", ipa: "/spiːk/", tip: "SP后面P不变B" },
+        { word: "stop", ipa: "/stɑːp/", tip: "ST后面T不变D" }
+      ],
+      vocabulary: [
+        { en: "minimally invasive", cn: "微创", cat: "医疗" },
+        { en: "precision", cn: "精准", cat: "医疗" },
+        { en: "orthopedic implant", cn: "骨科植入物", cat: "医疗" },
+        { en: "spine", cn: "脊柱", cat: "医疗" },
+        { en: "plates and screws", cn: "钢板和螺钉", cat: "医疗" },
+        { en: "surgical robot", cn: "手术机器人", cat: "医疗" }
+      ]
+    },
+    {
+      id: "lesson_2026_03_11",
+      date: "2026-03-11",
+      tutor: "Maxim",
+      duration: "45分钟",
+      topics: ["周末计划","睡眠时间","公司三个方向"],
+      grammarErrors: [
+        { incorrect: "my feet is hurt", correct: "my feet are sore", errorType: "主谓一致+词汇" },
+        { incorrect: "I want win to Ding Jam", correct: "I want to go to the gym", errorType: "语序混乱" },
+        { incorrect: "he snaps sleep", correct: "he sleeps", errorType: "动词错误" }
+      ],
+      pronunciation: [],
+      vocabulary: [
+        { en: "collaborate", cn: "合作", cat: "商务" },
+        { en: "R&D platform", cn: "研发平台", cat: "商务" },
+        { en: "commercialization", cn: "商业化", cat: "商务" },
+        { en: "public listing", cn: "上市", cat: "商务" },
+        { en: "shareholders", cn: "股东", cat: "商务" }
+      ]
+    },
+    {
+      id: "lesson_2026_03_16",
+      date: "2026-03-16",
+      tutor: "Maxim",
+      duration: "51分钟",
+      topics: ["入职延迟","财政部培训","政府补贴","国内替代","医疗器械词汇"],
+      grammarErrors: [
+        { incorrect: "the government give", correct: "the government gives", errorType: "第三人称单数" },
+        { incorrect: "subsidiaries", correct: "subsidy", errorType: "词汇混淆" },
+        { incorrect: "infect", correct: "affect", errorType: "词汇混淆" },
+        { incorrect: "I am agree", correct: "I agree", errorType: "系动词多余" }
+      ],
+      pronunciation: [
+        { word: "subsidy", ipa: "/ˈsʌbsɪdi/", tip: "重音在第一音节" }
+      ],
+      vocabulary: [
+        { en: "subsidy", cn: "补贴", cat: "商务" },
+        { en: "domestic substitution", cn: "国内替代", cat: "商务" },
+        { en: "pros and cons", cn: "优缺点", cat: "通用" },
+        { en: "surgical needle", cn: "手术缝合针", cat: "医疗" },
+        { en: "surgical blade", cn: "手术刀片", cat: "医疗" },
+        { en: "blood bag", cn: "血袋", cat: "医疗" },
+        { en: "IV pole", cn: "输液架", cat: "医疗" },
+        { en: "crutches", cn: "拐杖", cat: "医疗" },
+        { en: "oxygen tank", cn: "氧气罐", cat: "医疗" }
+      ]
+    },
+    {
       id: "lesson_2026_03_18",
       date: "2026-03-18",
       tutor: "Maxim",
       duration: "49分钟",
-      topics: ["工作状态更新","财政部培训课程","政府补贴政策","公司背景介绍","公私企业对比","医疗器械词汇学习"],
+      topics: ["Claude Code安装","骨科产品详细介绍","复数S发音规则"],
       grammarErrors: [
-        { incorrect: "I need to go to the company", correct: "I don't need to go to the company", errorType: "漏掉否定词" },
-        { incorrect: "when I will go", correct: "when I go", errorType: "时间状语从句不用将来时" },
-        { incorrect: "I don't have the contact way", correct: "I don't have the contact information", errorType: "中式英语" },
-        { incorrect: "the government give", correct: "the government gives", errorType: "第三人称单数" },
-        { incorrect: "more cheaper", correct: "cheaper", errorType: "比较级双重比较" },
-        { incorrect: "I very like", correct: "I really like", errorType: "副词位置错误" },
-        { incorrect: "discuss about", correct: "discuss", errorType: "多余介词" },
-        { incorrect: "make the training", correct: "conduct/deliver the training", errorType: "动词搭配" },
-        { incorrect: "I am agree", correct: "I agree", errorType: "系动词多余" },
-        { incorrect: "the staffs", correct: "the staff", errorType: "不可数名词" },
-        { incorrect: "attend to the meeting", correct: "attend the meeting", errorType: "多余介词" },
-        { incorrect: "explain me", correct: "explain to me", errorType: "缺少介词" },
-        { incorrect: "I have 5 years experience", correct: "I have 5 years' experience", errorType: "所有格" }
+        { incorrect: "He hasn't coming back", correct: "He hasn't come back", errorType: "现在完成时结构" },
+        { incorrect: "I need use", correct: "I need to use", errorType: "不定式" }
       ],
       pronunciation: [
-        { word: "subsidy", ipa: "/ˈsʌbsɪdi/", tip: "重音在第一音节，不是 sub-SI-dy" },
-        { word: "reimbursement", ipa: "/ˌriːɪmˈbɜːrsmənt/", tip: "重音在第三音节 BURSE" },
-        { word: "procurement", ipa: "/prəˈkjʊərmənt/", tip: "注意 pro-CURE-ment" },
-        { word: "orthopedics", ipa: "/ˌɔːrθəˈpiːdɪks/", tip: "重音在 PEE" },
-        { word: "cardiovascular", ipa: "/ˌkɑːrdioʊˈvæskjələr/", tip: "五个音节，重音在 VAS" },
-        { word: "hemodialysis", ipa: "/ˌhiːmoʊdaɪˈæləsɪs/", tip: "重音在 AL" }
+        { word: "implants", ipa: "/ɪmˈplænts/", tip: "复数S发音规则：-ts读/ts/" },
+        { word: "screws", ipa: "/skruːz/", tip: "复数S发音规则：浊辅音后读/z/" }
       ],
       vocabulary: [
-        { en: "volume-based procurement", cn: "集中带量采购", cat: "商务" },
-        { en: "price reduction", cn: "降价", cat: "商务" },
-        { en: "market share", cn: "市场份额", cat: "商务" },
-        { en: "listed company", cn: "上市公司", cat: "商务" },
-        { en: "state-owned enterprise", cn: "国有企业", cat: "商务" },
-        { en: "private enterprise", cn: "民营企业", cat: "商务" },
-        { en: "government subsidy", cn: "政府补贴", cat: "商务" },
-        { en: "fiscal policy", cn: "财政政策", cat: "商务" },
-        { en: "reimbursement", cn: "报销/补偿", cat: "商务" },
-        { en: "medical device", cn: "医疗器械", cat: "医疗" },
         { en: "spinal implant", cn: "脊柱内固定", cat: "医疗" },
         { en: "joint replacement", cn: "人工关节", cat: "医疗" },
-        { en: "hemodialysis", cn: "血液透析", cat: "医疗" },
-        { en: "interventional cardiology", cn: "介入心脏病学", cat: "医疗" },
-        { en: "Class III medical device", cn: "三类医疗器械", cat: "医疗" },
-        { en: "minimally invasive", cn: "微创", cat: "医疗" },
-        { en: "surgical robot", cn: "手术机器人", cat: "医疗" },
-        { en: "endoscopy", cn: "内窥镜检查", cat: "医疗" },
-        { en: "in vitro diagnostics", cn: "体外诊断", cat: "医疗" },
-        { en: "bone repair material", cn: "骨修复材料", cat: "医疗" },
-        { en: "drug-eluting stent", cn: "药物洗脱支架", cat: "医疗" },
-        { en: "peritoneal dialysis", cn: "腹膜透析", cat: "医疗" },
-        { en: "pre-filled syringe", cn: "预充式注射器", cat: "医疗" },
-        { en: "orthopedic implant", cn: "骨科植入物", cat: "医疗" },
-        { en: "blood purification", cn: "血液净化", cat: "医疗" }
+        { en: "unicondylar knee system", cn: "单髁膝关节系统", cat: "医疗" },
+        { en: "hip femoral stem", cn: "髋关节股骨柄", cat: "医疗" },
+        { en: "trauma fixation", cn: "创伤固定", cat: "医疗" },
+        { en: "titanium", cn: "钛", cat: "医疗" },
+        { en: "fracture", cn: "骨折", cat: "医疗" },
+        { en: "intramedullary nails", cn: "髓内钉", cat: "医疗" },
+        { en: "locking plates", cn: "锁定钢板", cat: "医疗" }
       ]
     }
   ]
