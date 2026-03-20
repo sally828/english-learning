@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>部署指南 - 医疗英语学习系统</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans SC', sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      padding: 20px;
+      line-height: 1.8;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+      color: #58a6ff;
+    }
+
+    h2 {
+      font-size: 24px;
+      margin: 30px 0 15px;
+      color: #58a6ff;
+      border-bottom: 2px solid #21262d;
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin: 20px 0 10px;
+      color: #79c0ff;
+    }
+
+    .subtitle {
+      color: #8b949e;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .step-card {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-left: 3px solid #58a6ff;
+      border-radius: 8px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .step-number {
+      display: inline-block;
+      background: #58a6ff;
+      color: white;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 30px;
+      font-weight: bold;
+      margin-right: 10px;
+    }
+
+    ol, ul {
+      margin-left: 20px;
+      margin-top: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      color: #8b949e;
+    }
+
+    code {
+      background: #0d1117;
+      padding: 2px 8px;
+      border-radius: 4px;
+      color: #79c0ff;
+      font-size: 14px;
+      font-family: 'Consolas', 'Monaco', monospace;
+    }
+
+    pre {
+      background: #0d1117;
+      border: 1px solid #21262d;
+      border-radius: 6px;
+      padding: 16px;
+      overflow-x: auto;
+      margin: 15px 0;
+    }
+
+    pre code {
+      background: transparent;
+      padding: 0;
+    }
+
+    .note {
+      background: rgba(88,166,255,0.12);
+      border: 1px solid rgba(88,166,255,0.3);
+      border-radius: 8px;
+      padding: 15px;
+      margin: 20px 0;
+      font-size: 14px;
+      color: #58a6ff;
+    }
+
+    .warning {
+      background: rgba(227,179,65,0.12);
+      border: 1px solid rgba(227,179,65,0.3);
+      color: #e3b341;
+    }
+
+    .success {
+      background: rgba(63,185,80,0.12);
+      border: 1px solid rgba(63,185,80,0.3);
+      color: #3fb950;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #238636;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 24px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: none;
+      margin-top: 20px;
+      transition: 0.2s;
+    }
+
+    .btn:hover {
+      background: #2ea043;
+    }
+
+    .screenshot {
+      background: #161b22;
+      border: 1px solid #21262d;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 15px 0;
+      text-align: center;
+      color: #8b949e;
+      font-style: italic;
+    }
+
+    .checklist {
+      list-style: none;
+      margin-left: 0;
+    }
+
+    .checklist li:before {
+      content: "☐ ";
+      color: #58a6ff;
+      font-size: 18px;
+      margin-right: 8px;
+    }
+
+    .timeline {
+      border-left: 2px solid #21262d;
+      padding-left: 30px;
+      margin-left: 15px;
+    }
+
+    .timeline-item {
+      position: relative;
+      margin-bottom: 30px;
+    }
+
+    .timeline-item:before {
+      content: "";
+      position: absolute;
+      left: -36px;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: #58a6ff;
+      border: 2px solid #0d1117;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🚀 GitHub Pages 部署指南</h1>
+    <p class="subtitle">将你的英语学习系统部署到云端，随时随地访问</p>
+
+    <div class="note success">
+      <strong>✨ 完成后你将获得：</strong><br>
+      • 一个永久的网址（如：https://你的用户名.github.io/english-learning/）<br>
+      • 可以在任何设备上访问<br>
+      • 添加到手机主屏幕，像APP一样使用<br>
+      • 完全免费，无需服务器
+    </div>
+
+    <h2>📋 准备工作</h2>
+    <ul class="checklist">
+      <li>一个 GitHub 账号（没有的话去 <a href="https://github.com" style="color: #58a6ff;">github.com</a> 注册）</li>
+      <li>这个文件夹里的所有文件</li>
+      <li>10分钟时间</li>
+    </ul>
+
+    <h2>🎯 部署步骤（网页操作，最简单）</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="step-card">
+          <h3><span class="step-number">1</span>创建 GitHub 仓库</h3>
+          <ol>
+            <li>登录 <a href="https://github.com" style="color: #58a6ff;">GitHub</a></li>
+            <li>点击右上角的 <code>+</code> → <code>New repository</code></li>
+            <li>填写信息：
+              <ul>
+                <li><strong>Repository name:</strong> <code>english-learning</code> （可以改成你喜欢的）</li>
+                <li><strong>Description:</strong> <code>医疗英语学习系统</code></li>
+                <li>选择 <code>Public</code> （公开）</li>
+                <li>✅ 勾选 <code>Add a README file</code></li>
+              </ul>
+            </li>
+            <li>点击 <code>Create repository</code></li>
+          </ol>
+          <div class="screenshot">📸 截图位置：创建仓库页面</div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="step-card">
+          <h3><span class="step-number">2</span>上传文件</h3>
+          <ol>
+            <li>在仓库页面，点击 <code>Add file</code> → <code>Upload files</code></li>
+            <li>把这些文件拖进去：
+              <ul>
+                <li><code>index.html</code></li>
+                <li><code>manifest.json</code></li>
+                <li><code>sw.js</code></li>
+                <li><code>css/</code> 文件夹</li>
+                <li><code>js/</code> 文件夹</li>
+                <li><code>data/</code> 文件夹</li>
+                <li><code>README_GITHUB.md</code> （上传后改名为 README.md）</li>
+              </ul>
+            </li>
+            <li>在底部填写：<code>Initial commit</code></li>
+            <li>点击 <code>Commit changes</code></li>
+          </ol>
+          <div class="note warning">
+            ⚠️ 不要上传：DEPLOY.md、启动.bat、test.html、standalone.html
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="step-card">
+          <h3><span class="step-number">3</span>启用 GitHub Pages</h3>
+          <ol>
+            <li>在仓库页面，点击 <code>Settings</code>（设置）</li>
+            <li>左侧菜单找到 <code>Pages</code></li>
+            <li>在 <code>Source</code> 下拉菜单选择：
+              <ul>
+                <li><strong>Branch:</strong> <code>main</code></li>
+                <li><strong>Folder:</strong> <code>/ (root)</code></li>
+              </ul>
+            </li>
+            <li>点击 <code>Save</code></li>
+            <li>等待 1-2 分钟，页面顶部会显示：
+              <pre><code>Your site is live at https://你的用户名.github.io/english-learning/</code></pre>
+            </li>
+          </ol>
+          <div class="screenshot">📸 截图位置：Settings → Pages 页面</div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="step-card">
+          <h3><span class="step-number">4</span>访问你的网站</h3>
+          <ol>
+            <li>复制上面的网址</li>
+            <li>在浏览器打开</li>
+            <li>🎉 完成！</li>
+          </ol>
+          <div class="note success">
+            ✅ 现在你可以把这个网址分享给任何人，或者保存到手机主屏幕！
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>📱 添加到手机主屏幕</h2>
+
+    <div class="step-card">
+      <h3>iPhone (Safari)</h3>
+      <ol>
+        <li>用 Safari 打开你的网站</li>
+        <li>点击底部的"分享"按钮（方框带箭头 <code>⎋</code>）</li>
+        <li>向下滚动，找到"添加到主屏幕"</li>
+        <li>点击"添加"</li>
+        <li>✨ 桌面上会出现一个图标 🏥</li>
+      </ol>
+    </div>
+
+    <div class="step-card">
+      <h3>Android (Chrome)</h3>
+      <ol>
+        <li>用 Chrome 打开你的网站</li>
+        <li>点击右上角的三个点 <code>⋮</code></li>
+        <li>选择"添加到主屏幕"或"安装应用"</li>
+        <li>点击"添加"</li>
+        <li>✨ 桌面上会出现一个图标 🏥</li>
+      </ol>
+    </div>
+
+    <h2>🔄 以后如何更新内容</h2>
+
+    <div class="step-card">
+      <h3>添加新的外教课程</h3>
+      <ol>
+        <li>进入你的 GitHub 仓库</li>
+        <li>点击 <code>data/tutor-lessons.json</code></li>
+        <li>点击右上角的铅笔图标 ✏️（编辑）</li>
+        <li>在 <code>"lessons"</code> 数组里添加新课程数据</li>
+        <li>点击 <code>Commit changes</code></li>
+        <li>等待 1-2 分钟，网站自动更新</li>
+      </ol>
+    </div>
+
+    <h2>❓ 常见问题</h2>
+
+    <div class="step-card">
+      <h3>Q: 网站打不开？</h3>
+      <p style="color: #8b949e;">A: 等待 2-5 分钟，GitHub Pages 需要时间部署。刷新页面查看部署状态。</p>
+    </div>
+
+    <div class="step-card">
+      <h3>Q: 修改后没生效？</h3>
+      <p style="color: #8b949e;">A: 清除浏览器缓存（Ctrl+Shift+Delete），或者用无痕模式打开。</p>
+    </div>
+
+    <div class="step-card">
+      <h3>Q: 数据安全吗？</h3>
+      <p style="color: #8b949e;">A: 仓库是公开的，任何人都能看到。建议：</p>
+      <ul style="color: #8b949e;">
+        <li>不要在数据里放真实姓名、公司名等敏感信息</li>
+        <li>或者购买 GitHub Pro（$4/月）使用私有仓库</li>
+      </ul>
+    </div>
+
+    <div class="step-card">
+      <h3>Q: 可以改网址吗？</h3>
+      <p style="color: #8b949e;">A: 可以！在 Settings → Pages 可以设置自定义域名（需要购买域名）。</p>
+    </div>
+
+    <div class="note">
+      💡 <strong>提示：</strong>如果遇到问题，可以查看 GitHub 的<a href="https://docs.github.com/pages" style="color: #58a6ff;">官方文档</a>，或者把错误信息发给我。
+    </div>
+
+    <a href="index.html" class="btn">← 返回学习系统</a>
+  </div>
+</body>
+</html>
