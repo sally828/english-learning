@@ -2789,6 +2789,24 @@
     const isOpen = body.classList.contains('open');
     body.classList.toggle('open', !isOpen); icon.textContent = isOpen ? '+' : '−';
     card.classList.toggle('open', !isOpen);
+    // 展开时横跨两列
+    card.style.gridColumn = isOpen ? '' : '1 / -1';
+  }
+
+  // 隐藏没有可见产品的 sec-label
+  function updateSecLabels(panel) {
+    const labels = panel.querySelectorAll('.sec-label');
+    labels.forEach(label => {
+      let sibling = label.nextElementSibling;
+      let hasVisible = false;
+      while (sibling && !sibling.classList.contains('sec-label')) {
+        if (sibling.classList.contains('prod-card') && sibling.style.display !== 'none') {
+          hasVisible = true; break;
+        }
+        sibling = sibling.nextElementSibling;
+      }
+      label.style.display = hasVisible ? '' : 'none';
+    });
   }
 
   function showCat(id, btn) {
@@ -2805,8 +2823,8 @@
     const panel = document.getElementById('cat-' + id);
     const firstChip = panel.querySelector('.subcat-chip');
     if (firstChip) firstChip.classList.add('active');
+    updateSecLabels(panel);
   }
-
 
 
   function showAllInCat(catId, chip) {
@@ -2818,6 +2836,7 @@
     });
     const hint = panel.querySelector('.empty-sub-hint');
     if (hint) hint.style.display = 'none';
+    updateSecLabels(panel);
   }
 
   function showSub(chip) {
@@ -2851,6 +2870,7 @@
       panel.appendChild(hint);
     }
     hint.style.display = visibleCount === 0 ? 'block' : 'none';
+    updateSecLabels(panel);
   }
 
   function setMode(mode, btn) {
