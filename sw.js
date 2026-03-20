@@ -1,6 +1,6 @@
 // Service Worker for PWA offline support
 
-const CACHE_NAME = 'company-learning-v1';
+const CACHE_NAME = 'company-learning-v3';
 const urlsToCache = [
   '/',
   '/index.html',
