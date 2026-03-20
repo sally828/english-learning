@@ -118,7 +118,11 @@ class App {
     return `
       <div class="prod-card" id="${product.id}" data-studied="${isStudied}">
         <div class="card-top" onclick="app.toggleCard('${product.id}')">
-          <div class="prod-icon">${product.icon}</div>
+          <div class="prod-icon">
+            ${product.image
+              ? `<img src="${product.image}" alt="${product.nameCn}" class="prod-img">`
+              : product.icon}
+          </div>
           <div class="card-info">
             <div class="prod-name">${product.nameEn}</div>
             <div class="prod-cn">${product.nameCn}</div>

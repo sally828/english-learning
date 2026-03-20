@@ -21,6 +21,7 @@
         {
           "id": "p1",
           "icon": "🔩",
+          "image": "images/product_spine.png",
           "nameEn": "Spinal Implant System",
           "nameCn": "脊柱内固定系统",
           "tags": ["Class III", "集采影响"],
@@ -36,6 +37,7 @@
         {
           "id": "p2",
           "icon": "🦵",
+          "image": "images/product_joint.png",
           "nameEn": "Joint Replacement",
           "nameCn": "人工关节（膝/髋）",
           "tags": ["Class III", "集采降价50-80%"],
@@ -61,6 +63,7 @@
         {
           "id": "p10",
           "icon": "🫘",
+          "image": "images/product_dialyzer.png",
           "nameEn": "Dialyzer (Hemodialyzer)",
           "nameCn": "血液透析器（人工肾）",
           "tags": ["Class III", "核心耗材"],
@@ -86,6 +89,7 @@
         {
           "id": "p15",
           "icon": "🩸",
+          "image": "images/product_stent.png",
           "nameEn": "Drug-Eluting Stent (DES)",
           "nameCn": "药物洗脱支架",
           "tags": ["Class III", "集采产品"],
@@ -111,6 +115,7 @@
         {
           "id": "p20",
           "icon": "💧",
+          "image": "images/product_infusion.png",
           "nameEn": "Infusion Set",
           "nameCn": "输液器",
           "tags": ["Class II", "高频耗材"],
