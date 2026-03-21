@@ -1,6 +1,6 @@
 // Service Worker for PWA offline support
 
-const CACHE_NAME = 'company-learning-v3';
+const CACHE_NAME = 'company-learning-v4';
 const urlsToCache = [
   '/',
   '/index.html',
@@ -17,6 +17,7 @@ const urlsToCache = [
 
 // 安装事件
 self.addEventListener('install', (event) => {
+  self.skipWaiting();
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
@@ -38,7 +39,7 @@ self.addEventListener('activate', (event) => {
           }
         })
       );
-    })
+    }).then(() => self.clients.claim())
   );
 });
 
