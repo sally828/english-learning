@@ -2739,11 +2739,11 @@
     });
   }
 
-  // 统一播放入口：Google真人音 → 有道备用 → 浏览器兜底
+  // 统一播放入口：浏览器优先（秒播）→ Google → 有道
   async function speak(text) {
-    let ok = await googleSpeak(text);
+    let ok = await synthSpeak(text);
+    if (!ok) ok = await googleSpeak(text);
     if (!ok) ok = await ydSpeak(text);
-    if (!ok) ok = await synthSpeak(text);
     return ok;
   }
 
