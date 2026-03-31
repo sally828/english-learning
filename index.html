@@ -2717,6 +2717,7 @@
     return new Promise(resolve => {
       if (!window.speechSynthesis) { resolve(false); return; }
       if (!voicesLoaded) loadVoices();
+      if (!bestVoice) { resolve(false); return; }  // 无英语声音直接跳过
       window.speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
       u.lang = 'en-US'; u.rate = 0.92; u.pitch = 1.02;
@@ -2739,11 +2740,11 @@
     });
   }
 
-  // 统一播放入口：Google真人音 → 有道备用 → 浏览器兜底
+  // 统一播放入口：有道优先（中国可用）→ 浏览器英语声音 → Google兜底
   async function speak(text) {
-    let ok = await synthSpeak(text);  // 浏览器优先，秒播
+    let ok = await ydSpeak(text);
+    if (!ok) ok = await synthSpeak(text);
     if (!ok) ok = await googleSpeak(text);
-    if (!ok) ok = await ydSpeak(text);
     return ok;
   }
 
