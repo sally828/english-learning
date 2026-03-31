@@ -1,0 +1,132 @@
+{
+  "company": "某公司 Group",
+  "version": "3.0",
+  "lastUpdate": "2026-03-18",
+  "stats": {
+    "totalCategories": 10,
+    "totalProducts": 44,
+    "totalTerms": 259
+  },
+  "categories": [
+    {
+      "id": "ortho",
+      "emoji": "🦴",
+      "nameCn": "骨科",
+      "nameEn": "Orthopedics",
+      "descEn": "Spine · Joint · Trauma · Sports Medicine · Bone Repair",
+      "badge": "某公司骨科 — 科创板上市 · 国内市场份额第一",
+      "color": "#e3b341",
+      "subcategories": ["脊柱 Spine", "关节 Joint", "创伤 Trauma", "运动医学 Sports Med", "骨修复材料 Bone Repair", "脊柱内窥镜 Spinal Scope"],
+      "products": [
+        {
+          "id": "p1",
+          "icon": "🔩",
+          "image": "images/product_spine.png",
+          "nameEn": "Spinal Implant System",
+          "nameCn": "脊柱内固定系统",
+          "tags": ["Class III", "集采影响"],
+          "description": "Metal screws and rods used to stabilize the spine after fractures or degenerative disc disease. Weigao Orthopedics is the market leader in China for orthopedic implants.",
+          "terms": [
+            {"cn": "脊柱内固定", "en": "spinal implant", "ipa": "ˈspaɪnəl ˈɪmplænt"},
+            {"cn": "螺钉和连接棒", "en": "screws and rods", "ipa": "skruːz ænd rɑːdz"},
+            {"cn": "稳定脊柱", "en": "stabilize the spine", "ipa": "ˈsteɪbəlaɪz ðə spaɪn"},
+            {"cn": "骨折", "en": "fractures", "ipa": "ˈfræktʃərz"},
+            {"cn": "退行性椎间盘疾病", "en": "degenerative disc disease", "ipa": "dɪˈdʒenərətɪv dɪsk dɪˈziːz"}
+          ]
+        },
+        {
+          "id": "p2",
+          "icon": "🦵",
+          "image": "images/product_joint.png",
+          "nameEn": "Joint Replacement",
+          "nameCn": "人工关节（膝/髋）",
+          "tags": ["Class III", "集采降价50-80%"],
+          "description": "Used when a patient's cartilage is completely worn out from osteoarthritis. Weigao makes both knee and hip replacements. Heavily affected by China's volume-based procurement.",
+          "terms": [
+            {"cn": "人工关节", "en": "joint replacement", "ipa": "dʒɔɪnt rɪˈpleɪsmənt"},
+            {"cn": "软骨", "en": "cartilage", "ipa": "ˈkɑːrtɪlɪdʒ"},
+            {"cn": "骨关节炎", "en": "osteoarthritis", "ipa": "ˌɑːstioʊɑːrˈθraɪtɪs"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dialysis",
+      "emoji": "💉",
+      "nameCn": "血液净化",
+      "nameEn": "Blood Purification",
+      "descEn": "Hemodialysis · Peritoneal Dialysis · CRRT",
+      "badge": "某公司血液净化 — 国内血透耗材龙头",
+      "color": "#58a6ff",
+      "subcategories": ["血液透析设备", "血液透析耗材", "腹膜透析制剂", "腹膜透析耗材"],
+      "products": [
+        {
+          "id": "p10",
+          "icon": "🫘",
+          "image": "images/product_dialyzer.png",
+          "nameEn": "Dialyzer (Hemodialyzer)",
+          "nameCn": "血液透析器（人工肾）",
+          "tags": ["Class III", "核心耗材"],
+          "description": "Artificial kidney used in hemodialysis to filter waste and excess water from blood in patients with kidney failure.",
+          "terms": [
+            {"cn": "血液透析器", "en": "dialyzer", "ipa": "ˈdaɪəlaɪzər"},
+            {"cn": "血液透析", "en": "hemodialysis", "ipa": "ˌhiːmoʊdaɪˈæləsɪs"},
+            {"cn": "肾衰竭", "en": "kidney failure", "ipa": "ˈkɪdni ˈfeɪljər"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cardio",
+      "emoji": "❤️",
+      "nameCn": "介入",
+      "nameEn": "Interventional",
+      "descEn": "PCI · Structural Heart · Peripheral Vascular",
+      "badge": "某公司介入 — 冠脉支架国产领先",
+      "color": "#f85149",
+      "subcategories": ["冠脉介入", "结构性心脏病", "外周血管介入"],
+      "products": [
+        {
+          "id": "p15",
+          "icon": "🩸",
+          "image": "images/product_stent.png",
+          "nameEn": "Drug-Eluting Stent (DES)",
+          "nameCn": "药物洗脱支架",
+          "tags": ["Class III", "集采产品"],
+          "description": "A tiny mesh tube coated with medication that is inserted into a blocked coronary artery to keep it open and prevent restenosis.",
+          "terms": [
+            {"cn": "药物洗脱支架", "en": "drug-eluting stent", "ipa": "drʌg ɪˈluːtɪŋ stent"},
+            {"cn": "冠状动脉", "en": "coronary artery", "ipa": "ˈkɔːrəneri ˈɑːrtəri"},
+            {"cn": "再狭窄", "en": "restenosis", "ipa": "ˌriːstəˈnoʊsɪs"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "consumable",
+      "emoji": "🩹",
+      "nameCn": "通用耗材",
+      "nameEn": "General Consumables",
+      "descEn": "Infusion · Injection · Wound Care",
+      "badge": "某公司股份 — A股上市 · 输注耗材龙头",
+      "color": "#3fb950",
+      "subcategories": ["输液输血", "注射穿刺", "伤口护理"],
+      "products": [
+        {
+          "id": "p20",
+          "icon": "💧",
+          "image": "images/product_infusion.png",
+          "nameEn": "Infusion Set",
+          "nameCn": "输液器",
+          "tags": ["Class II", "高频耗材"],
+          "description": "Disposable tubing system used to deliver IV fluids from a bag into a patient's vein.",
+          "terms": [
+            {"cn": "输液器", "en": "infusion set", "ipa": "ɪnˈfjuːʒən set"},
+            {"cn": "静脉输液", "en": "intravenous fluids", "ipa": "ˌɪntrəˈviːnəs ˈfluːɪdz"},
+            {"cn": "滴速调节器", "en": "flow regulator", "ipa": "floʊ ˈreɡjəleɪtər"}
+          ]
+        }
+      ]
+    }
+  ]
+}
