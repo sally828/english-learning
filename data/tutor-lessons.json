@@ -1,96 +1,557 @@
 {
   "lessons": [
     {
-      "id": "lesson_2026_03_18",
-      "date": "2026-03-18",
+      "id": "lesson_2026_03_02",
+      "date": "2026-03-02",
       "tutor": "Maxim",
-      "duration": "49分钟",
+      "duration": "约48分钟",
       "topics": [
-        "工作状态更新",
-        "财政部培训课程",
-        "政府补贴政策",
-        "公司背景介绍",
-        "公私企业对比",
-        "医疗器械词汇学习"
+        "入职新公司进展（威高长三角）",
+        "阅读母公司财务报告",
+        "集采政策与行业政策区别",
+        "centralized procurement（集中采购）词汇",
+        "医疗器械产品描述练习（手术机器人）",
+        "过去分词发音：read /rɛd/"
       ],
       "grammarErrors": [
         {
-          "incorrect": "I need to go to the company",
-          "correct": "I don't need to go to the company",
-          "errorType": "漏掉否定词",
-          "example": "I <span class='correct'>don't need</span> to attend the meeting tomorrow."
+          "incorrect": "It was been good",
+          "correct": "I've been good",
+          "errorType": "Present Perfect构成错误",
+          "example": "How have you been? — <span class='correct'>I've been good</span>, thanks."
         },
         {
-          "incorrect": "when I will go",
-          "correct": "when I go",
-          "errorType": "时间状语从句不用将来时",
-          "example": "I'll call you <span class='correct'>when I arrive</span> at the office."
+          "incorrect": "Yes, I have read the read the parent",
+          "correct": "I have read the parent company's report",
+          "errorType": "重复词汇/口头断续",
+          "example": "<span class='correct'>I have read</span> the financial report already."
         },
         {
-          "incorrect": "I don't have the contact way",
-          "correct": "I don't have a way to contact",
-          "errorType": "中式英语",
-          "example": "I <span class='correct'>don't have a way to reach</span> him right now."
+          "incorrect": "policy that will infect the company",
+          "correct": "policy that will affect the company",
+          "errorType": "词汇混淆（infect vs affect）",
+          "example": "New regulations will <span class='correct'>affect</span> our pricing strategy."
         },
         {
-          "incorrect": "I need to join the class on Friday",
-          "correct": "I need to attend the class on Friday",
-          "errorType": "动词搭配",
-          "example": "All employees must <span class='correct'>attend</span> the training session."
+          "incorrect": "procoment / procoment",
+          "correct": "procurement",
+          "errorType": "发音/拼写错误",
+          "example": "Centralized <span class='correct'>procurement</span> has reduced costs significantly."
+        }
+      ],
+      "pronunciation": [
+        {
+          "word": "read (past tense)",
+          "incorrect": "/riːd/",
+          "correct": "/rɛd/ — 与red(红色)同音",
+          "ipa": "/rɛd/"
         },
         {
-          "incorrect": "they will count operating",
-          "correct": "they will stop operating",
-          "errorType": "用词错误",
-          "example": "The factory will <span class='correct'>stop operating</span> next month."
+          "word": "procurement",
+          "incorrect": "procoment",
+          "correct": "procurement",
+          "ipa": "/prəˈkjʊərmənt/"
         },
         {
-          "incorrect": "I will working",
-          "correct": "I will be working / I will work",
-          "errorType": "时态错误",
-          "example": "I <span class='correct'>will be working</span> from home tomorrow."
+          "word": "centralized",
+          "incorrect": "centraliz",
+          "correct": "centralized",
+          "ipa": "/ˈsentrəlaɪzd/"
+        }
+      ],
+      "vocabulary": {
+        "business": [
+          {
+            "chinese": "集中采购",
+            "english": "centralized procurement",
+            "ipa": "/ˈsentrəlaɪzd prəˈkjʊərmənt/",
+            "example": "The centralized procurement policy has reduced stent prices by 90%."
+          },
+          {
+            "chinese": "行业政策",
+            "english": "industry policy",
+            "ipa": "/ˈɪndəstri ˈpɒləsi/",
+            "example": "Industry policy changes have a bigger impact than government regulations."
+          },
+          {
+            "chinese": "政府政策",
+            "english": "government policy",
+            "ipa": "/ˈɡʌvənmənt ˈpɒləsi/",
+            "example": "Government policy affects all companies in the market."
+          },
+          {
+            "chinese": "影响（动词）",
+            "english": "affect",
+            "ipa": "/əˈfekt/",
+            "example": "The new policy will affect our revenue significantly."
+          },
+          {
+            "chinese": "财务报告",
+            "english": "financial report",
+            "ipa": "/faɪˈnænʃəl rɪˈpɔːrt/",
+            "example": "I have read the parent company's financial report."
+          }
+        ],
+        "medical": [
+          {
+            "chinese": "手术机器人",
+            "english": "surgical robot",
+            "ipa": "/ˈsɜːrdʒɪkəl ˈroʊbɒt/",
+            "example": "90% of hospitals in China have used this surgical robot."
+          },
+          {
+            "chinese": "批量折扣",
+            "english": "bulk discount",
+            "ipa": "/bʌlk ˈdɪskaʊnt/",
+            "example": "If you buy in large quantities, you'll receive a bulk discount."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "title": "Present Perfect基础构成：have/has + 过去分词",
+          "content": "永远不能说 'was been' 或 'is been'。have/has 后面直接跟过去分词。",
+          "examples": [
+            "✓ I've been good",
+            "✓ I have read the report",
+            "✗ It was been good",
+            "✗ I have been read the report"
+          ]
         },
         {
-          "incorrect": "they get some demands",
-          "correct": "they receive some requests",
-          "errorType": "动词搭配",
-          "example": "We <span class='correct'>received several requests</span> from clients today."
+          "title": "affect vs infect",
+          "content": "affect = 影响（中性词）；infect = 感染（医学/负面）",
+          "examples": [
+            "✓ The policy will affect the company",
+            "✓ The virus infected 100 people",
+            "✗ The policy will infect the company"
+          ]
+        }
+      ],
+      "improvements": [
+        "能够讨论复杂的行业政策话题",
+        "主动查词并尝试使用（如centralized procurement）",
+        "产品介绍练习中能够说出价格、市场份额等关键信息"
+      ],
+      "nextFocus": [
+        "Present Perfect时态巩固",
+        "read过去分词发音/rɛd/",
+        "继续练习产品描述"
+      ]
+    },
+    {
+      "id": "lesson_2026_03_06",
+      "date": "2026-03-06",
+      "tutor": "Maxim",
+      "duration": "约55分钟",
+      "topics": [
+        "睡眠习惯与作息",
+        "大学制度中英对比",
+        "外甥打游戏/兼职赚钱",
+        "SP与BP发音规则（sp/st发音）",
+        "美式vs英式发音区别（vase, mop, cookie）"
+      ],
+      "grammarErrors": [
+        {
+          "incorrect": "half past nine / at nine half",
+          "correct": "half past nine (✓) / nine thirty",
+          "errorType": "时间表达——half past是正确的",
+          "example": "I got up at <span class='correct'>half past nine</span> this morning."
         },
         {
-          "incorrect": "I said to you",
-          "correct": "I told you",
+          "incorrect": "he snaps sleep at two am",
+          "correct": "he sleeps at two am",
           "errorType": "动词选择",
-          "example": "I <span class='correct'>told you</span> about this problem last week."
+          "example": "He often <span class='correct'>sleeps</span> very late because he plays games."
         },
         {
-          "incorrect": "I can't see it",
-          "correct": "I can't say it",
-          "errorType": "动词混淆",
-          "example": "I know what you mean but I <span class='correct'>can't say it</span> in English."
+          "incorrect": "the teacher will give you less school",
+          "correct": "the teacher will deduct marks / lower your grade",
+          "errorType": "中式英语",
+          "example": "If you skip class, the teacher will <span class='correct'>deduct marks</span> from your grade."
         },
         {
-          "incorrect": "can't adjust",
-          "correct": "can't adjust to",
-          "errorType": "介词缺失",
-          "example": "It's hard to <span class='correct'>adjust to</span> a new environment."
+          "incorrect": "70 percent is from your exam",
+          "correct": "70 percent of your grade comes from the exam",
+          "errorType": "句子结构",
+          "example": "<span class='correct'>70% of your final grade comes from</span> the written exam."
+        }
+      ],
+      "pronunciation": [
+        {
+          "word": "spell",
+          "incorrect": "sbel（把sp发成sb）",
+          "correct": "spell /spel/",
+          "ipa": "/spel/"
         },
         {
-          "incorrect": "has just one boss",
-          "correct": "has only one boss",
-          "errorType": "副词选择",
-          "example": "This department <span class='correct'>has only one</span> manager."
+          "word": "vase",
+          "incorrect": "American: /veɪz/ vs British: /vɑːz/",
+          "correct": "两种都可以接受，美式更常用",
+          "ipa": "/veɪz/ or /vɑːz/"
         },
         {
-          "incorrect": "this can be the problem",
-          "correct": "this can be a problem",
-          "errorType": "冠词",
-          "example": "Working too much <span class='correct'>can be a problem</span> for your health."
+          "word": "cookie vs biscuit",
+          "incorrect": "混用",
+          "correct": "cookie（美式）= biscuit（英式）",
+          "ipa": "/ˈkʊki/ = /ˈbɪskɪt/"
+        }
+      ],
+      "vocabulary": {
+        "business": [
+          {
+            "chinese": "扣分",
+            "english": "deduct marks",
+            "ipa": "/dɪˈdʌkt mɑːrks/",
+            "example": "The teacher will deduct marks if you miss class."
+          },
+          {
+            "chinese": "出勤率",
+            "english": "attendance",
+            "ipa": "/əˈtendəns/",
+            "example": "Your attendance affects your final grade."
+          },
+          {
+            "chinese": "赚钱（从某活动）", 
+            "english": "earn money from",
+            "ipa": "/ɜːrn ˈmʌni frɒm/",
+            "example": "He earns money from streaming games online."
+          }
+        ],
+        "medical": []
+      },
+      "notes": [
+        {
+          "title": "美式英语 vs 英式英语——常见区别",
+          "content": "对于职场英语，学美式即可。不需要专门学英式。",
+          "examples": [
+            "cookie（美）= biscuit（英）",
+            "mop（美）= mop（英，发音不同）",
+            "vase /veɪz/（美）= vase /vɑːz/（英）"
+          ]
+        },
+        {
+          "title": "sp/st发音：p和t不发成b和d",
+          "content": "中国学生常把sp发成sb，st发成sd。虽然听感差不多，但正式场合应该发p和t。",
+          "examples": [
+            "spell → /spel/，不是/sbel/",
+            "stop → /stɒp/，不是/sdɒp/",
+            "但这个错误通常不影响理解"
+          ]
+        }
+      ],
+      "improvements": [
+        "能用英语自然讨论日常生活话题",
+        "能比较不同国家的教育制度",
+        "主动表达观点（'I think it's ok because...'）"
+      ],
+      "nextFocus": [
+        "注意sp/st发音",
+        "继续扩展词汇（特别是动词搭配）",
+        "减少说话时的重复启动"
+      ]
+    },
+    {
+      "id": "lesson_2026_03_09",
+      "date": "2026-03-09",
+      "tutor": "Maxim",
+      "duration": "约60分钟",
+      "topics": [
+        "爬浙江山的经历",
+        "健身习惯与睡眠讨论",
+        "Maxim工作时间安排",
+        "美式vs英式发音深入讨论",
+        "医疗器械词汇：ultrasound, anesthesia, pulse oximeter等",
+        "产品介绍进阶练习"
+      ],
+      "grammarErrors": [
+        {
+          "incorrect": "for four fours",
+          "correct": "for four hours",
+          "errorType": "hours发音",
+          "example": "We climbed the mountain <span class='correct'>for four hours</span>."
+        },
+        {
+          "incorrect": "I was too tired to go so I rest for yesterday",
+          "correct": "I was too tired, so I rested yesterday",
+          "errorType": "时态+句子结构",
+          "example": "I was exhausted, <span class='correct'>so I rested</span> the whole day."
+        },
+        {
+          "incorrect": "if I do the exercise at night and my heart will",
+          "correct": "if I exercise at night, my heart rate goes up and I can't sleep",
+          "errorType": "条件句结构",
+          "example": "<span class='correct'>If I exercise late at night</span>, I can't fall asleep easily."
+        },
+        {
+          "incorrect": "there is not much people",
+          "correct": "there aren't many people",
+          "errorType": "可数名词用many，不用much",
+          "example": "<span class='correct'>There aren't many people</span> at the gym before 4pm."
+        }
+      ],
+      "pronunciation": [
+        {
+          "word": "hours",
+          "incorrect": "fours（与four混淆）",
+          "correct": "hours",
+          "ipa": "/ˈaʊərz/"
+        },
+        {
+          "word": "anesthesia",
+          "incorrect": "Alice Sora / anastasia",
+          "correct": "anesthesia",
+          "ipa": "/ˌænɪsˈθiːziə/"
+        },
+        {
+          "word": "pulse",
+          "incorrect": "false",
+          "correct": "pulse",
+          "ipa": "/pʌls/"
+        }
+      ],
+      "vocabulary": {
+        "business": [
+          {
+            "chinese": "多任务/身兼数职",
+            "english": "multiple roles",
+            "ipa": "/ˈmʌltɪpl roʊlz/",
+            "example": "A CFO in a startup often handles multiple roles."
+          },
+          {
+            "chinese": "职业转型",
+            "english": "career change",
+            "ipa": "/kəˈrɪər tʃeɪndʒ/",
+            "example": "Making a career change from auditor to CFO is challenging but rewarding."
+          }
+        ],
+        "medical": [
+          {
+            "chinese": "超声波机",
+            "english": "ultrasound machine",
+            "ipa": "/ˈʌltrəsaʊnd məˈʃiːn/",
+            "example": "The ultrasound machine is used to check internal organs."
+          },
+          {
+            "chinese": "麻醉",
+            "english": "anesthesia",
+            "ipa": "/ˌænɪsˈθiːziə/",
+            "example": "General anesthesia is required for major surgeries."
+          },
+          {
+            "chinese": "脉搏血氧仪",
+            "english": "pulse oximeter",
+            "ipa": "/pʌls ɒkˈsɪmɪtər/",
+            "example": "A pulse oximeter measures blood oxygen levels."
+          },
+          {
+            "chinese": "脉搏",
+            "english": "pulse",
+            "ipa": "/pʌls/",
+            "example": "Check for a pulse by pressing two fingers on the wrist."
+          },
+          {
+            "chinese": "除颤器",
+            "english": "defibrillator",
+            "ipa": "/dɪˈfɪbrɪleɪtər/",
+            "example": "A defibrillator is used to restore normal heart rhythm."
+          },
+          {
+            "chinese": "雾化器",
+            "english": "nebulizer",
+            "ipa": "/ˈnebjʊlaɪzər/",
+            "example": "Nebulizers are used to deliver medication directly to the lungs."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "title": "many vs much — 可数与不可数",
+          "content": "people、patients、products等可数名词用many，不用much",
+          "examples": [
+            "✓ there aren't many people",
+            "✓ there isn't much time",
+            "✗ there isn't much people",
+            "✓ not many hospitals / not much equipment"
+          ]
+        },
+        {
+          "title": "条件句：if + 一般现在时，主句用will/现在时",
+          "content": "真实条件句中，if从句用一般现在时，不用will",
+          "examples": [
+            "✓ If I exercise at night, I can't sleep",
+            "✗ If I will exercise at night, I can't sleep",
+            "✓ If you buy in bulk, we offer a discount"
+          ]
+        }
+      ],
+      "improvements": [
+        "能够用英语描述医疗器械的功能",
+        "产品介绍越来越自然流利",
+        "能讨论日常健康话题"
+      ],
+      "nextFocus": [
+        "many vs much的区分",
+        "anesthesia等难词发音",
+        "条件句结构练习"
+      ]
+    },
+    {
+      "id": "lesson_2026_03_11",
+      "date": "2026-03-11",
+      "tutor": "Maxim",
+      "duration": "约43分钟",
+      "topics": [
+        "学习行业英语进展",
+        "威高长三角平台三大业务方向",
+        "medical industrial collaboration词汇",
+        "AI工具使用（Claude Code搭建学习系统）",
+        "血压与健康讨论",
+        "on/in/at介词专项纠错"
+      ],
+      "grammarErrors": [
+        {
+          "incorrect": "at Friday",
+          "correct": "on Friday",
+          "errorType": "介词错误——星期用on",
+          "example": "I will ask HR <span class='correct'>on Friday</span> morning."
+        },
+        {
+          "incorrect": "I will ask, ask the Hr tomorrow or the or on at at Friday",
+          "correct": "I'll ask HR tomorrow or on Friday",
+          "errorType": "介词+口头断续",
+          "example": "I'll check with HR <span class='correct'>on Friday</span>."
+        },
+        {
+          "incorrect": "innovation equation",
+          "correct": "innovation incubation",
+          "errorType": "词汇混淆",
+          "example": "The platform focuses on innovation <span class='correct'>incubation</span> for healthcare startups."
         },
         {
           "incorrect": "I will responsible",
           "correct": "I will be responsible",
           "errorType": "be动词缺失",
-          "example": "The CFO <span class='correct'>will be responsible</span> for all financial reports."
+          "example": "The CFO <span class='correct'>will be responsible</span> for all financial decisions."
+        }
+      ],
+      "pronunciation": [
+        {
+          "word": "incubation",
+          "incorrect": "equation/occupation",
+          "correct": "incubation",
+          "ipa": "/ˌɪŋkjʊˈbeɪʃn/"
+        },
+        {
+          "word": "emerging",
+          "incorrect": "emergent",
+          "correct": "emerging",
+          "ipa": "/ɪˈmɜːrdʒɪŋ/"
+        },
+        {
+          "word": "collaboration",
+          "incorrect": "collab-ration",
+          "correct": "collaboration",
+          "ipa": "/kəˌlæbəˈreɪʃn/"
+        }
+      ],
+      "vocabulary": {
+        "business": [
+          {
+            "chinese": "医工转化",
+            "english": "medical-industrial collaboration",
+            "ipa": "/ˈmedɪkəl ɪnˈdʌstriəl kəˌlæbəˈreɪʃn/",
+            "example": "The platform specializes in medical-industrial collaboration between hospitals and companies."
+          },
+          {
+            "chinese": "创新孵化",
+            "english": "innovation incubation",
+            "ipa": "/ˌɪnəˈveɪʃn ˌɪŋkjʊˈbeɪʃn/",
+            "example": "Innovation incubation helps startups develop new medical technologies."
+          },
+          {
+            "chinese": "新兴医疗企业投资",
+            "english": "investment in emerging healthcare companies",
+            "ipa": "/ɪnˈvestmənt ɪn ɪˈmɜːrdʒɪŋ ˈhelθker ˈkʌmpəniz/",
+            "example": "Our third focus is investment in emerging healthcare companies."
+          },
+          {
+            "chinese": "对...负责（固定搭配）",
+            "english": "be responsible for",
+            "ipa": "/biː rɪˈspɒnsɪbl fɔːr/",
+            "example": "As CFO, I am responsible for all financial reporting."
+          },
+          {
+            "chinese": "介词规则：on+星期",
+            "english": "on + day of week",
+            "ipa": "/ɒn/",
+            "example": "on Monday / on Friday / on weekends — never 'at Friday'"
+          }
+        ],
+        "medical": []
+      },
+      "notes": [
+        {
+          "title": "介词三规则：on / in / at",
+          "content": "这是本节课Maxim专门停下来纠正的核心语法点",
+          "examples": [
+            "on + 星期/日期：on Friday, on March 16th",
+            "in + 月份/年份/时间段：in March, in 2024, in the morning",
+            "at + 具体时刻/地点：at 8 o'clock, at home, at the office",
+            "✗ 永远不能说 'at Friday'"
+          ]
+        },
+        {
+          "title": "be responsible for — 不能省略be",
+          "content": "这个固定搭配必须有be动词",
+          "examples": [
+            "✓ I will be responsible for the report",
+            "✓ She is responsible for the team",
+            "✗ I will responsible for the report"
+          ]
+        }
+      ],
+      "improvements": [
+        "能够用英语解释公司三大业务方向",
+        "主动用AI工具辅助学习",
+        "能够把中文业务概念转化为英语表达"
+      ],
+      "nextFocus": [
+        "on/in/at介词彻底巩固",
+        "be responsible for固定搭配",
+        "incubation等长词发音"
+      ]
+    },
+    {
+      "id": "lesson_2026_03_16",
+      "date": "2026-03-16",
+      "tutor": "Maxim",
+      "duration": "约49分钟",
+      "topics": [
+        "入职进展（老板还没回来）",
+        "财政部高端会计人才培训班",
+        "government subsidy（政府补贴）词汇",
+        "医疗器械词汇：ultrasound, anesthesia, syringe等",
+        "产品图片描述练习"
+      ],
+      "grammarErrors": [
+        {
+          "incorrect": "It's organized by the Ministry of Finance — subsidiaries",
+          "correct": "subsidy（补贴）vs subsidiary（子公司）",
+          "errorType": "词汇混淆",
+          "example": "The government provides a <span class='correct'>subsidy</span> to support small businesses."
+        },
+        {
+          "incorrect": "maybe a few days later when I will go",
+          "correct": "a few days later, when I go / when he comes back",
+          "errorType": "时间状语从句不用将来时",
+          "example": "I'll start work <span class='correct'>when my boss comes back</span>."
+        },
+        {
+          "incorrect": "from nine o'clock to Saturday",
+          "correct": "from Friday to Sunday / from 9am to 5pm",
+          "errorType": "时间范围表达混乱",
+          "example": "The class runs <span class='correct'>from Friday to Sunday</span>, 9am to 5pm each day."
         }
       ],
       "pronunciation": [
@@ -98,246 +559,367 @@
           "word": "subsidy",
           "incorrect": "subsidiaries",
           "correct": "subsidy",
-          "ipa": "/ˈsʌbsədi/"
+          "ipa": "/ˈsʌbsɪdi/"
         },
         {
-          "word": "adjust",
-          "incorrect": "a-just",
-          "correct": "adjust",
-          "ipa": "/əˈdʒʌst/"
-        },
-        {
-          "word": "radical",
-          "incorrect": "radicule",
-          "correct": "radical",
-          "ipa": "/ˈrædɪkəl/"
-        },
-        {
-          "word": "stitch",
-          "incorrect": "teach",
-          "correct": "stitch",
-          "ipa": "/stɪtʃ/"
-        },
-        {
-          "word": "crutches",
-          "incorrect": "crashes",
-          "correct": "crutches",
-          "ipa": "/ˈkrʌtʃɪz/"
-        },
-        {
-          "word": "anesthesia",
-          "incorrect": "Alice Sora",
-          "correct": "anesthesia",
-          "ipa": "/ˌænəsˈθiːʒə/"
+          "word": "Ministry of Finance",
+          "incorrect": "Ministry of Fin-ance",
+          "correct": "Ministry of Finance",
+          "ipa": "/ˈmɪnɪstri əv ˈfaɪnæns/"
         }
       ],
       "vocabulary": {
         "business": [
           {
-            "chinese": "补贴",
-            "english": "subsidy",
-            "ipa": "/ˈsʌbsədi/",
-            "example": "The government provides subsidies to support domestic companies."
+            "chinese": "政府补贴",
+            "english": "government subsidy",
+            "ipa": "/ˈɡʌvənmənt ˈsʌbsɪdi/",
+            "example": "The company received a government subsidy for R&D investment."
           },
           {
-            "chinese": "国产替代",
-            "english": "domestic substitution",
-            "ipa": "/dəˈmestɪk ˌsʌbstɪˈtuːʃən/",
-            "example": "Domestic substitution is a key strategy for reducing foreign dependency."
+            "chinese": "财政部",
+            "english": "Ministry of Finance",
+            "ipa": "/ˈmɪnɪstri əv ˈfaɪnæns/",
+            "example": "The Ministry of Finance organizes training for senior accounting professionals."
           },
           {
-            "chinese": "现金流",
-            "english": "cash flow",
-            "ipa": "/kæʃ floʊ/",
-            "example": "The parent company has enough cash flow to support operations."
+            "chinese": "补贴 vs 子公司",
+            "english": "subsidy vs subsidiary",
+            "ipa": "/ˈsʌbsɪdi/ vs /səbˈsɪdiəri/",
+            "example": "subsidy = 补贴（政府给的钱）；subsidiary = 子公司（完全不同！）"
           },
           {
-            "chinese": "损益表",
-            "english": "P&L (Profit and Loss)",
-            "ipa": "/ˈprɑːfɪt ənd lɔːs/",
-            "example": "The CFO needs to review the P&L statement monthly."
-          },
-          {
-            "chinese": "财务分析",
-            "english": "financial analysis",
-            "ipa": "/faɪˈnænʃəl əˈnæləsɪs/",
-            "example": "Financial analysis is essential for investment decisions."
-          },
-          {
-            "chinese": "审计师",
-            "english": "auditor",
-            "ipa": "/ˈɔːdɪtər/",
-            "example": "Many auditors struggle to adjust when joining private companies."
-          },
-          {
-            "chinese": "适应",
-            "english": "adjust (to)",
-            "ipa": "/əˈdʒʌst/",
-            "example": "It takes time to adjust to a new work environment."
-          },
-          {
-            "chinese": "上市公司",
-            "english": "public company",
-            "ipa": "/ˈpʌblɪk ˈkʌmpəni/",
-            "example": "Public companies must disclose their financial reports."
-          },
-          {
-            "chinese": "私营企业",
-            "english": "private enterprise",
-            "ipa": "/ˈpraɪvət ˈentərpraɪz/",
-            "example": "Private enterprises have more flexibility in decision-making."
-          },
-          {
-            "chinese": "股东",
-            "english": "shareholder",
-            "ipa": "/ˈʃerhoʊldər/",
-            "example": "Shareholders have the right to vote on major decisions."
-          },
-          {
-            "chinese": "财务总监",
-            "english": "CFO (Chief Financial Officer)",
-            "ipa": "/ˌtʃiːf faɪˈnænʃəl ˈɑːfɪsər/",
-            "example": "The CFO must sign all financial reports."
-          },
-          {
-            "chinese": "激进的",
-            "english": "radical",
-            "ipa": "/ˈrædɪkəl/",
-            "example": "Public companies tend to be more radical in their financial strategies."
+            "chinese": "宏观政策",
+            "english": "macro policy",
+            "ipa": "/ˈmækroʊ ˈpɒləsi/",
+            "example": "The class covers macro policy and its impact on small businesses."
           }
         ],
         "medical": [
           {
-            "chinese": "手术针",
-            "english": "surgical needle",
-            "ipa": "/ˈsɜːrdʒɪkəl ˈniːdəl/",
-            "example": "The surgical needle is used to stitch wounds."
-          },
-          {
-            "chinese": "缝合",
-            "english": "stitch",
-            "ipa": "/stɪtʃ/",
-            "example": "The doctor will stitch the wound closed."
-          },
-          {
-            "chinese": "手术刀",
-            "english": "scalpel",
-            "ipa": "/ˈskælpəl/",
-            "example": "The surgeon uses a scalpel to make precise incisions."
-          },
-          {
-            "chinese": "注射器",
-            "english": "syringe",
-            "ipa": "/sɪˈrɪndʒ/",
-            "example": "The nurse prepared the syringe for injection."
-          },
-          {
-            "chinese": "手术口罩",
-            "english": "surgical mask",
-            "ipa": "/ˈsɜːrdʒɪkəl mæsk/",
-            "example": "All medical staff must wear surgical masks."
-          },
-          {
-            "chinese": "监护仪",
-            "english": "monitor",
-            "ipa": "/ˈmɑːnɪtər/",
-            "example": "The monitor displays the patient's vital signs."
-          },
-          {
-            "chinese": "担架",
-            "english": "stretcher",
-            "ipa": "/ˈstretʃər/",
-            "example": "Paramedics use a stretcher to transport patients."
-          },
-          {
-            "chinese": "拐杖",
-            "english": "crutches",
-            "ipa": "/ˈkrʌtʃɪz/",
-            "example": "He needs crutches after breaking his leg."
-          },
-          {
-            "chinese": "氧气罐",
-            "english": "oxygen tank",
-            "ipa": "/ˈɑːksɪdʒən tæŋk/",
-            "example": "The oxygen tank provides supplemental oxygen."
-          },
-          {
-            "chinese": "心电图机",
-            "english": "ECG machine",
-            "ipa": "/ˌiː siː ˈdʒiː məˈʃiːn/",
-            "example": "The ECG machine monitors heart activity."
-          },
-          {
-            "chinese": "血压计",
-            "english": "blood pressure monitor",
-            "ipa": "/blʌd ˈpreʃər ˈmɑːnɪtər/",
-            "example": "Check your blood pressure regularly at home."
-          },
-          {
-            "chinese": "超声波机",
-            "english": "ultrasound machine",
-            "ipa": "/ˈʌltrəsaʊnd məˈʃiːn/",
-            "example": "The ultrasound machine creates images of internal organs."
-          },
-          {
-            "chinese": "麻醉",
-            "english": "anesthesia",
-            "ipa": "/ˌænəsˈθiːʒə/",
-            "example": "General anesthesia is used for major surgeries."
+            "chinese": "静脉输液架",
+            "english": "IV drip stand",
+            "ipa": "/aɪˈviː drɪp stænd/",
+            "example": "The IV drip stand allows patients to move while receiving fluids."
           }
         ]
       },
       "notes": [
         {
-          "title": "时间状语从句中不用将来时",
-          "content": "在when, after, before等引导的时间状语从句中，用一般现在时表示将来。",
+          "title": "subsidy vs subsidiary — 完全不同的词",
+          "content": "这两个词读音相似但意思完全不同，是高频混淆词",
           "examples": [
-            "✓ when I go to the company",
-            "✓ after my boss comes back",
+            "subsidy /ˈsʌbsɪdi/ = 补贴、资助（政府给企业或个人的钱）",
+            "subsidiary /səbˈsɪdiəri/ = 子公司（母公司控股的公司）",
+            "✓ government subsidy（政府补贴）",
+            "✓ wholly-owned subsidiary（全资子公司）"
+          ]
+        },
+        {
+          "title": "when引导的时间从句——不用will",
+          "content": "when / after / before / as soon as 引导的时间状语从句，用一般现在时",
+          "examples": [
+            "✓ I'll call you when I arrive",
+            "✓ when my boss comes back",
             "✗ when I will go",
-            "✗ after my boss will come back"
-          ]
-        },
-        {
-          "title": "\"be responsible for\" 固定搭配",
-          "content": "表示\"对...负责\"时，必须使用be动词。",
-          "examples": [
-            "✓ I will be responsible for the problem",
-            "✓ I will be held responsible",
-            "✗ I will responsible"
-          ]
-        },
-        {
-          "title": "\"adjust to\" 需要介词",
-          "content": "adjust表示\"适应\"时，后面必须跟介词to。",
-          "examples": [
-            "✓ adjust to the company",
-            "✓ adjust to the new environment",
-            "✗ adjust with the company"
-          ]
-        },
-        {
-          "title": "动词搭配",
-          "content": "不同场景使用不同的动词搭配。",
-          "examples": [
-            "join a company ✓",
-            "attend a class ✓ (不是 join a class)",
-            "receive requests ✓ (不是 get demands)",
-            "tell someone ✓ (不是 say to someone)"
+            "✗ when my boss will come back"
           ]
         }
       ],
       "improvements": [
-        "能够用英语讨论复杂的财务话题",
-        "主动学习新词汇并尝试使用",
-        "能够解释中国特色的商业概念",
-        "积极参与对话，不怕犯错"
+        "能够解释复杂的培训项目内容",
+        "医疗器械词汇积累越来越多",
+        "能够区分相似词汇（主动询问subsidy vs subsidiary）"
       ],
       "nextFocus": [
-        "复习本次医疗器械词汇",
-        "练习时态（特别是时间状语从句）",
-        "继续医疗器械话题",
-        "可以带公司产品图片讨论"
+        "subsidy vs subsidiary彻底区分",
+        "时间状语从句练习",
+        "继续产品描述练习"
+      ]
+    },
+    {
+      "id": "lesson_2026_03_18",
+      "date": "2026-03-18",
+      "tutor": "Maxim",
+      "duration": "约46分钟",
+      "topics": [
+        "Claude Code安装与使用",
+        "用Claude Code搭建行业英语学习系统",
+        "HTML学习系统演示",
+        "骨科产品词汇：intramedullary nails, screws and plates, titanium",
+        "Present Perfect Continuous练习"
+      ],
+      "grammarErrors": [
+        {
+          "incorrect": "I successfully install",
+          "correct": "I have successfully installed / I successfully installed",
+          "errorType": "动词时态——已完成的动作",
+          "example": "I <span class='correct'>have successfully installed</span> the Claude Code tool."
+        },
+        {
+          "incorrect": "I am doing the doing the work now / I'm doing the doing",
+          "correct": "I am installing / I have been building",
+          "errorType": "口头重复+时态选择",
+          "example": "I <span class='correct'>have been building</span> this learning system for a few days."
+        },
+        {
+          "incorrect": "the cloud code is helping me to build this system",
+          "correct": "Claude Code is helping me build this system",
+          "errorType": "to-infinitive vs bare infinitive（help后面）",
+          "example": "Claude helped me <span class='correct'>build</span> the vocabulary system."
+        }
+      ],
+      "pronunciation": [
+        {
+          "word": "intramedullary",
+          "incorrect": "intermediary / intermagninary",
+          "correct": "intramedullary",
+          "ipa": "/ˌɪntrəˈmedjʊləri/"
+        },
+        {
+          "word": "titanium",
+          "incorrect": "titainium",
+          "correct": "titanium",
+          "ipa": "/taɪˈteɪniəm/"
+        },
+        {
+          "word": "installed",
+          "incorrect": "install（漏掉过去式）",
+          "correct": "installed",
+          "ipa": "/ɪnˈstɔːld/"
+        }
+      ],
+      "vocabulary": {
+        "business": [
+          {
+            "chinese": "token（AI计费单位）",
+            "english": "token / subscription",
+            "ipa": "/ˈtoʊkən/ /səbˈskrɪpʃn/",
+            "example": "I pay for tokens to use the Claude API for my learning system."
+          },
+          {
+            "chinese": "安装（过去式）",
+            "english": "installed",
+            "ipa": "/ɪnˈstɔːld/",
+            "example": "I have successfully installed the system on my laptop."
+          }
+        ],
+        "medical": [
+          {
+            "chinese": "髓内钉",
+            "english": "intramedullary nail",
+            "ipa": "/ˌɪntrəˈmedjʊləri neɪl/",
+            "example": "Intramedullary nails are inserted into the bone canal to stabilize fractures."
+          },
+          {
+            "chinese": "骨螺钉和钢板",
+            "english": "screws and plates",
+            "ipa": "/skruːz ænd pleɪts/",
+            "example": "Screws and plates made of titanium are used to fix bone fractures."
+          },
+          {
+            "chinese": "钛合金",
+            "english": "titanium",
+            "ipa": "/taɪˈteɪniəm/",
+            "example": "Orthopedic implants are made of titanium because it is biocompatible."
+          },
+          {
+            "chinese": "创伤固定",
+            "english": "trauma fixation",
+            "ipa": "/ˈtrɔːmə fɪkˈseɪʃn/",
+            "example": "Trauma fixation devices stabilize broken bones during healing."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "title": "help后面用不带to的不定式",
+          "content": "help somebody do something（不是help somebody to do something，虽然两者都可用，但前者更自然）",
+          "examples": [
+            "✓ Claude helped me build the system",
+            "✓ Claude helped me to build the system（也可以）",
+            "✓ This tool helps me learn faster"
+          ]
+        },
+        {
+          "title": "Present Perfect vs Simple Past",
+          "content": "强调动作的结果/完成状态用PP；强调动作发生的时间用Simple Past",
+          "examples": [
+            "✓ I have installed it（强调：装好了，现在可以用）",
+            "✓ I installed it yesterday（强调：昨天这件事发生了）",
+            "✗ I successfully install（时态完全错误）"
+          ]
+        }
+      ],
+      "improvements": [
+        "能够演示和解释自己搭建的技术系统",
+        "医疗器械词汇覆盖到了骨科植入物",
+        "主动使用AI工具辅助学习，方法先进"
+      ],
+      "nextFocus": [
+        "PP vs Simple Past区分练习",
+        "intramedullary等长词发音",
+        "减少口头重复（做到不重复启动）"
+      ]
+    },
+    {
+      "id": "lesson_2026_03_23",
+      "date": "2026-03-23",
+      "tutor": "Maxim",
+      "duration": "约54分钟",
+      "topics": [
+        "入职进展更新",
+        "财政部培训课程内容",
+        "IPO流程与中国证监会（CSRC）",
+        "集采政策深度讨论",
+        "冠脉支架：coronary stent、bioabsorbable stent",
+        "美国市场vs中国市场（market vs policy market）"
+      ],
+      "grammarErrors": [
+        {
+          "incorrect": "He came back. He comes back this week",
+          "correct": "He will come back this week / He is coming back this week",
+          "errorType": "将来时态混乱",
+          "example": "I think he <span class='correct'>will come back</span> this week."
+        },
+        {
+          "incorrect": "the government will net the company to be a public company",
+          "correct": "the government will allow / approve the company to go public",
+          "errorType": "词汇选择（net不合适）",
+          "example": "The CSRC must <span class='correct'>approve</span> a company before it can go public."
+        },
+        {
+          "incorrect": "gave some gives some money",
+          "correct": "gave some money / bribed officials",
+          "errorType": "动词时态混乱",
+          "example": "Some companies allegedly <span class='correct'>bribed</span> CSRC officials to get listed."
+        },
+        {
+          "incorrect": "one day people will know",
+          "correct": "one day the truth will come out",
+          "errorType": "表达不地道",
+          "example": "You can't hide it forever — <span class='correct'>the truth will come out</span> eventually."
+        }
+      ],
+      "pronunciation": [
+        {
+          "word": "coronary",
+          "incorrect": "coronery",
+          "correct": "coronary",
+          "ipa": "/ˈkɔːrəneri/"
+        },
+        {
+          "word": "procurement",
+          "incorrect": "procrewment",
+          "correct": "procurement",
+          "ipa": "/prəˈkjʊərmənt/"
+        },
+        {
+          "word": "regulatory",
+          "incorrect": "regular terrain",
+          "correct": "regulatory",
+          "ipa": "/ˈreɡjʊlətɔːri/"
+        },
+        {
+          "word": "CSRC",
+          "incorrect": "CCS RC",
+          "correct": "China Securities Regulatory Commission",
+          "ipa": "/ˌtʃaɪnə sɪˈkjʊərɪtiz ˌreɡjʊˈleɪtəri kəˈmɪʃn/"
+        }
+      ],
+      "vocabulary": {
+        "business": [
+          {
+            "chinese": "中国证监会",
+            "english": "CSRC (China Securities Regulatory Commission)",
+            "ipa": "/ˌtʃaɪnə sɪˈkjʊərɪtiz ˌreɡjʊˈleɪtəri kəˈmɪʃn/",
+            "example": "The CSRC must approve a company's IPO application before listing."
+          },
+          {
+            "chinese": "上市公司/去上市",
+            "english": "go public / get listed",
+            "ipa": "/ɡoʊ ˈpʌblɪk/ /ɡet ˈlɪstɪd/",
+            "example": "The company plans to go public on the Shanghai Stock Exchange next year."
+          },
+          {
+            "chinese": "政策市场",
+            "english": "policy-driven market",
+            "ipa": "/ˈpɒləsi ˈdrɪvən ˈmɑːrkɪt/",
+            "example": "China's stock market is often described as a policy-driven market."
+          },
+          {
+            "chinese": "真相终将大白",
+            "english": "the truth will come out",
+            "ipa": "/ðə truːθ wɪl kʌm aʊt/",
+            "example": "You can't cover up fraud forever — the truth will always come out."
+          },
+          {
+            "chinese": "受贿/行贿",
+            "english": "bribe / take a bribe",
+            "ipa": "/braɪb/ /teɪk ə braɪb/",
+            "example": "Several CSRC officials were arrested for taking bribes from IPO applicants."
+          }
+        ],
+        "medical": [
+          {
+            "chinese": "冠脉支架",
+            "english": "coronary stent",
+            "ipa": "/ˈkɔːrəneri stent/",
+            "example": "This is a coronary stent — a tiny metal tool that holds a blocked artery open."
+          },
+          {
+            "chinese": "可生物降解支架",
+            "english": "bioabsorbable stent",
+            "ipa": "/ˌbaɪoʊəbˈzɔːrbəbl stent/",
+            "example": "Next-generation bioabsorbable stents dissolve naturally in the body."
+          },
+          {
+            "chinese": "药物涂层支架",
+            "english": "drug-coated stent",
+            "ipa": "/drʌɡ ˈkoʊtɪd stent/",
+            "example": "Weigao was a pioneer in China's first drug-coated stent in 2500."
+          },
+          {
+            "chinese": "集中采购降价93%",
+            "english": "centralized procurement cut the price by 93%",
+            "ipa": "/ˈsentrəlaɪzd prəˈkjʊərmənt kʌt/",
+            "example": "Centralized procurement cut the coronary stent price from 10,000 to 700 RMB."
+          }
+        ]
+      },
+      "notes": [
+        {
+          "title": "go public vs get listed — 两种说法都常用",
+          "content": "IPO场景中的核心表达",
+          "examples": [
+            "go public = 公司首次公开发行股票",
+            "get listed = 在证券交易所挂牌上市",
+            "IPO = Initial Public Offering（首次公开募股）",
+            "✓ The company plans to go public next year",
+            "✓ We need to get listed on the Shanghai Exchange"
+          ]
+        },
+        {
+          "title": "集采政策核心表达",
+          "content": "你能用英文清楚解释这个政策了，继续练习数字和比例",
+          "examples": [
+            "centralized procurement = 集中带量采购",
+            "cut the price by X% = 将价格降低X%",
+            "the government purchases directly = 政府直接采购",
+            "reduce the middlemen = 减少中间商"
+          ]
+        }
+      ],
+      "improvements": [
+        "能够用英文完整解释集采政策（含数字）",
+        "能够解释IPO流程和监管机构",
+        "主动尝试说生词（bioabsorbable, regulatory等）",
+        "能够进行较长的连续英语表达"
+      ],
+      "nextFocus": [
+        "coronary, regulatory, procurement发音巩固",
+        "将来时态的准确使用",
+        "继续深入医疗器械介入产品词汇"
       ]
     }
   ]

@@ -1,0 +1,419 @@
+comprehensive budget management,全面预算管理,ˌkɒmprɪˈhensɪv ˈbʌdʒɪt ˈmænɪdʒmənt
+annual budget,年度预算,ˈænjuəl ˈbʌdʒɪt
+budget preparation,预算编制,ˈbʌdʒɪt ˌprepəˈreɪʃn
+budget variance analysis,预算偏差分析,ˈbʌdʒɪt ˈveəriəns əˈnæləsɪs
+budget vs actual analysis,预实分析,ˈbʌdʒɪt vɜːrsəs ˈæktʃuəl əˈnæləsɪs
+rolling forecast,滚动预测,ˈroʊlɪŋ ˈfɔːrkæst
+financial forecast,财务预测,faɪˈnænʃəl ˈfɔːrkæst
+strategic planning,战略规划,strəˈtiːdʒɪk ˈplænɪŋ
+capital expenditure,资本支出,ˈkæpɪtl ɪkˈspendɪtʃər
+operating expenditure,运营支出,ˈɒpəreɪtɪŋ ɪkˈspendɪtʃər
+allocate budget,分配预算,ˈæləkeɪt ˈbʌdʒɪt
+allocate funds,划拨资金,ˈæləkeɪt fʌndz
+budget overrun,预算超支,ˈbʌdʒɪt ˌoʊvərˈrʌn
+reallocate resources,重新分配资源,ˌriːˈæləkeɪt ˈriːsɔːrsɪz
+cost accounting,成本核算,kɒst əˈkaʊntɪŋ
+cost allocation,成本分摊,kɒst ˌæləˈkeɪʃn
+cost control,成本控制,kɒst kənˈtroʊl
+cost reduction and efficiency improvement,降本增效,kɒst rɪˈdʌkʃn ænd ɪˈfɪʃənsi ɪmˈpruːvmənt
+batch cost accounting,批次成本核算,bætʃ kɒst əˈkaʊntɪŋ
+process-level cost tracking,工序成本追踪,ˈprəʊses levl kɒst ˈtrækɪŋ
+standard cost,标准成本,ˈstændərd kɒst
+actual cost,实际成本,ˈæktʃuəl kɒst
+cost variance,成本差异,kɒst ˈveəriəns
+indirect cost,间接成本,ˌɪndɪˈrekt kɒst
+fixed cost,固定成本,fɪkst kɒst
+variable cost,变动成本,ˈveəriəbl kɒst
+marginal cost,边际成本,ˈmɑːrdʒɪnəl kɒst
+price comparison model,比价模型,praɪs ˌkɒmpəˈrɪsən ˈmɒdl
+reduce procurement costs,节约采购成本,rɪˈdjuːs prəˈkjʊərmənt kɒsts
+liquidate idle inventory,盘活存货,ˈlɪkwɪdeɪt ˈaɪdl ˈɪnvəntri
+inventory aging analysis,库龄分析,ˈɪnvəntri ˈeɪdʒɪŋ əˈnæləsɪs
+recover financial losses,挽回财产损失,rɪˈkʌvər faɪˈnænʃəl ˈlɒsɪz
+cash management,资金管理,kæʃ ˈmænɪdʒmənt
+cash flow,现金流,kæʃ floʊ
+operating cash flow,经营性现金流,ˈɒpəreɪtɪŋ kæʃ floʊ
+free cash flow,自由现金流,friː kæʃ floʊ
+cash flow forecast,现金流预测,kæʃ floʊ ˈfɔːrkæst
+debt financing,债权融资,det ˈfaɪnænsɪŋ
+equity financing,股权融资,ˈekwɪti ˈfaɪnænsɪŋ
+bank credit facility,银行授信额度,bæŋk ˈkredɪt fəˈsɪlɪti
+expand credit line,拓展授信额度,ɪkˈspænd ˈkredɪt laɪn
+loan interest rate,贷款利率,loʊn ˈɪntrəst reɪt
+reduce financing costs,节约资金成本,rɪˈdjuːs ˈfaɪnænsɪŋ kɒsts
+investment returns,投资收益,ɪnˈvestmənt rɪˈtɜːrnz
+accounts receivable,应收账款,əˈkaʊnts rɪˈsiːvəbl
+accounts payable,应付账款,əˈkaʊnts ˈpeɪəbl
+working capital,流动资金,ˈwɜːrkɪŋ ˈkæpɪtl
+debt-to-asset ratio,资产负债率,det tuː ˈæset ˈreɪʃioʊ
+financial statements,财务报表,faɪˈnænʃəl ˈsteɪtmənts
+profit and loss statement,损益表,ˈprɒfɪt ænd lɒs ˈsteɪtmənt
+balance sheet,资产负债表,ˈbæləns ʃiːt
+consolidated financial statements,合并报表,kənˈsɒlɪdeɪtɪd faɪˈnænʃəl ˈsteɪtmənts
+revenue recognition,收入确认,ˈrevənjuː ˌrekəɡˈnɪʃn
+gross margin,毛利率,ɡroʊs ˈmɑːrdʒɪn
+net profit margin,净利润率,net ˈprɒfɪt ˈmɑːrdʒɪn
+EBITDA,息税前利润,ˌiːbɪtˈdɑː
+year-on-year growth,同比增长,jɪər ɒn jɪər ɡroʊθ
+quarter-on-quarter growth,环比增长,ˈkwɔːrtər ɒn ˈkwɔːrtər ɡroʊθ
+reconcile,核对/对账,ˈrekənsaɪl
+bank reconciliation,银行对账,bæŋk ˌrekənsɪliˈeɪʃn
+discrepancy between books and assets,账实不符,dɪˈskrepənsi
+historical data reconstruction,历史数据重建,hɪˈstɒrɪkl ˈdeɪtə ˌriːkənˈstrʌkʃn
+internal controls,内部控制,ɪnˈtɜːrnl kənˈtroʊlz
+compliance management,合规管理,kəmˈplaɪəns ˈmænɪdʒmənt
+external audit,外部审计,ɪkˈstɜːrnl ˈɔːdɪt
+internal audit,内部审计,ɪnˈtɜːrnl ˈɔːdɪt
+authorization and approval,授权审批,ˌɔːθəraɪˈzeɪʃn ænd əˈpruːvl
+signing authority,签字权限,ˈsaɪnɪŋ ɔːˈθɒrɪti
+segregation of duties,职责分离,ˌseɡrɪˈɡeɪʃn əv ˈdjuːtɪz
+key control points,内控管控要点,kiː kənˈtroʊl pɔɪnts
+risk identification,风险识别,rɪsk aɪˌdentɪfɪˈkeɪʃn
+risk mitigation,风险缓解,rɪsk ˌmɪtɪˈɡeɪʃn
+contingent liability,或有负债,kənˈtɪndʒənt laɪəˈbɪlɪti
+IPO (Initial Public Offering),首次公开募股,ɪˈnɪʃl ˈpʌblɪk ˈɒfərɪŋ
+go public,上市,ɡoʊ ˈpʌblɪk
+IPO bottleneck,IPO卡点,aɪpiːoʊ ˈbɒtlnek
+financial records reconstruction,混乱账目重建,faɪˈnænʃəl ˈrekɔːrdz ˌriːkənˈstrʌkʃn
+response to regulatory inquiry,问询函答复,rɪˈspɒns tuː ˌreɡjʊˈleɪtəri ˈɪŋkwəri
+listing requirements,上市条件,ˈlɪstɪŋ rɪˈkwaɪərments
+due diligence,尽职调查,djuː ˈdɪlɪdʒəns
+CSRC,中国证监会,China Securities Regulatory Commission
+information disclosure,信息披露,ˌɪnfəˈmeɪʃn dɪsˈkloʊʒər
+shareholders equity,股东权益,ˈʃeəhoʊldərz ˈekwɪti
+ERP system,ERP系统,ˌentəpraɪz ˈriːsɔːrs ˈplænɪŋ
+business-finance integration,业财一体化,ˈbɪznɪs ˈfaɪnæns ˌɪntɪˈɡreɪʃn
+build from scratch,从零到一搭建,bɪld frɒm skrætʃ
+data migration,数据导入,ˈdeɪtə maɪˈɡreɪʃn
+digital transformation,数字化转型,ˈdɪdʒɪtl trænsˌfɔːrˈmeɪʃn
+KPI (Key Performance Indicator),关键绩效指标,kiː pəˈfɔːrməns ˈɪndɪkeɪtər
+ROI (Return on Investment),投资回报率,rɪˈtɜːrn ɒn ɪnˈvestmənt
+financial analysis,财务分析,faɪˈnænʃəl əˈnæləsɪs
+profitability analysis,盈利能力分析,ˌprɒfɪtəˈbɪlɪti əˈnæləsɪs
+valuation,估值,ˌvæljuˈeɪʃn
+discounted cash flow,现金流折现,dɪˈskaʊntɪd kæʃ floʊ
+military product price audit,军工审价,ˈmɪlɪtri ˈprɒdʌkt praɪs ˈɔːdɪt
+price quotation,报价,praɪs kwoʊˈteɪʃn
+execute,执行,ˈeksɪkjuːt
+implement,实施,ˈɪmplɪment
+evaluate,评估,ɪˈvæljueɪt
+optimize,优化,ˈɒptɪmaɪz
+coordinate,协调,koʊˈɔːrdɪneɪt
+let's get started,我们开始吧,lets ɡet ˈstɑːrtɪd
+today's agenda covers,今天议程是,təˈdeɪz əˈdʒendə ˈkʌvərz
+let me start with a brief overview,让我先做个简单介绍,let miː stɑːrt wɪð ə briːf ˈoʊvərvjuː
+the data shows,数据显示,ðə ˈdeɪtə ʃoʊz
+compared to last quarter,与上季度相比,kəmˈpeərd tuː lɑːst ˈkwɔːrtər
+year-on-year increase of X%,同比增长X%,jɪər ɒn jɪər ˈɪŋkriːs
+it's worth noting that,值得注意的是,ɪts wɜːrθ ˈnoʊtɪŋ ðæt
+to put this in perspective,换个角度看,tuː pʊt ðɪs ɪn pəˈspektɪv
+sorry to interrupt,打断一下,ˈsɒri tuː ˌɪntəˈrʌpt
+could I just clarify,请允许我确认一下,kʊd aɪ dʒʌst ˈklærɪfaɪ
+could I just add something,可以让我补充一点吗,kʊd aɪ dʒʌst æd ˈsʌmθɪŋ
+if I could just stop you there,请稍等一下,ɪf aɪ kʊd dʒʌst stɒp juː ðeər
+I didn't quite catch that,我没听清楚,aɪ ˈdɪdnt kwaɪt kætʃ ðæt
+could you repeat that,你能重复一下吗,kʊd juː rɪˈpiːt ðæt
+could you elaborate on that,你能展开说说吗,kʊd juː ɪˈlæbəreɪt ɒn ðæt
+just to confirm my understanding,我想确认一下我的理解,dʒʌst tuː kənˈfɜːrm maɪ ˌʌndəˈstændɪŋ
+so what you're saying is,你的意思是说,soʊ wɒt jɔːr ˈseɪɪŋ ɪz
+in other words,换句话说,ɪn ˈʌðər wɜːrdz
+I agree,我同意,aɪ əˈɡriː
+that's exactly right,正是如此,ðæts ɪɡˈzæktli raɪt
+that's a good point,说得对,ðæts ə ɡʊd pɔɪnt
+I'm in favor of this proposal,我支持这个提案,aɪm ɪn ˈfeɪvər
+I see it differently,我有不同看法,aɪ siː ɪt ˈdɪfrəntli
+I understand your point however,我理解你的观点，但是,aɪ ˌʌndəˈstænd jɔːr pɔɪnt haʊˈevər
+I'm not entirely convinced,我不太确定这个方向,aɪm nɒt ɪnˈtaɪərli kənˈvɪnst
+have we considered an alternative,我们是否考虑过另一个方案,həv wiː kənˈsɪdərd ən ɔːlˈtɜːrnətɪv
+that's a good question let me think,这是个好问题，让我想一下,ðæts ə ɡʊd ˈkwestʃən let miː θɪŋk
+let me double-check the figures,我需要确认一下数据,let miː ˈdʌbl tʃek ðə ˈfɪɡərz
+let me get back to you on that,我回去查一下再回复你,let miː ɡet bæk tuː juː ɒn ðæt
+to summarize,总结一下,tuː ˈsʌməraɪz
+to wrap up,总结/结束,tuː ræp ʌp
+moving forward,今后/接下来,ˈmuːvɪŋ ˈfɔːrwərd
+action items,行动事项,ˈækʃn ˈaɪtəmz
+let's circle back to this,稍后再回到这个话题,lets ˈsɜːrkl bæk tuː ðɪs
+let's take this offline,私下讨论,lets teɪk ðɪs ˈɒflaɪn
+let's park that for now,暂时搁置,lets pɑːrk ðæt fɔːr naʊ
+we're running over time,我们超时了,wɪər ˈrʌnɪŋ ˈoʊvər taɪm
+follow up,跟进,ˈfɒloʊ ʌp
+following up on our last discussion,跟进上次讨论,ˈfɒloʊɪŋ ʌp ɒn aʊər lɑːst dɪˈskʌʃn
+the deadline is approaching,截止日期快到了,ðə ˈdedlaɪn ɪz əˈproʊtʃɪŋ
+our position is,我们的立场是,aʊər pəˈzɪʃn ɪz
+this is our bottom line,这是我们的底线,ðɪs ɪz aʊər ˈbɒtəm laɪn
+we have some flexibility on that,我们可以灵活处理,wiː hæv sʌm ˌfleksɪˈbɪlɪti
+that's beyond my authority,这超出了我的授权范围,ðæts bɪˈɒnd maɪ ɔːˈθɒrɪti
+let's find a mutually beneficial solution,让我们找到双赢方案,lets faɪnd ə ˈmjuːtʃuəli ˌbenɪˈfɪʃl səˈluːʃn
+I'll need to check with my team,我需要请示一下,aɪl niːd tuː tʃek wɪð maɪ tiːm
+report to the chairman,向董事长汇报,rɪˈpɔːrt tuː ðə ˈtʃeərmən
+demonstrate our value,展示我们的价值,ˈdemənstreɪt aʊər ˈvæljuː
+this initiative has resulted in,这项举措带来了,ðɪs ɪˈnɪʃətɪv həz rɪˈzʌltɪd ɪn
+we need your approval on,我们需要您的批准,wiː niːd jɔːr əˈpruːvl ɒn
+please find attached,请查收附件,pliːz faɪnd əˈtætʃt
+please don't hesitate to reach out,如有问题请联系我,pliːz doʊnt ˈhezɪteɪt tuː riːtʃ aʊt
+I look forward to hearing from you,期待您的回复,aɪ lʊk ˈfɔːrwərd tuː ˈhɪərɪŋ frɒm juː
+please correct me if I'm wrong,如我理解有误请指正,pliːz kəˈrekt miː ɪf aɪm rɒŋ
+not only but also,不仅……而且,nɒt ˈoʊnli bʌt ˈɔːlsoʊ
+nevertheless,尽管如此,ˌnevərðəˈles
+based on this,基于此,beɪst ɒn ðɪs
+in the long run,从长远来看,ɪn ðə lɒŋ rʌn
+from our perspective,就我们而言,frɒm aʊər pəˈspektɪv
+bulk purchases qualify for a discount,批量购买可获折扣,bʌlk ˈpɜːrtʃəsɪz ˈkwɒlɪfaɪ fɔːr ə ˈdɪskaʊnt
+I've been good,我最近状态不错（PP开场）,aɪv biːn ɡʊd
+I've been really busy,我最近很忙,aɪv biːn ˈrɪəli ˈbɪzi
+it's been a productive few days,这几天挺充实,ɪts biːn ə prəˈdʌktɪv fjuː deɪz
+he hasn't come back yet,他还没回来,hiː ˈhæznt kʌm bæk jet
+she hasn't signed off yet,她还没有签字,ʃiː ˈhæznt saɪnd ɒf jet
+we haven't received a response yet,我们还没有收到回复,wiː ˈhævnt rɪˈsiːvd ə rɪˈspɒns jet
+the system hasn't gone live yet,系统还没上线,ðə ˈsɪstəm ˈhæznt ɡɒn laɪv jet
+we haven't agreed on the price yet,价格还没谈拢,wiː ˈhævnt əˈɡriːd ɒn ðə praɪs jet
+I have already read the report,我已经读了报告,aɪ həv ˈɔːlredi red ðə rɪˈpɔːrt
+I have just come back,我刚刚回来,aɪ həv dʒʌst kʌm bæk
+we have just finished the negotiation,我们刚刚完成了谈判,wiː həv dʒʌst ˈfɪnɪʃt
+the report has already been submitted,报告已经提交了,ðə rɪˈpɔːrt həz ˈɔːlredi biːn səbˈmɪtɪd
+the budget has already been approved,预算已经批了,ðə ˈbʌdʒɪt həz ˈɔːlredi biːn əˈpruːvd
+we have saved 2.55 million in procurement costs,已节约采购成本255万,wiː həv seɪvd
+we have obtained 300 million in debt financing,已获得3亿债权融资,wiː həv əbˈteɪnd
+I have built the financial system from scratch,从零搭建了财务体系,aɪ həv bɪlt
+our portfolio has generated over 8 million in returns,投资组合实现829万收益,aʊər ˈpɔːrtfoʊlioʊ həz ˈdʒenəreɪtɪd
+we have expanded the credit facility to 500 million,授信额度已扩展至5亿,wiː həv ɪkˈspændɪd
+we have liquidated 6.95 million of idle inventory,已盘活695万存货,wiː həv ˈlɪkwɪdeɪtɪd
+we have reduced the audit cycle by 25%,审价周期已缩短25%,wiː həv rɪˈdjuːst
+we have resolved 40 million in historical discrepancies,已消除4000万账实不符,wiː həv rɪˈzɒlvd
+we have secured loan rates 3% below the industry average,贷款利率低于行业平均3%,wiː həv sɪˈkjʊərd
+the government has reduced the price by 90%,政府已将价格降低90%,ðə ˈɡʌvənmənt həz rɪˈdjuːst
+the company has met the listing requirements,公司已具备上市条件,ðə ˈkʌmpəni həz met
+have you ever been to Shanghai,你去过上海吗,həv juː ˈevər biːn tuː ʃæŋˈhaɪ
+I have never eaten sushi,我从来没吃过寿司,aɪ həv ˈnevər ˈiːtən ˈsuːʃi
+I have never worked for a foreign company,我从未在外资公司工作过,aɪ həv ˈnevər wɜːrkt
+we have never encountered this situation,我们从未遇到过这种情况,wiː həv ˈnevər ɪnˈkaʊntərd
+I have worked in this industry for 11 years,在这个行业工作了11年,aɪ həv wɜːrkt
+I have been CFO for three years,在CFO职位已三年,aɪ həv biːn siːefˈoʊ
+I have been studying English with Maxim,一直在跟Maxim学英语（PPC）,aɪ həv biːn ˈstʌdiɪŋ
+I have been reviewing documents all morning,一整个早上都在审文件（PPC）,aɪ həv biːn rɪˈvjuːɪŋ
+we have been optimizing the ERP system,一直在优化ERP系统（PPC）,wiː həv biːn ˈɒptɪmaɪzɪŋ
+the team has been preparing the IPO documents,团队一直在准备IPO材料（PPC）,ðə tiːm həz biːn prɪˈpeərɪŋ
+I have been building this system,我一直在搭建这个系统（PPC）,aɪ həv biːn ˈbɪldɪŋ
+we have been negotiating with suppliers,一直在跟供应商谈判（PPC）,wiː həv biːn nɪˈɡoʊʃieɪtɪŋ
+I have been under a lot of pressure lately,最近工作压力很大（PPC）,aɪ həv biːn ˈʌndər
+R&D spending has been increasing,研发投入一直在增加（PPC）,ɑːr ænd diː ˈspendɪŋ həz biːn ɪnˈkriːsɪŋ
+the accounts have been reconciled,账目已经对清了（被动PP）,ðə əˈkaʊnts həv biːn ˈrekənsaɪld
+the contract has been signed,合同已签署（被动PP）,ðə ˈkɒntrækt həz biːn saɪnd
+I've been good NOT it was been good,❌ it was been → ✓ I've been（高频错误）,aɪv biːn ɡʊd
+he hasn't come back NOT hasn't coming,❌ hasn't coming → ✓ hasn't come（高频错误）,hiː ˈhæznt kʌm bæk
+I have read NOT have been read,❌ have been read → ✓ have read（高频错误）,aɪ həv red
+I have successfully installed it,❌ successfully install → ✓ have installed（高频错误）,aɪ həv sʌkˈsesfəli ɪnˈstɔːld
+on Monday,在星期一（星期用on）,ɒn ˈmʌndeɪ
+on Friday,在星期五（星期用on）,ɒn ˈfraɪdeɪ
+on March 16th,在3月16日（日期用on）,ɒn mɑːrtʃ
+on Christmas,在圣诞节（节日用on）,ɒn ˈkrɪsməs
+in March,在三月（月份用in）,ɪn mɑːrtʃ
+in 2024,在2024年（年份用in）,ɪn tuː θaʊzənd
+in Q3,在第三季度（季度用in）,ɪn kjuː θriː
+in the morning,在早上（时间段用in）,ɪn ðə ˈmɔːrnɪŋ
+in the afternoon,在下午（时间段用in）,ɪn ðə ˌæftərˈnuːn
+in the evening,在晚上（时间段用in）,ɪn ðə ˈiːvnɪŋ
+at 8 o'clock,在8点（时刻用at）,æt eɪt əˈklɒk
+at noon,在中午,æt nuːn
+at midnight,在午夜,æt ˈmɪdnaɪt
+at home,在家,æt hoʊm
+at the office,在公司/办公室,æt ðə ˈɒfɪs
+at university,在大学（就读）,æt ˌjuːnɪˈvɜːrsɪti
+in Shanghai,在上海（城市用in）,ɪn ʃæŋˈhaɪ
+in China,在中国（国家用in）,ɪn ˈtʃaɪnə
+in the meeting room,在会议室,ɪn ðə ˈmiːtɪŋ ruːm
+on Friday NEVER at Friday,❌at Friday → ✓on Friday,ɒn ˈfraɪdeɪ
+in the morning NEVER at the morning,❌at the morning → ✓in the morning,ɪn ðə ˈmɔːrnɪŋ
+from Friday to Sunday,从周五到周日,frɒm ˈfraɪdeɪ tuː ˈsʌndeɪ
+be responsible for,对...负责（必须有be动词）,biː rɪˈspɒnsɪbl fɔːr
+adjust to the environment,适应新环境,əˈdʒʌst tuː ðə ɪnˈvaɪrənmənt
+attend a meeting,参加会议（用attend不用join）,əˈtend ə ˈmiːtɪŋ
+join a company,加入公司（用join）,dʒɔɪn ə ˈkʌmpəni
+tell someone something,告诉某人（用tell不用say to）,tel ˈsʌmwʌn
+receive a request,收到请求（用receive不用get demands）,rɪˈsiːv ə rɪˈkwest
+affect the company,影响公司（商业用affect）,əˈfekt ðə ˈkʌmpəni
+infect with virus,感染（医学用infect）,ɪnˈfekt wɪð ˈvaɪrəs
+focus on,专注于,ˈfoʊkəs ɒn
+depend on,依赖于,dɪˈpend ɒn
+apply for a loan,申请贷款,əˈplaɪ fɔːr ə loʊn
+submit to the board,提交给董事会,səbˈmɪt tuː ðə bɔːrd
+agree on the terms,同意条款,əˈɡriː ɒn ðə tɜːrmz
+result in cost savings,带来成本节约,rɪˈzʌlt ɪn kɒst ˈseɪvɪŋz
+based on the data,基于数据,beɪst ɒn ðə ˈdeɪtə
+over budget,超出预算,ˈoʊvər ˈbʌdʒɪt
+below target,低于目标,bɪˈloʊ ˈtɑːrɡɪt
+impact on,对...的影响,ˈɪmpækt ɒn
+demand for,对...的需求,dɪˈmɑːnd fɔːr
+increase of X%,增长X%,ˈɪŋkriːs ɒv
+difference between A and B,A和B的区别,ˈdɪfrəns bɪˈtwiːn
+reason for,原因是,ˈriːzən fɔːr
+confident about,对...有信心,ˈkɒnfɪdənt əˈbaʊt
+good at financial analysis,擅长财务分析,ɡʊd æt
+interested in this opportunity,对这个机会感兴趣,ˈɪntrəstɪd ɪn
+satisfied with the results,对结果满意,ˈsætɪsfaɪd wɪð
+worried about the cash flow,担心现金流,ˈwʌrid əˈbaʊt
+familiar with the regulations,熟悉法规,fəˈmɪliər wɪð
+ready for the IPO review,准备好IPO审核,ˈredi fɔːr
+responsible for the team,负责这个团队,rɪˈspɒnsɪbl fɔːr
+I will be responsible NEVER I will responsible,❌I will responsible → ✓ I will be responsible,aɪ wɪl biː rɪˈspɒnsɪbl
+contact HR,联系HR,ˈkɒntækt
+reach out to someone,联系某人,riːtʃ aʊt tuː
+negotiate with suppliers,与供应商谈判,nɪˈɡoʊʃieɪt wɪð
+report to the board,向董事会汇报,rɪˈpɔːrt tuː ðə bɔːrd
+invest in R&D,投资研发,ɪnˈvest ɪn
+comply with regulations,遵守法规,kəmˈplaɪ wɪð
+collaborate with,与...合作,kəˈlæbəreɪt wɪð
+compare to last year,与去年相比,kəmˈpeər tuː
+Class I medical device,一类医疗器械（低风险）,klɑːs wʌn ˈmedɪkl dɪˈvaɪs
+Class II medical device,二类医疗器械（中风险）,klɑːs tuː ˈmedɪkl dɪˈvaɪs
+Class III medical device,三类医疗器械（高风险）,klɑːs θriː ˈmedɪkl dɪˈvaɪs
+high-value consumables,高值耗材,haɪ ˈvæljuː kənˈsjuːməblz
+implantable device,植入类器械,ɪmˈplæntəbl dɪˈvaɪs
+disposable medical supplies,一次性耗材,dɪˈspoʊzəbl ˈmedɪkl səˈplaɪz
+NMPA,国家药品监督管理局,ˈnæʃənl ˈmedɪkl ˈprɒdʌkts ədˌmɪnɪˈstreɪʃn
+registration certificate,注册证,ˌredʒɪˈstreɪʃn səˈtɪfɪkɪt
+product registration,产品注册,ˈprɒdʌkt ˌredʒɪˈstreɪʃn
+clinical trial,临床试验,ˈklɪnɪkl ˈtraɪəl
+clinical data,临床数据,ˈklɪnɪkl ˈdeɪtə
+safety and efficacy,安全性和有效性,ˈseɪfti ænd ˈefɪkəsi
+regulatory approval,监管批准,ˌreɡjʊˈleɪtəri əˈpruːvl
+quality management system,质量管理体系,ˈkwɒlɪti ˈmænɪdʒmənt ˈsɪstəm
+ISO certification,ISO认证,aɪesˈoʊ ˌsɜːrtɪfɪˈkeɪʃn
+Good Manufacturing Practice,GMP规范,ɡʊd ˌmænjʊˈfæktʃərɪŋ ˈpræktɪs
+product recall,召回,ˈprɒdʌkt rɪˈkɔːl
+UDI,唯一器械标识,juːniːk dɪˈvaɪs aɪˌdentɪfɪˈkeɪʃn
+adverse event report,不良事件报告,ˈædvɜːrs ɪˈvent rɪˈpɔːrt
+post-market surveillance,上市后监测,poʊst ˈmɑːrkɪt səˈveɪləns
+volume-based procurement,集中带量采购,ˈvɒljuːm beɪst prəˈkjʊərmənt
+win a VBP tender,集采中标,wɪn ə viːbiːpiː ˈtendər
+tender,招标,ˈtendər
+win the bid,中标,wɪn ðə bɪd
+price negotiation,价格谈判,praɪs nɪˌɡoʊʃiˈeɪʃn
+supplier management,供应商管理,səˈplaɪər ˈmænɪdʒmənt
+non-conforming product,产品不合格,nɒn kənˈfɔːrmɪŋ ˈprɒdʌkt
+market share,市场份额,ˈmɑːrkɪt ʃeər
+market leader in China,国内市场份额第一,ˈmɑːrkɪt ˈliːdər
+domestic substitution,国产替代,dəˈmestɪk ˌsʌbstɪˈtuːʃn
+distributor,经销商,dɪˈstrɪbjuːtər
+KOL (Key Opinion Leader),关键意见领袖,kiː əˈpɪnjən ˈliːdər
+spinal implant,脊柱内固定,ˈspaɪnl ˈɪmplænt
+intervertebral disc,椎间盘,ˌɪntəˈvɜːrtɪbrəl dɪsk
+degenerative disc disease,退行性椎间盘病,dɪˈdʒenərətɪv dɪsk dɪˈziːz
+knee replacement,人工膝关节,niː rɪˈpleɪsmənt
+hip replacement,人工髋关节,hɪp rɪˈpleɪsmənt
+cartilage,软骨,ˈkɑːrtɪlɪdʒ
+osteoarthritis,骨关节炎,ˌɒstioʊɑːrˈθraɪtɪs
+fracture,骨折,ˈfræktʃər
+intramedullary nail,髓内钉,ˌɪntrəˈmedjʊləri neɪl
+screws and plates,骨螺钉和钢板,skruːz ænd pleɪts
+titanium implant,钛合金植入物,taɪˈteɪniəm ˈɪmplænt
+trauma fixation,创伤固定,ˈtrɔːmə fɪkˈseɪʃn
+bone repair material,骨修复材料,boʊn rɪˈpeər məˈtɪəriəl
+sports medicine,运动医学,spɔːrts ˈmedɪsɪn
+coronary artery,冠状动脉,ˈkɔːrəneri ˈɑːrtəri
+coronary stent,冠脉支架,ˈkɔːrəneri stent
+drug-eluting stent,药物洗脱支架,drʌɡ ɪˈluːtɪŋ stent
+bioabsorbable stent,可降解支架,ˌbaɪoʊəbˈzɔːrbəbl stent
+balloon catheter,球囊导管,bəˈluːn ˈkæθɪtər
+PCI,经皮冠状动脉介入治疗,ˌpɜːrkjʊˈteɪniəs ˈkɔːrəneri ˌɪntərˈvenʃn
+restenosis,再狭窄,ˌriːstəˈnoʊsɪs
+heart valve,心脏瓣膜,hɑːrt vælv
+structural heart disease,结构性心脏病,ˈstrʌktʃərəl hɑːrt dɪˈziːz
+hemodialysis,血液透析,ˌhiːmoʊdaɪˈæləsɪs
+dialyzer,透析器,ˈdaɪəlaɪzər
+kidney failure,肾衰竭,ˈkɪdni ˈfeɪljər
+peritoneal dialysis,腹膜透析,ˌperɪtəˈniːəl daɪˈæləsɪs
+blood purification,血液净化,blʌd ˌpjʊərɪfɪˈkeɪʃn
+CRRT,连续性肾脏替代治疗,kənˈtɪnjuəs ˈriːnl rɪˈpleɪsmənt ˈθerəpi
+infusion set,输液器,ɪnˈfjuːʒən set
+syringe,注射器,sɪˈrɪndʒ
+IV catheter,留置针,aɪˈviː ˈkæθɪtər
+intravenous infusion,静脉输液,ˌɪntrəˈviːnəs ɪnˈfjuːʒən
+wound care,伤口护理,wuːnd keər
+surgery,手术,ˈsɜːrdʒəri
+minimally invasive surgery,微创手术,ˈmɪnɪməli ɪnˈveɪsɪv ˈsɜːrdʒəri
+anesthesia,麻醉,ˌænɪsˈθiːziə
+rehabilitation,康复,ˌriːhəˌbɪlɪˈteɪʃn
+complications,并发症,ˌkɒmplɪˈkeɪʃnz
+biocompatibility,生物相容性,ˌbaɪoʊkəmˌpætəˈbɪlɪti
+this product is used for,这个产品用于,ðɪs ˈprɒdʌkt ɪz juːzd fɔːr
+its main advantage is,它的主要优势是,ɪts meɪn ədˈvɑːntɪdʒ ɪz
+X% of hospitals in China have used this,在中国X%的医院使用过,ɒv ˈhɒspɪtlz ɪn ˈtʃaɪnə
+we are the market leader,我们是市场领导者,wiː ɑːr ðə ˈmɑːrkɪt ˈliːdər
+this product has completed clinical trials,这个产品已通过临床试验,ðɪs ˈprɒdʌkt həz kəmˈpliːtɪd
+surgical robot,手术机器人,ˈsɜːrdʒɪkl ˈroʊbɒt
+pulse oximeter,脉搏血氧仪,pʌls ɒkˈsɪmɪtər
+defibrillator,除颤器,dɪˈfɪbrɪleɪtər
+nebulizer,雾化器,ˈnebjʊlaɪzər
+IV drip stand,静脉输液架,aɪˈviː drɪp stænd
+ultrasound machine,超声波机,ˈʌltrəsaʊnd məˈʃiːn
+ECG machine,心电图机,ˌiː siː ˈdʒiː məˈʃiːn
+blood pressure monitor,血压计,blʌd ˈpreʃər ˈmɑːnɪtər
+pulse,脉搏,pʌls
+scalpel,手术刀,ˈskælpəl
+surgical needle,手术针,ˈsɜːrdʒɪkl ˈniːdl
+stitch,缝合,stɪtʃ
+stretcher,担架,ˈstretʃər
+crutches,拐杖,ˈkrʌtʃɪz
+oxygen tank,氧气罐,ˈɑːksɪdʒən tæŋk
+surgical mask,手术口罩,ˈsɜːrdʒɪkl mæsk
+monitor,监护仪,ˈmɑːnɪtər
+volume-based procurement VBP,集中带量采购,ˈvɒljuːm beɪst prəˈkjʊərmənt
+VBP cut the price by 90%,集采降价90%,viːbiːpiː kʌt ðə praɪs
+stent price dropped from 10000 to 700,冠脉支架从1万降到700元,stent praɪs drɒpt
+exchange volume for lower prices,以量换价,ɪkˈstʃeɪndʒ ˈvɒljuːm
+cut out the middlemen,减少中间商,kʌt aʊt ðə ˈmɪdlmɛn
+direct procurement,直接采购,daɪˈrekt prəˈkjʊərmənt
+offset price cuts with higher volume,以量补价,ˈɒfset praɪs kʌts
+normalized VBP,集采常态化,ˈnɔːrməlaɪzd viːbiːpiː
+cost reduction pressure,降本压力,kɒst rɪˈdʌkʃn ˈpreʃər
+DRG (Diagnosis Related Groups),按病种分组付费,daɪəɡˈnoʊsɪs rɪˈleɪtɪd ɡruːps
+DIP (Diagnosis-Intervention Packet),按病种分值付费,daɪəɡˈnoʊsɪs ˌɪntərˈvenʃn ˈpækɪt
+bundled payment,打包付费,ˈbʌndld ˈpeɪmənt
+medical insurance reimbursement,医保支付,ˈmedɪkl ɪnˈʃʊərəns ˌriːɪmˈbɜːrsmənt
+hospital cost-control pressure,医院控费压力,ˈhɒspɪtl kɒst kənˈtroʊl ˈpreʃər
+cost-effectiveness,性价比,kɒst ɪˈfektɪvnəs
+NHSA,国家医保局,ˈnæʃənl ˈhelθkeər sɪˈkjʊərɪti ədˌmɪnɪˈstreɪʃn
+IPO review,上市审核,aɪpiːoʊ rɪˈvjuː
+regulatory inquiry letter,问询函,ˌreɡjʊˈleɪtəri ˈɪŋkwəri ˈletər
+financial compliance and standardization,财务规范化,faɪˈnænʃəl kəmˈplaɪəns
+ChiNext,创业板,ˈtʃaɪnekst
+STAR Market,科创板,stɑːr ˈmɑːrkɪt
+CSRC (China Securities Regulatory Commission),中国证监会,ˌtʃaɪnə sɪˈkjʊərɪtɪz ˌreɡjʊˈleɪtəri kəˈmɪʃn
+policy-driven market,政策市场,ˈpɒləsi ˈdrɪvən ˈmɑːrkɪt
+investor relations,投资者关系,ɪnˈvestər rɪˈleɪʃnz
+import substitution,国产替代,ˈɪmpɔːrt ˌsʌbstɪˈtuːʃn
+the 15th Five-Year Plan,十五五规划,ðə fɪfˈtiːnθ faɪv jɪər plæn
+high-tech enterprise,高新技术企业,haɪ tek ˈentəpraɪz
+government subsidy,政府补贴,ˈɡʌvənmənt ˈsʌbsɪdi
+R&D tax incentive,研发税收优惠,ɑːr ænd diː tæks ɪnˈsentɪv
+low-altitude economy,低空经济,loʊ ˈæltɪtjuːd ɪˈkɒnəmi
+aging population,人口老龄化,ˈeɪdʒɪŋ ˌpɒpjʊˈleɪʃn
+expanded healthcare coverage,医保覆盖扩大,ɪkˈspændɪd ˈhelθkeər ˈkʌvərɪdʒ
+private enterprise,民营企业,ˈpraɪvɪt ˈentəpraɪz
+state-owned enterprise (SOE),国有企业,steɪt oʊnd ˈentəpraɪz
+multinational corporation,跨国公司,ˌmʌltiˈnæʃənl ˌkɔːrpəˈreɪʃn
+compete against SOEs,与国家队竞争,kəmˈpiːt əˈɡenst
+pricing power,定价权,ˈpraɪsɪŋ paʊər
+competitive landscape,竞争格局,kəmˈpetɪtɪv ˈlændskeɪp
+technology barrier,技术壁垒,tekˈnɒlədʒi ˈbæriər
+industry average,行业平均水平,ˈɪndəstri ˈævərɪdʒ
+differentiated competition,差异化竞争,ˌdɪfəˈrenʃieɪtɪd ˌkɒmpɪˈtɪʃn
+subsidy vs subsidiary,补贴 vs 子公司（完全不同！）,ˈsʌbsɪdi vs səbˈsɪdiəri
+Ministry of Finance,财政部,ˈmɪnɪstri əv ˈfaɪnæns
+macro policy,宏观政策,ˈmækroʊ ˈpɒləsi
+medical-industrial collaboration,医工转化,ˈmedɪkl ɪnˈdʌstriəl kəˌlæbəˈreɪʃn
+innovation incubation,创新孵化,ˌɪnəˈveɪʃn ˌɪŋkjʊˈbeɪʃn
+investment in emerging healthcare companies,新兴医疗企业投资,ɪnˈvestmənt ɪn ɪˈmɜːrdʒɪŋ
+get listed,在交易所挂牌,ɡet ˈlɪstɪd
+the truth will come out,真相终将大白,ðə truːθ wɪl kʌm aʊt
+bribe / take a bribe,受贿/行贿,braɪb
+securities regulations,证券法规,sɪˈkjʊərɪtɪz ˌreɡjʊˈleɪʃnz
+raise funds,募集资金,reɪz fʌndz
+respond to inquiry,答复问询,rɪˈspɒnd tuː ˈɪŋkwəri
+public company,上市公司,ˈpʌblɪk ˈkʌmpəni
+shareholder,股东,ˈʃeəhoʊldər
+CFO (Chief Financial Officer),财务总监,ˌtʃiːf faɪˈnænʃəl ˈɑːfɪsər
+auditor,审计师,ˈɔːdɪtər
+adjust to,适应（固定搭配）,əˈdʒʌst tuː
+radical,激进的,ˈrædɪkl
