@@ -60,6 +60,27 @@ class Storage {
     vocab.words = vocab.words.filter(w => w.en !== word);
     this.saveVocab(vocab);
   }
+
+  importVocabBatch(csvText) {
+    const lines = csvText.trim().split('\n');
+    const vocab = this.getVocab();
+    let count = 0;
+
+    lines.forEach(line => {
+      const parts = line.split(',').map(s => s.trim());
+      if (parts[0] && !vocab.words.some(w => w.en === parts[0])) {
+        vocab.words.push({
+          en: parts[0],
+          cn: parts[1] || '',
+          ipa: parts[2] || ''
+        });
+        count++;
+      }
+    });
+
+    this.saveVocab(vocab);
+    return count;
+  }
 }
 
 window.storage = new Storage();

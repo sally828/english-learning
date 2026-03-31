@@ -318,7 +318,10 @@ class App {
     container.innerHTML = `
       <div class="vocab-header">
         <h2>📚 生词本</h2>
-        <button class="import-btn" onclick="app.showImportDialog()">📥 导入生词</button>
+        <div>
+          <button class="import-btn" onclick="app.showImportDialog()">📥 导入生词</button>
+          <button class="import-btn" onclick="app.importFinanceVocab()" style="margin-left:8px">💼 导入财务词汇</button>
+        </div>
       </div>
 
       ${vocab.words.length === 0 ? `
@@ -386,6 +389,22 @@ class App {
     window.storage.removeWord(index);
     this.showToast('已删除');
     this.renderVocabMode();
+  }
+
+  async importFinanceVocab() {
+    try {
+      const response = await fetch('data/vocab_import_full.txt');
+      if (!response.ok) throw new Error('Failed to load vocab file');
+
+      const csvText = await response.text();
+      const count = window.storage.importVocabBatch(csvText);
+
+      this.showToast(`成功导入 ${count} 个财务词汇`);
+      this.renderVocabMode();
+    } catch (error) {
+      console.error('导入失败:', error);
+      this.showToast('导入失败，请检查文件路径');
+    }
   }
 
   renderProgressMode() {
