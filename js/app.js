@@ -3,6 +3,7 @@
 class App {
   constructor() {
     this.data = null;
+    this.financeData = null;
     this.currentMode = 'study';
     this.currentCategory = null;
     this.init();
@@ -53,6 +54,12 @@ class App {
         throw new Error('Failed to load products.json');
       }
       this.data = await response.json();
+
+      // 加载财务英语数据
+      const financeResponse = await fetch('data/finance-english.json');
+      if (financeResponse.ok) {
+        this.financeData = await financeResponse.json();
+      }
     } catch (error) {
       console.error('加载产品数据失败:', error);
       // 使用空数据结构避免崩溃
@@ -211,6 +218,8 @@ class App {
     const navTabs = document.getElementById('nav-tabs');
     if (mode === 'study') {
       navTabs.style.display = 'flex';
+    } else if (mode === 'finance') {
+      navTabs.style.display = 'flex';
     } else {
       navTabs.style.display = 'none';
     }
@@ -219,6 +228,9 @@ class App {
     switch (mode) {
       case 'study':
         this.renderStudyMode();
+        break;
+      case 'finance':
+        this.renderFinanceMode();
         break;
       case 'tutor':
         window.tutorModule.render();
@@ -241,6 +253,60 @@ class App {
       <div class="quiz-container">
         <h2>测验模式</h2>
         <p>功能开发中...</p>
+      </div>
+    `;
+  }
+
+  renderFinanceMode() {
+    if (!this.financeData) {
+      const container = document.getElementById('main-content');
+      container.innerHTML = '<div class="error">财务英语数据加载失败</div>';
+      return;
+    }
+
+    // 渲染财务英语导航标签
+    const navTabs = document.getElementById('nav-tabs');
+    navTabs.innerHTML = this.financeData.subcategories.map((sub, index) => `
+      <button class="nav-tab ${index === 0 ? 'active' : ''}" data-subcategory="${index}">
+        <span>${sub}</span>
+      </button>
+    `).join('');
+
+    // 绑定标签点击事件
+    navTabs.querySelectorAll('.nav-tab').forEach(tab => {
+      tab.addEventListener('click', (e) => {
+        navTabs.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+        e.currentTarget.classList.add('active');
+        const subIndex = parseInt(e.currentTarget.dataset.subcategory);
+        this.renderFinanceSubcategory(subIndex);
+      });
+    });
+
+    // 显示第一个子分类
+    this.renderFinanceSubcategory(0);
+  }
+
+  renderFinanceSubcategory(subIndex) {
+    const container = document.getElementById('main-content');
+    const subcategory = this.financeData.subcategories[subIndex];
+
+    // 筛选该子分类的产品
+    const products = this.financeData.products.filter(p =>
+      p.tags && p.tags.some(tag => subcategory.includes(tag) || p.nameCn.includes(subcategory.split(' ')[0]))
+    );
+
+    container.innerHTML = `
+      <div class="category-header">
+        <h2 class="category-title">
+          <span>${this.financeData.emoji}</span>
+          ${subcategory}
+        </h2>
+        <p class="category-desc">${this.financeData.nameEn}</p>
+        <div class="category-badge">${this.financeData.badge}</div>
+      </div>
+
+      <div class="products-list">
+        ${products.length > 0 ? products.map(product => this.renderProductCard(product)).join('') : '<p>该分类暂无内容</p>'}
       </div>
     `;
   }

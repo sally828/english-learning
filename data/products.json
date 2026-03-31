@@ -3,2559 +3,152 @@
   "version": "4.0",
   "lastUpdate": "2026-03-31",
   "stats": {
-    "totalCategories": 12,
-    "totalProducts": 11,
-    "totalTerms": 488
+    "totalCategories": 11,
+    "totalProducts": 60,
+    "totalTerms": 0
   },
   "categories": [
-    {
-      "id": "finance_english",
-      "emoji": "📊",
-      "nameCn": "财务英语 & 职场表达",
-      "nameEn": "Finance English & Workplace Communication",
-      "descEn": "CFO Vocabulary · Meeting Phrases · Grammar Patterns · Industry Policy",
-      "badge": "专为Sally定制 — 基于外教课逐字稿 + CFO实战场景",
-      "color": "#7c3aed",
-      "subcategories": [
-        "CFO核心词汇",
-        "会议与沟通",
-        "Present Perfect",
-        "介词与固定搭配",
-        "医疗器械职场英语",
-        "行业政策英语"
-      ],
-      "products": [
-        {
-          "id": "fe1",
-          "icon": "💰",
-          "image": "images/img1.png",
-          "nameEn": "CFO Core Vocabulary",
-          "nameCn": "CFO核心财务词汇",
-          "tags": [
-            "高频",
-            "职场必备",
-            "200词"
-          ],
-          "description": "Comprehensive financial vocabulary for CFO-level communication. Covers budgeting, cost management, fundraising, audit, IPO preparation, and financial reporting — all based on Sally's real work at an aerospace engine company and Weigao.",
-          "terms": [
-            {
-              "cn": "全面预算管理",
-              "en": "comprehensive budget management",
-              "ipa": "ˌkɒmprɪˈhensɪv ˈbʌdʒɪt ˈmænɪdʒmənt"
-            },
-            {
-              "cn": "年度预算",
-              "en": "annual budget",
-              "ipa": "ˈænjuəl ˈbʌdʒɪt"
-            },
-            {
-              "cn": "预算编制",
-              "en": "budget preparation",
-              "ipa": "ˈbʌdʒɪt ˌprepəˈreɪʃn"
-            },
-            {
-              "cn": "预算执行",
-              "en": "budget execution",
-              "ipa": "ˈbʌdʒɪt ˌeksɪˈkjuːʃn"
-            },
-            {
-              "cn": "预算偏差分析",
-              "en": "budget variance analysis",
-              "ipa": "ˈbʌdʒɪt ˈveəriəns əˈnæləsɪs"
-            },
-            {
-              "cn": "预实分析",
-              "en": "budget vs actual analysis",
-              "ipa": "ˈbʌdʒɪt vɜːrsəs ˈæktʃuəl əˈnæləsɪs"
-            },
-            {
-              "cn": "滚动预测",
-              "en": "rolling forecast",
-              "ipa": "ˈroʊlɪŋ ˈfɔːrkæst"
-            },
-            {
-              "cn": "财务预测",
-              "en": "financial forecast",
-              "ipa": "faɪˈnænʃəl ˈfɔːrkæst"
-            },
-            {
-              "cn": "长期规划",
-              "en": "long-term planning",
-              "ipa": "lɒŋ tɜːrm ˈplænɪŋ"
-            },
-            {
-              "cn": "战略规划",
-              "en": "strategic planning",
-              "ipa": "strəˈtiːdʒɪk ˈplænɪŋ"
-            },
-            {
-              "cn": "资本支出",
-              "en": "capital expenditure (CAPEX)",
-              "ipa": "ˈkæpɪtl ɪkˈspendɪtʃər"
-            },
-            {
-              "cn": "运营支出",
-              "en": "operating expenditure (OPEX)",
-              "ipa": "ˈɒpəreɪtɪŋ ɪkˈspendɪtʃər"
-            },
-            {
-              "cn": "分配预算",
-              "en": "allocate budget",
-              "ipa": "ˈæləkeɪt ˈbʌdʒɪt"
-            },
-            {
-              "cn": "划拨资金",
-              "en": "allocate funds",
-              "ipa": "ˈæləkeɪt fʌndz"
-            },
-            {
-              "cn": "预算超支",
-              "en": "budget overrun",
-              "ipa": "ˈbʌdʒɪt ˌoʊvərˈrʌn"
-            },
-            {
-              "cn": "节约预算",
-              "en": "budget savings",
-              "ipa": "ˈbʌdʒɪt ˈseɪvɪŋz"
-            },
-            {
-              "cn": "重新分配资源",
-              "en": "reallocate resources",
-              "ipa": "ˌriːˈæləkeɪt ˈriːsɔːrsɪz"
-            },
-            {
-              "cn": "成本核算",
-              "en": "cost accounting",
-              "ipa": "kɒst əˈkaʊntɪŋ"
-            },
-            {
-              "cn": "成本分摊",
-              "en": "cost allocation",
-              "ipa": "kɒst ˌæləˈkeɪʃn"
-            },
-            {
-              "cn": "成本控制",
-              "en": "cost control",
-              "ipa": "kɒst kənˈtroʊl"
-            },
-            {
-              "cn": "降本增效",
-              "en": "cost reduction and efficiency improvement",
-              "ipa": "kɒst rɪˈdʌkʃn ænd ɪˈfɪʃənsi ɪmˈpruːvmənt"
-            },
-            {
-              "cn": "批次成本核算",
-              "en": "batch cost accounting",
-              "ipa": "bætʃ kɒst əˈkaʊntɪŋ"
-            },
-            {
-              "cn": "工序成本追踪",
-              "en": "process-level cost tracking",
-              "ipa": "ˈprəʊses levl kɒst ˈtrækɪŋ"
-            },
-            {
-              "cn": "标准成本",
-              "en": "standard cost",
-              "ipa": "ˈstændərd kɒst"
-            },
-            {
-              "cn": "实际成本",
-              "en": "actual cost",
-              "ipa": "ˈæktʃuəl kɒst"
-            },
-            {
-              "cn": "成本差异",
-              "en": "cost variance",
-              "ipa": "kɒst ˈveəriəns"
-            },
-            {
-              "cn": "间接成本",
-              "en": "indirect cost / overhead",
-              "ipa": "ˌɪndɪˈrekt kɒst"
-            },
-            {
-              "cn": "直接成本",
-              "en": "direct cost",
-              "ipa": "daɪˈrekt kɒst"
-            },
-            {
-              "cn": "固定成本",
-              "en": "fixed cost",
-              "ipa": "fɪkst kɒst"
-            },
-            {
-              "cn": "变动成本",
-              "en": "variable cost",
-              "ipa": "ˈveəriəbl kɒst"
-            },
-            {
-              "cn": "边际成本",
-              "en": "marginal cost",
-              "ipa": "ˈmɑːrdʒɪnəl kɒst"
-            },
-            {
-              "cn": "比价模型",
-              "en": "price comparison model",
-              "ipa": "praɪs ˌkɒmpəˈrɪsən ˈmɒdl"
-            },
-            {
-              "cn": "节约采购成本",
-              "en": "reduce procurement costs",
-              "ipa": "rɪˈdjuːs prəˈkjʊərmənt kɒsts"
-            },
-            {
-              "cn": "盘活存货",
-              "en": "liquidate idle inventory",
-              "ipa": "ˈlɪkwɪdeɪt ˈaɪdl ˈɪnvəntri"
-            },
-            {
-              "cn": "库龄分析",
-              "en": "inventory aging analysis",
-              "ipa": "ˈɪnvəntri ˈeɪdʒɪŋ əˈnæləsɪs"
-            },
-            {
-              "cn": "工艺优化节约成本",
-              "en": "process optimization to reduce costs",
-              "ipa": "ˈprəʊses ˌɒptɪmaɪˈzeɪʃn"
-            },
-            {
-              "cn": "挽回财产损失",
-              "en": "recover financial losses",
-              "ipa": "rɪˈkʌvər faɪˈnænʃəl ˈlɒsɪz"
-            },
-            {
-              "cn": "资金管理",
-              "en": "cash management",
-              "ipa": "kæʃ ˈmænɪdʒmənt"
-            },
-            {
-              "cn": "现金流",
-              "en": "cash flow",
-              "ipa": "kæʃ floʊ"
-            },
-            {
-              "cn": "经营性现金流",
-              "en": "operating cash flow",
-              "ipa": "ˈɒpəreɪtɪŋ kæʃ floʊ"
-            },
-            {
-              "cn": "自由现金流",
-              "en": "free cash flow",
-              "ipa": "friː kæʃ floʊ"
-            },
-            {
-              "cn": "现金流预测",
-              "en": "cash flow forecast",
-              "ipa": "kæʃ floʊ ˈfɔːrkæst"
-            },
-            {
-              "cn": "债权融资",
-              "en": "debt financing",
-              "ipa": "det ˈfaɪnænsɪŋ"
-            },
-            {
-              "cn": "股权融资",
-              "en": "equity financing",
-              "ipa": "ˈekwɪti ˈfaɪnænsɪŋ"
-            },
-            {
-              "cn": "银行授信额度",
-              "en": "bank credit facility",
-              "ipa": "bæŋk ˈkredɪt fəˈsɪlɪti"
-            },
-            {
-              "cn": "拓展授信额度",
-              "en": "expand credit line",
-              "ipa": "ɪkˈspænd ˈkredɪt laɪn"
-            },
-            {
-              "cn": "贷款利率",
-              "en": "loan interest rate",
-              "ipa": "loʊn ˈɪntrəst reɪt"
-            },
-            {
-              "cn": "节约资金成本",
-              "en": "reduce financing costs",
-              "ipa": "rɪˈdjuːs ˈfaɪnænsɪŋ kɒsts"
-            },
-            {
-              "cn": "理财模型",
-              "en": "investment management model",
-              "ipa": "ɪnˈvestmənt ˈmænɪdʒmənt ˈmɒdl"
-            },
-            {
-              "cn": "投资收益",
-              "en": "investment returns",
-              "ipa": "ɪnˈvestmənt rɪˈtɜːrnz"
-            },
-            {
-              "cn": "应收账款",
-              "en": "accounts receivable",
-              "ipa": "əˈkaʊnts rɪˈsiːvəbl"
-            },
-            {
-              "cn": "应付账款",
-              "en": "accounts payable",
-              "ipa": "əˈkaʊnts ˈpeɪəbl"
-            },
-            {
-              "cn": "回款周期",
-              "en": "collection cycle / days sales outstanding",
-              "ipa": "kəˈlekʃn ˈsaɪkl"
-            },
-            {
-              "cn": "流动资金",
-              "en": "working capital",
-              "ipa": "ˈwɜːrkɪŋ ˈkæpɪtl"
-            },
-            {
-              "cn": "资产负债率",
-              "en": "debt-to-asset ratio",
-              "ipa": "det tuː ˈæset ˈreɪʃioʊ"
-            },
-            {
-              "cn": "财务报告",
-              "en": "financial report",
-              "ipa": "faɪˈnænʃəl rɪˈpɔːrt"
-            },
-            {
-              "cn": "财务报表",
-              "en": "financial statements",
-              "ipa": "faɪˈnænʃəl ˈsteɪtmənts"
-            },
-            {
-              "cn": "损益表",
-              "en": "profit and loss statement (P&L)",
-              "ipa": "ˈprɒfɪt ænd lɒs ˈsteɪtmənt"
-            },
-            {
-              "cn": "资产负债表",
-              "en": "balance sheet",
-              "ipa": "ˈbæləns ʃiːt"
-            },
-            {
-              "cn": "现金流量表",
-              "en": "cash flow statement",
-              "ipa": "kæʃ floʊ ˈsteɪtmənt"
-            },
-            {
-              "cn": "合并报表",
-              "en": "consolidated financial statements",
-              "ipa": "kənˈsɒlɪdeɪtɪd faɪˈnænʃəl ˈsteɪtmənts"
-            },
-            {
-              "cn": "季度报告",
-              "en": "quarterly report",
-              "ipa": "ˈkwɔːrtərli rɪˈpɔːrt"
-            },
-            {
-              "cn": "年度报告",
-              "en": "annual report",
-              "ipa": "ˈænjuəl rɪˈpɔːrt"
-            },
-            {
-              "cn": "管理层讨论与分析",
-              "en": "management discussion and analysis (MD&A)",
-              "ipa": "ˈmænɪdʒmənt dɪˈskʌʃn"
-            },
-            {
-              "cn": "收入确认",
-              "en": "revenue recognition",
-              "ipa": "ˈrevənjuː ˌrekəɡˈnɪʃn"
-            },
-            {
-              "cn": "毛利率",
-              "en": "gross margin",
-              "ipa": "ɡroʊs ˈmɑːrdʒɪn"
-            },
-            {
-              "cn": "净利润率",
-              "en": "net profit margin",
-              "ipa": "net ˈprɒfɪt ˈmɑːrdʒɪn"
-            },
-            {
-              "cn": "息税前利润",
-              "en": "EBITDA",
-              "ipa": "ˌiːbɪtˈdɑː"
-            },
-            {
-              "cn": "同比增长",
-              "en": "year-on-year growth",
-              "ipa": "jɪər ɒn jɪər ɡroʊθ"
-            },
-            {
-              "cn": "环比增长",
-              "en": "quarter-on-quarter growth",
-              "ipa": "ˈkwɔːrtər ɒn ˈkwɔːrtər ɡroʊθ"
-            },
-            {
-              "cn": "核对/对账",
-              "en": "reconcile",
-              "ipa": "ˈrekənsaɪl"
-            },
-            {
-              "cn": "银行对账",
-              "en": "bank reconciliation",
-              "ipa": "bæŋk ˌrekənsɪliˈeɪʃn"
-            },
-            {
-              "cn": "账实不符",
-              "en": "discrepancy between books and assets",
-              "ipa": "dɪˈskrepənsi"
-            },
-            {
-              "cn": "历史数据重建",
-              "en": "historical data reconstruction",
-              "ipa": "hɪˈstɒrɪkl ˈdeɪtə ˌriːkənˈstrʌkʃn"
-            },
-            {
-              "cn": "内部控制",
-              "en": "internal controls",
-              "ipa": "ɪnˈtɜːrnl kənˈtroʊlz"
-            },
-            {
-              "cn": "内控体系建设",
-              "en": "internal control framework implementation",
-              "ipa": "ɪnˈtɜːrnl kənˈtroʊl ˈfreɪmwɜːrk"
-            },
-            {
-              "cn": "合规管理",
-              "en": "compliance management",
-              "ipa": "kəmˈplaɪəns ˈmænɪdʒmənt"
-            },
-            {
-              "cn": "审计",
-              "en": "audit",
-              "ipa": "ˈɔːdɪt"
-            },
-            {
-              "cn": "审计师",
-              "en": "auditor",
-              "ipa": "ˈɔːdɪtər"
-            },
-            {
-              "cn": "外部审计",
-              "en": "external audit",
-              "ipa": "ɪkˈstɜːrnl ˈɔːdɪt"
-            },
-            {
-              "cn": "内部审计",
-              "en": "internal audit",
-              "ipa": "ɪnˈtɜːrnl ˈɔːdɪt"
-            },
-            {
-              "cn": "审计报告",
-              "en": "audit report",
-              "ipa": "ˈɔːdɪt rɪˈpɔːrt"
-            },
-            {
-              "cn": "批准/审批",
-              "en": "approve",
-              "ipa": "əˈpruːv"
-            },
-            {
-              "cn": "授权审批",
-              "en": "authorization and approval",
-              "ipa": "ˌɔːθəraɪˈzeɪʃn ænd əˈpruːvl"
-            },
-            {
-              "cn": "签字权限",
-              "en": "signing authority",
-              "ipa": "ˈsaɪnɪŋ ɔːˈθɒrɪti"
-            },
-            {
-              "cn": "职责分离",
-              "en": "segregation of duties",
-              "ipa": "ˌseɡrɪˈɡeɪʃn əv ˈdjuːtɪz"
-            },
-            {
-              "cn": "内控管控要点",
-              "en": "key control points",
-              "ipa": "kiː kənˈtroʊl pɔɪnts"
-            },
-            {
-              "cn": "销售管理制度",
-              "en": "sales management policy",
-              "ipa": "seɪlz ˈmænɪdʒmənt ˈpɒləsi"
-            },
-            {
-              "cn": "采购管理制度",
-              "en": "procurement management policy",
-              "ipa": "prəˈkjʊərmənt ˈmænɪdʒmənt ˈpɒləsi"
-            },
-            {
-              "cn": "科研管理制度",
-              "en": "R&D management policy",
-              "ipa": "ˌɑːr ænd ˈdiː ˈmænɪdʒmənt ˈpɒləsi"
-            },
-            {
-              "cn": "风险识别",
-              "en": "risk identification",
-              "ipa": "rɪsk aɪˌdentɪfɪˈkeɪʃn"
-            },
-            {
-              "cn": "风险缓解",
-              "en": "risk mitigation",
-              "ipa": "rɪsk ˌmɪtɪˈɡeɪʃn"
-            },
-            {
-              "cn": "降低风险",
-              "en": "mitigate risk",
-              "ipa": "ˈmɪtɪɡeɪt rɪsk"
-            },
-            {
-              "cn": "或有负债",
-              "en": "contingent liability",
-              "ipa": "kənˈtɪndʒənt laɪəˈbɪlɪti"
-            },
-            {
-              "cn": "首次公开募股",
-              "en": "IPO (Initial Public Offering)",
-              "ipa": "ˌɪnɪʃəl ˈpʌblɪk ˈɒfərɪŋ"
-            },
-            {
-              "cn": "上市",
-              "en": "go public / get listed",
-              "ipa": "ɡoʊ ˈpʌblɪk"
-            },
-            {
-              "cn": "IPO卡点",
-              "en": "IPO bottleneck / compliance issue",
-              "ipa": "aɪpiːoʊ ˈbɒtlnek"
-            },
-            {
-              "cn": "财务规范化",
-              "en": "financial compliance and standardization",
-              "ipa": "faɪˈnænʃəl kəmˈplaɪəns"
-            },
-            {
-              "cn": "混乱账目重建",
-              "en": "financial records reconstruction",
-              "ipa": "faɪˈnænʃəl ˈrekɔːrdz ˌriːkənˈstrʌkʃn"
-            },
-            {
-              "cn": "问询函答复",
-              "en": "response to regulatory inquiry",
-              "ipa": "rɪˈspɒns tuː ˌreɡjʊˈleɪtəri ˈɪŋkwəri"
-            },
-            {
-              "cn": "募集资金",
-              "en": "raise funds / proceeds from IPO",
-              "ipa": "reɪz fʌndz"
-            },
-            {
-              "cn": "上市条件",
-              "en": "listing requirements",
-              "ipa": "ˈlɪstɪŋ rɪˈkwaɪərments"
-            },
-            {
-              "cn": "尽职调查",
-              "en": "due diligence",
-              "ipa": "djuː ˈdɪlɪdʒəns"
-            },
-            {
-              "cn": "中国证监会",
-              "en": "CSRC (China Securities Regulatory Commission)",
-              "ipa": "ˌtʃaɪnə sɪˈkjʊərɪtɪz ˌreɡjʊˈleɪtəri kəˈmɪʃn"
-            },
-            {
-              "cn": "证券法规",
-              "en": "securities regulations",
-              "ipa": "sɪˈkjʊərɪtɪz ˌreɡjʊˈleɪʃnz"
-            },
-            {
-              "cn": "信息披露",
-              "en": "information disclosure",
-              "ipa": "ˌɪnfəˈmeɪʃn dɪsˈkloʊʒər"
-            },
-            {
-              "cn": "股东权益",
-              "en": "shareholders' equity",
-              "ipa": "ˈʃeəhoʊldərz ˈekwɪti"
-            },
-            {
-              "cn": "每股收益",
-              "en": "earnings per share (EPS)",
-              "ipa": "ˈɜːrnɪŋz pər ʃeər"
-            },
-            {
-              "cn": "市盈率",
-              "en": "price-to-earnings ratio (P/E)",
-              "ipa": "praɪs tuː ˈɜːrnɪŋz ˈreɪʃioʊ"
-            },
-            {
-              "cn": "ERP系统",
-              "en": "ERP system (Enterprise Resource Planning)",
-              "ipa": "ˌentəpraɪz ˈriːsɔːrs ˈplænɪŋ"
-            },
-            {
-              "cn": "信息化建设",
-              "en": "IT system implementation",
-              "ipa": "aɪtiː ˈsɪstəm ˌɪmplɪmenˈteɪʃn"
-            },
-            {
-              "cn": "业财一体化",
-              "en": "business-finance integration",
-              "ipa": "ˈbɪznɪs ˈfaɪnæns ˌɪntɪˈɡreɪʃn"
-            },
-            {
-              "cn": "从零到一搭建",
-              "en": "build from scratch",
-              "ipa": "bɪld frɒm skrætʃ"
-            },
-            {
-              "cn": "系统上线",
-              "en": "system go-live",
-              "ipa": "ˈsɪstəm ɡoʊ laɪv"
-            },
-            {
-              "cn": "数据导入",
-              "en": "data migration",
-              "ipa": "ˈdeɪtə maɪˈɡreɪʃn"
-            },
-            {
-              "cn": "数字化转型",
-              "en": "digital transformation",
-              "ipa": "ˈdɪdʒɪtl trænsˌfɔːrˈmeɪʃn"
-            },
-            {
-              "cn": "绩效管理",
-              "en": "performance management",
-              "ipa": "pəˈfɔːrməns ˈmænɪdʒmənt"
-            },
-            {
-              "cn": "关键绩效指标",
-              "en": "KPI (Key Performance Indicator)",
-              "ipa": "kiː pəˈfɔːrməns ˈɪndɪkeɪtər"
-            },
-            {
-              "cn": "投资回报率",
-              "en": "ROI (Return on Investment)",
-              "ipa": "rɪˈtɜːrn ɒn ɪnˈvestmənt"
-            },
-            {
-              "cn": "财务分析",
-              "en": "financial analysis",
-              "ipa": "faɪˈnænʃəl əˈnæləsɪs"
-            },
-            {
-              "cn": "盈利能力分析",
-              "en": "profitability analysis",
-              "ipa": "ˌprɒfɪtəˈbɪlɪti əˈnæləsɪs"
-            },
-            {
-              "cn": "政企合作项目投资分析",
-              "en": "public-private partnership investment analysis",
-              "ipa": "ˈpʌblɪk ˈpraɪvət ˈpɑːrtnərʃɪp"
-            },
-            {
-              "cn": "估值",
-              "en": "valuation",
-              "ipa": "ˌvæljuˈeɪʃn"
-            },
-            {
-              "cn": "现金流折现",
-              "en": "discounted cash flow (DCF)",
-              "ipa": "dɪˈskaʊntɪd kæʃ floʊ"
-            },
-            {
-              "cn": "敏感性分析",
-              "en": "sensitivity analysis",
-              "ipa": "ˌsensɪˈtɪvɪti əˈnæləsɪs"
-            },
-            {
-              "cn": "军工审价",
-              "en": "military product price audit",
-              "ipa": "ˈmɪlɪtri ˈprɒdʌkt praɪs ˈɔːdɪt"
-            },
-            {
-              "cn": "军品定价模型",
-              "en": "military product pricing model",
-              "ipa": "ˈmɪlɪtri ˈprɒdʌkt ˈpraɪsɪŋ ˈmɒdl"
-            },
-            {
-              "cn": "审价周期",
-              "en": "price audit cycle",
-              "ipa": "praɪs ˈɔːdɪt ˈsaɪkl"
-            },
-            {
-              "cn": "报价",
-              "en": "quotation / price quote",
-              "ipa": "kwoʊˈteɪʃn"
-            },
-            {
-              "cn": "成本预审",
-              "en": "pre-audit cost review",
-              "ipa": "priː ˈɔːdɪt kɒst rɪˈvjuː"
-            },
-            {
-              "cn": "监督/负责",
-              "en": "oversee",
-              "ipa": "ˌoʊvərˈsiː"
-            },
-            {
-              "cn": "执行",
-              "en": "execute",
-              "ipa": "ˈeksɪkjuːt"
-            },
-            {
-              "cn": "实施",
-              "en": "implement",
-              "ipa": "ˈɪmplɪment"
-            },
-            {
-              "cn": "评估",
-              "en": "evaluate",
-              "ipa": "ɪˈvæljueɪt"
-            },
-            {
-              "cn": "审查",
-              "en": "review",
-              "ipa": "rɪˈvjuː"
-            },
-            {
-              "cn": "核实",
-              "en": "verify",
-              "ipa": "ˈverɪfaɪ"
-            },
-            {
-              "cn": "优化",
-              "en": "optimize",
-              "ipa": "ˈɒptɪmaɪz"
-            },
-            {
-              "cn": "整合",
-              "en": "integrate",
-              "ipa": "ˈɪntɪɡreɪt"
-            },
-            {
-              "cn": "协调",
-              "en": "coordinate",
-              "ipa": "koʊˈɔːrdɪneɪt"
-            },
-            {
-              "cn": "推动",
-              "en": "drive / facilitate",
-              "ipa": "draɪv"
-            },
-            {
-              "cn": "识别风险",
-              "en": "identify risks",
-              "ipa": "aɪˈdentɪfaɪ rɪsks"
-            },
-            {
-              "cn": "提交报告",
-              "en": "submit a report",
-              "ipa": "səbˈmɪt ə rɪˈpɔːrt"
-            }
-          ]
-        },
-        {
-          "id": "fe2",
-          "icon": "🗣️",
-          "image": "images/img1.png",
-          "nameEn": "Meeting & Communication Phrases",
-          "nameCn": "会议与职场沟通用语",
-          "tags": [
-            "实战",
-            "立即可用",
-            "150词"
-          ],
-          "description": "Professional English for meetings, presentations, negotiations, and cross-cultural communication. Covers opening, interrupting, agreeing, disagreeing, summarizing, following up, and email communication.",
-          "terms": [
-            {
-              "cn": "我们开始吧",
-              "en": "let's get started / let's kick things off",
-              "ipa": "lets ɡet ˈstɑːrtɪd"
-            },
-            {
-              "cn": "今天议程是",
-              "en": "today's agenda covers",
-              "ipa": "təˈdeɪz əˈdʒendə ˈkʌvərz"
-            },
-            {
-              "cn": "首先我想讨论",
-              "en": "first, I'd like to discuss",
-              "ipa": "fɜːrst aɪd laɪk tuː dɪˈskʌs"
-            },
-            {
-              "cn": "感谢大家拨冗出席",
-              "en": "thank you all for making time",
-              "ipa": "θæŋk juː ɔːl fɔːr ˈmeɪkɪŋ taɪm"
-            },
-            {
-              "cn": "我们有X分钟",
-              "en": "we have X minutes",
-              "ipa": "wiː hæv ˈmɪnɪts"
-            },
-            {
-              "cn": "让我先做个简单介绍",
-              "en": "let me start with a brief overview",
-              "ipa": "let miː stɑːrt wɪð ə briːf ˈoʊvərvjuː"
-            },
-            {
-              "cn": "数据显示",
-              "en": "the data shows / the figures indicate",
-              "ipa": "ðə ˈdeɪtə ʃoʊz"
-            },
-            {
-              "cn": "与上季度相比",
-              "en": "compared to last quarter",
-              "ipa": "kəmˈpeərd tuː lɑːst ˈkwɔːrtər"
-            },
-            {
-              "cn": "同比增长X%",
-              "en": "year-on-year increase of X%",
-              "ipa": "jɪər ɒn jɪər ˈɪŋkriːs"
-            },
-            {
-              "cn": "这个数字代表",
-              "en": "this figure represents",
-              "ipa": "ðɪs ˈfɪɡər ˌreprɪˈzents"
-            },
-            {
-              "cn": "值得注意的是",
-              "en": "it's worth noting that",
-              "ipa": "ɪts wɜːrθ ˈnoʊtɪŋ ðæt"
-            },
-            {
-              "cn": "总体而言",
-              "en": "overall / on the whole",
-              "ipa": "ˌoʊvərˈɔːl"
-            },
-            {
-              "cn": "换个角度看",
-              "en": "to put this in perspective",
-              "ipa": "tuː pʊt ðɪs ɪn pəˈspektɪv"
-            },
-            {
-              "cn": "打断一下",
-              "en": "sorry to interrupt",
-              "ipa": "ˈsɒri tuː ˌɪntəˈrʌpt"
-            },
-            {
-              "cn": "请允许我确认一下",
-              "en": "could I just clarify",
-              "ipa": "kʊd aɪ dʒʌst ˈklærɪfaɪ"
-            },
-            {
-              "cn": "可以让我补充一点吗",
-              "en": "could I just add something",
-              "ipa": "kʊd aɪ dʒʌst æd ˈsʌmθɪŋ"
-            },
-            {
-              "cn": "请稍等一下",
-              "en": "if I could just stop you there",
-              "ipa": "ɪf aɪ kʊd dʒʌst stɒp juː ðeər"
-            },
-            {
-              "cn": "关于这点，我有一个问题",
-              "en": "on that point, I have a question",
-              "ipa": "ɒn ðæt pɔɪnt"
-            },
-            {
-              "cn": "我没听清楚",
-              "en": "I didn't quite catch that",
-              "ipa": "aɪ ˈdɪdnt kwaɪt kætʃ ðæt"
-            },
-            {
-              "cn": "你能重复一下吗",
-              "en": "could you repeat that",
-              "ipa": "kʊd juː rɪˈpiːt ðæt"
-            },
-            {
-              "cn": "你是指……吗",
-              "en": "do you mean",
-              "ipa": "duː juː miːn"
-            },
-            {
-              "cn": "请问你能展开说说吗",
-              "en": "could you elaborate on that",
-              "ipa": "kʊd juː ɪˈlæbəreɪt ɒn ðæt"
-            },
-            {
-              "cn": "我想确认一下我理解是否正确",
-              "en": "just to confirm my understanding",
-              "ipa": "dʒʌst tuː kənˈfɜːrm maɪ ˌʌndəˈstændɪŋ"
-            },
-            {
-              "cn": "你的意思是说……？",
-              "en": "so what you're saying is",
-              "ipa": "soʊ wɒt jɔːr ˈseɪɪŋ ɪz"
-            },
-            {
-              "cn": "换句话说",
-              "en": "in other words",
-              "ipa": "ɪn ˈʌðər wɜːrdz"
-            },
-            {
-              "cn": "我同意",
-              "en": "I agree / I think that's right",
-              "ipa": "aɪ əˈɡriː"
-            },
-            {
-              "cn": "正是如此",
-              "en": "exactly / that's exactly right",
-              "ipa": "ɪɡˈzæktli"
-            },
-            {
-              "cn": "说得对",
-              "en": "that's a good point",
-              "ipa": "ðæts ə ɡʊd pɔɪnt"
-            },
-            {
-              "cn": "我完全赞同",
-              "en": "I completely agree",
-              "ipa": "aɪ kəmˈpliːtli əˈɡriː"
-            },
-            {
-              "cn": "我支持这个提案",
-              "en": "I'm in favor of this proposal",
-              "ipa": "aɪm ɪn ˈfeɪvər"
-            },
-            {
-              "cn": "我有不同看法",
-              "en": "I see it differently / I'd like to offer a different perspective",
-              "ipa": "aɪ siː ɪt ˈdɪfrəntli"
-            },
-            {
-              "cn": "我理解你的观点，但是……",
-              "en": "I understand your point, however",
-              "ipa": "aɪ ˌʌndəˈstænd jɔːr pɔɪnt haʊˈevər"
-            },
-            {
-              "cn": "这是个好主意，不过……",
-              "en": "that's a good idea, but",
-              "ipa": "ðæts ə ɡʊd aɪˈdɪə bʌt"
-            },
-            {
-              "cn": "我不太确定这个方向",
-              "en": "I'm not entirely convinced",
-              "ipa": "aɪm nɒt ɪnˈtaɪərli kənˈvɪnst"
-            },
-            {
-              "cn": "我们是否考虑过另一个方案",
-              "en": "have we considered an alternative",
-              "ipa": "həv wiː kənˈsɪdərd ən ɔːlˈtɜːrnətɪv"
-            },
-            {
-              "cn": "这是个好问题，让我想一下",
-              "en": "that's a good question, let me think",
-              "ipa": "ðæts ə ɡʊd ˈkwestʃən let miː θɪŋk"
-            },
-            {
-              "cn": "我需要确认一下数据",
-              "en": "let me double-check the figures",
-              "ipa": "let miː ˈdʌbl tʃek ðə ˈfɪɡərz"
-            },
-            {
-              "cn": "我回去查一下再回复你",
-              "en": "let me get back to you on that",
-              "ipa": "let miː ɡet bæk tuː juː ɒn ðæt"
-            },
-            {
-              "cn": "容我考虑一下",
-              "en": "give me a moment to think",
-              "ipa": "ɡɪv miː ə ˈmoʊmənt tuː θɪŋk"
-            },
-            {
-              "cn": "总结一下",
-              "en": "to summarize / to wrap up",
-              "ipa": "tuː ˈsʌməraɪz"
-            },
-            {
-              "cn": "今后/接下来",
-              "en": "moving forward",
-              "ipa": "ˈmuːvɪŋ ˈfɔːrwərd"
-            },
-            {
-              "cn": "行动事项",
-              "en": "action items",
-              "ipa": "ˈækʃn ˈaɪtəmz"
-            },
-            {
-              "cn": "负责人是……截止日期是……",
-              "en": "the owner is … and the deadline is",
-              "ipa": "ðə ˈoʊnər ɪz"
-            },
-            {
-              "cn": "下次会议定在",
-              "en": "let's schedule the next meeting for",
-              "ipa": "lets ˈskedʒuːl ðə nekst ˈmiːtɪŋ"
-            },
-            {
-              "cn": "稍后再回到这个话题",
-              "en": "let's circle back to this",
-              "ipa": "lets ˈsɜːrkl bæk tuː ðɪs"
-            },
-            {
-              "cn": "私下讨论",
-              "en": "let's take this offline",
-              "ipa": "lets teɪk ðɪs ˈɒflaɪn"
-            },
-            {
-              "cn": "暂时搁置",
-              "en": "let's park that for now",
-              "ipa": "lets pɑːrk ðæt fɔːr naʊ"
-            },
-            {
-              "cn": "我们超时了",
-              "en": "we're running over time",
-              "ipa": "wɪər ˈrʌnɪŋ ˈoʊvər taɪm"
-            },
-            {
-              "cn": "今天就到这里",
-              "en": "let's call it a day / let's stop here",
-              "ipa": "lets kɔːl ɪt ə deɪ"
-            },
-            {
-              "cn": "跟进",
-              "en": "follow up",
-              "ipa": "ˈfɒloʊ ʌp"
-            },
-            {
-              "cn": "跟进上次讨论",
-              "en": "following up on our last discussion",
-              "ipa": "ˈfɒloʊɪŋ ʌp ɒn aʊər lɑːst dɪˈskʌʃn"
-            },
-            {
-              "cn": "我想了解最新进展",
-              "en": "I'd like an update on",
-              "ipa": "aɪd laɪk ən ˈʌpdeɪt ɒn"
-            },
-            {
-              "cn": "截止日期快到了",
-              "en": "the deadline is approaching",
-              "ipa": "ðə ˈdedlaɪn ɪz əˈproʊtʃɪŋ"
-            },
-            {
-              "cn": "提醒一下",
-              "en": "just a reminder that",
-              "ipa": "dʒʌst ə rɪˈmaɪndər ðæt"
-            },
-            {
-              "cn": "我们的立场是",
-              "en": "our position is",
-              "ipa": "aʊər pəˈzɪʃn ɪz"
-            },
-            {
-              "cn": "这是我们的底线",
-              "en": "this is our bottom line",
-              "ipa": "ðɪs ɪz aʊər ˈbɒtəm laɪn"
-            },
-            {
-              "cn": "我们可以灵活处理",
-              "en": "we have some flexibility on that",
-              "ipa": "wiː hæv sʌm ˌfleksɪˈbɪlɪti"
-            },
-            {
-              "cn": "这超出了我的授权范围",
-              "en": "that's beyond my authority",
-              "ipa": "ðæts bɪˈɒnd maɪ ɔːˈθɒrɪti"
-            },
-            {
-              "cn": "让我们找到一个双赢方案",
-              "en": "let's find a mutually beneficial solution",
-              "ipa": "lets faɪnd ə ˈmjuːtʃuəli ˌbenɪˈfɪʃl səˈluːʃn"
-            },
-            {
-              "cn": "批量采购可以打折",
-              "en": "we can offer a discount for bulk orders",
-              "ipa": "wiː kæn ˈɒfər ə ˈdɪskaʊnt fɔːr bʌlk ˈɔːrdərz"
-            },
-            {
-              "cn": "我需要请示一下",
-              "en": "I'll need to check with my team",
-              "ipa": "aɪl niːd tuː tʃek wɪð maɪ tiːm"
-            },
-            {
-              "cn": "向董事长汇报",
-              "en": "report to the chairman / board",
-              "ipa": "rɪˈpɔːrt tuː ðə ˈtʃeərmən"
-            },
-            {
-              "cn": "展示我们的价值",
-              "en": "demonstrate our value",
-              "ipa": "ˈdemənstreɪt aʊər ˈvæljuː"
-            },
-            {
-              "cn": "根据数据显示",
-              "en": "the data shows / based on the numbers",
-              "ipa": "ðə ˈdeɪtə ʃoʊz"
-            },
-            {
-              "cn": "我们节约了X元",
-              "en": "we have saved X million RMB",
-              "ipa": "wiː həv seɪvd"
-            },
-            {
-              "cn": "这项举措带来了",
-              "en": "this initiative has resulted in",
-              "ipa": "ðɪs ɪˈnɪʃətɪv həz rɪˈzʌltɪd ɪn"
-            },
-            {
-              "cn": "下一步计划是",
-              "en": "the next step is / our plan going forward is",
-              "ipa": "ðə nekst step ɪz"
-            },
-            {
-              "cn": "我们需要您的批准",
-              "en": "we need your approval on",
-              "ipa": "wiː niːd jɔːr əˈpruːvl ɒn"
-            },
-            {
-              "cn": "我写信是关于",
-              "en": "I'm writing regarding / with reference to",
-              "ipa": "aɪm ˈraɪtɪŋ rɪˈɡɑːrdɪŋ"
-            },
-            {
-              "cn": "请查收附件",
-              "en": "please find attached",
-              "ipa": "pliːz faɪnd əˈtætʃt"
-            },
-            {
-              "cn": "如有问题请联系我",
-              "en": "please don't hesitate to reach out",
-              "ipa": "pliːz doʊnt ˈhezɪteɪt tuː riːtʃ aʊt"
-            },
-            {
-              "cn": "期待您的回复",
-              "en": "I look forward to hearing from you",
-              "ipa": "aɪ lʊk ˈfɔːrwərd tuː ˈhɪərɪŋ frɒm juː"
-            },
-            {
-              "cn": "请在X日前回复",
-              "en": "please respond by",
-              "ipa": "pliːz rɪˈspɒnd baɪ"
-            },
-            {
-              "cn": "感谢您的时间",
-              "en": "thank you for your time",
-              "ipa": "θæŋk juː fɔːr jɔːr taɪm"
-            },
-            {
-              "cn": "如我理解有误请指正",
-              "en": "please correct me if I'm wrong",
-              "ipa": "pliːz kəˈrekt miː ɪf aɪm rɒŋ"
-            },
-            {
-              "cn": "首先……其次……最后",
-              "en": "first of all… secondly… finally",
-              "ipa": "fɜːrst əv ɔːl"
-            },
-            {
-              "cn": "不仅……而且",
-              "en": "not only… but also",
-              "ipa": "nɒt ˈoʊnli bʌt ˈɔːlsoʊ"
-            },
-            {
-              "cn": "尽管如此",
-              "en": "nevertheless / that said",
-              "ipa": "ˌnevərðəˈles"
-            },
-            {
-              "cn": "换句话说",
-              "en": "in other words / to put it another way",
-              "ipa": "ɪn ˈʌðər wɜːrdz"
-            },
-            {
-              "cn": "基于此",
-              "en": "based on this / given this",
-              "ipa": "beɪst ɒn ðɪs"
-            },
-            {
-              "cn": "从长远来看",
-              "en": "in the long run / long-term",
-              "ipa": "ɪn ðə lɒŋ rʌn"
-            },
-            {
-              "cn": "就我们而言",
-              "en": "from our perspective / as far as we're concerned",
-              "ipa": "frɒm aʊər pəˈspektɪv"
-            }
-          ]
-        },
-        {
-          "id": "fe3",
-          "icon": "📝",
-          "image": "images/img1.png",
-          "nameEn": "Grammar: Present Perfect — Full Pattern Library",
-          "nameCn": "语法：现在完成时完整句型库",
-          "tags": [
-            "语法重点",
-            "逐字稿错误",
-            "100句型"
-          ],
-          "description": "Complete Present Perfect pattern library, organized by use case. Includes PP (have/has + V3) and PPC (have been + V-ing), with CFO/medical device workplace examples throughout.",
-          "terms": [
-            {
-              "cn": "我最近状态不错",
-              "en": "I've been good",
-              "ipa": "aɪv biːn ɡʊd"
-            },
-            {
-              "cn": "我最近很忙",
-              "en": "I've been really busy",
-              "ipa": "aɪv biːn ˈrɪəli ˈbɪzi"
-            },
-            {
-              "cn": "我最近很好，谢谢",
-              "en": "I've been well, thank you",
-              "ipa": "aɪv biːn wel"
-            },
-            {
-              "cn": "这周还不错",
-              "en": "it's been a good week",
-              "ipa": "ɪts biːn ə ɡʊd wiːk"
-            },
-            {
-              "cn": "这几天挺充实的",
-              "en": "it's been a productive few days",
-              "ipa": "ɪts biːn ə prəˈdʌktɪv fjuː deɪz"
-            },
-            {
-              "cn": "他还没回来",
-              "en": "he hasn't come back yet",
-              "ipa": "hiː ˈhæznt kʌm bæk jet"
-            },
-            {
-              "cn": "她还没有签字",
-              "en": "she hasn't signed off yet",
-              "ipa": "ʃiː ˈhæznt saɪnd ɒf jet"
-            },
-            {
-              "cn": "报告还没出来",
-              "en": "the report hasn't come out yet",
-              "ipa": "ðə rɪˈpɔːrt ˈhæznt kʌm aʊt jet"
-            },
-            {
-              "cn": "我们还没有收到回复",
-              "en": "we haven't received a response yet",
-              "ipa": "wiː ˈhævnt rɪˈsiːvd ə rɪˈspɒns jet"
-            },
-            {
-              "cn": "系统还没上线",
-              "en": "the system hasn't gone live yet",
-              "ipa": "ðə ˈsɪstəm ˈhæznt ɡɒn laɪv jet"
-            },
-            {
-              "cn": "价格还没谈拢",
-              "en": "we haven't agreed on the price yet",
-              "ipa": "wiː ˈhævnt əˈɡriːd ɒn ðə praɪs jet"
-            },
-            {
-              "cn": "我还没见过CEO",
-              "en": "I haven't met the CEO yet",
-              "ipa": "aɪ ˈhævnt met ðə siːiːoʊ jet"
-            },
-            {
-              "cn": "我已经读了报告",
-              "en": "I have already read the report",
-              "ipa": "aɪ həv ˈɔːlredi red ðə rɪˈpɔːrt"
-            },
-            {
-              "cn": "我刚刚回来",
-              "en": "I have just come back",
-              "ipa": "aɪ həv dʒʌst kʌm bæk"
-            },
-            {
-              "cn": "我们刚刚完成了谈判",
-              "en": "we have just finished the negotiation",
-              "ipa": "wiː həv dʒʌst ˈfɪnɪʃt ðə nɪˌɡoʊʃiˈeɪʃn"
-            },
-            {
-              "cn": "报告已经提交了",
-              "en": "the report has already been submitted",
-              "ipa": "ðə rɪˈpɔːrt həz ˈɔːlredi biːn səbˈmɪtɪd"
-            },
-            {
-              "cn": "系统已经上线了",
-              "en": "the system has already gone live",
-              "ipa": "ðə ˈsɪstəm həz ˈɔːlredi ɡɒn laɪv"
-            },
-            {
-              "cn": "预算已经批了",
-              "en": "the budget has already been approved",
-              "ipa": "ðə ˈbʌdʒɪt həz ˈɔːlredi biːn əˈpruːvd"
-            },
-            {
-              "cn": "我们已节约采购成本255万",
-              "en": "we have saved 2.55 million RMB in procurement costs",
-              "ipa": "wiː həv seɪvd"
-            },
-            {
-              "cn": "我们已获得3亿债权融资",
-              "en": "we have obtained 300 million RMB in debt financing",
-              "ipa": "wiː həv əbˈteɪnd"
-            },
-            {
-              "cn": "我从零搭建了财务体系",
-              "en": "I have built the financial management system from scratch",
-              "ipa": "aɪ həv bɪlt"
-            },
-            {
-              "cn": "投资组合实现了829万收益",
-              "en": "our portfolio has generated over 8 million RMB in returns",
-              "ipa": "aʊər ˈpɔːrtfoʊlioʊ həz ˈdʒenəreɪtɪd"
-            },
-            {
-              "cn": "授信额度已扩展至5亿",
-              "en": "we have expanded the credit facility to 500 million RMB",
-              "ipa": "wiː həv ɪkˈspændɪd"
-            },
-            {
-              "cn": "我已盘活695万存货",
-              "en": "we have liquidated 6.95 million RMB of idle inventory",
-              "ipa": "wiː həv ˈlɪkwɪdeɪtɪd"
-            },
-            {
-              "cn": "审价周期已缩短25%",
-              "en": "we have reduced the price audit cycle by 25%",
-              "ipa": "wiː həv rɪˈdjuːst"
-            },
-            {
-              "cn": "我已消除4000万历史账实不符",
-              "en": "we have resolved 40 million RMB in historical discrepancies",
-              "ipa": "wiː həv rɪˈzɒlvd"
-            },
-            {
-              "cn": "贷款利率已低于行业平均3%",
-              "en": "we have secured loan rates 3% below the industry average",
-              "ipa": "wiː həv sɪˈkjʊərd"
-            },
-            {
-              "cn": "政府已将价格降低90%",
-              "en": "the government has reduced the price by 90%",
-              "ipa": "ðə ˈɡʌvənmənt həz rɪˈdjuːst"
-            },
-            {
-              "cn": "集采政策已影响了整个行业",
-              "en": "the procurement policy has impacted the entire industry",
-              "ipa": "ðə prəˈkjʊərmənt ˈpɒləsi həz ˈɪmpæktɪd"
-            },
-            {
-              "cn": "证监会已批准了X家公司上市",
-              "en": "the CSRC has approved X companies to go public",
-              "ipa": "ðə siːesɑːrsiː həz əˈpruːvd"
-            },
-            {
-              "cn": "公司已具备上市条件",
-              "en": "the company has met the listing requirements",
-              "ipa": "ðə ˈkʌmpəni həz met"
-            },
-            {
-              "cn": "你去过上海吗",
-              "en": "have you ever been to Shanghai",
-              "ipa": "həv juː ˈevər biːn tuː ʃæŋˈhaɪ"
-            },
-            {
-              "cn": "我从来没吃过寿司",
-              "en": "I have never eaten sushi",
-              "ipa": "aɪ həv ˈnevər ˈiːtən ˈsuːʃi"
-            },
-            {
-              "cn": "我从未主导过IPO项目",
-              "en": "I have never led an IPO project before",
-              "ipa": "aɪ həv ˈnevər led"
-            },
-            {
-              "cn": "这是我第一次在外资公司工作",
-              "en": "I have never worked for a foreign company before",
-              "ipa": "aɪ həv ˈnevər wɜːrkt"
-            },
-            {
-              "cn": "我爬过黄山",
-              "en": "I have climbed Huangshan",
-              "ipa": "aɪ həv klaɪmd"
-            },
-            {
-              "cn": "我们从未遇到过这种情况",
-              "en": "we have never encountered this situation before",
-              "ipa": "wiː həv ˈnevər ɪnˈkaʊntərd"
-            },
-            {
-              "cn": "我在这个行业工作了11年",
-              "en": "I have worked in this industry for 11 years",
-              "ipa": "aɪ həv wɜːrkt"
-            },
-            {
-              "cn": "公司成立至今已有X年",
-              "en": "the company has been operating for X years",
-              "ipa": "ðə ˈkʌmpəni həz biːn ˈɒpəreɪtɪŋ"
-            },
-            {
-              "cn": "自2022年以来",
-              "en": "since 2022 / since I joined in 2022",
-              "ipa": "sɪns tuː θaʊzənd ænd twenti tuː"
-            },
-            {
-              "cn": "我在CFO职位已经三年了",
-              "en": "I have been CFO for three years",
-              "ipa": "aɪ həv biːn siːefˈoʊ"
-            },
-            {
-              "cn": "我一直在跟Maxim学英语",
-              "en": "I have been studying English with Maxim",
-              "ipa": "aɪ həv biːn ˈstʌdiɪŋ"
-            },
-            {
-              "cn": "我一整个早上都在审文件",
-              "en": "I have been reviewing documents all morning",
-              "ipa": "aɪ həv biːn rɪˈvjuːɪŋ"
-            },
-            {
-              "cn": "我们一直在优化ERP系统",
-              "en": "we have been optimizing the ERP system",
-              "ipa": "wiː həv biːn ˈɒptɪmaɪzɪŋ"
-            },
-            {
-              "cn": "团队一直在准备IPO材料",
-              "en": "the team has been preparing the IPO documents",
-              "ipa": "ðə tiːm həz biːn prɪˈpeərɪŋ"
-            },
-            {
-              "cn": "我一直在搭建这个系统",
-              "en": "I have been building this system",
-              "ipa": "aɪ həv biːn ˈbɪldɪŋ"
-            },
-            {
-              "cn": "我们一直在跟供应商谈判",
-              "en": "we have been negotiating with suppliers",
-              "ipa": "wiː həv biːn nɪˈɡoʊʃieɪtɪŋ"
-            },
-            {
-              "cn": "最近工作压力很大",
-              "en": "I have been under a lot of pressure lately",
-              "ipa": "aɪ həv biːn ˈʌndər"
-            },
-            {
-              "cn": "我一直在学习行业词汇",
-              "en": "I have been learning industry vocabulary",
-              "ipa": "aɪ həv biːn ˈlɜːrnɪŋ"
-            },
-            {
-              "cn": "公司一直在亏损",
-              "en": "the company has been losing money",
-              "ipa": "ðə ˈkʌmpəni həz biːn ˈluːzɪŋ"
-            },
-            {
-              "cn": "研发投入一直在增加",
-              "en": "R&D spending has been increasing",
-              "ipa": "ɑːr ænd diː ˈspendɪŋ həz biːn ɪnˈkriːsɪŋ"
-            },
-            {
-              "cn": "账目已经对清了",
-              "en": "the accounts have been reconciled",
-              "ipa": "ðə əˈkaʊnts həv biːn ˈrekənsaɪld"
-            },
-            {
-              "cn": "报告已提交给董事会",
-              "en": "the report has been submitted to the board",
-              "ipa": "ðə rɪˈpɔːrt həz biːn səbˈmɪtɪd"
-            },
-            {
-              "cn": "预算已经批准",
-              "en": "the budget has been approved",
-              "ipa": "ðə ˈbʌdʒɪt həz biːn əˈpruːvd"
-            },
-            {
-              "cn": "系统已完成测试",
-              "en": "the system has been tested",
-              "ipa": "ðə ˈsɪstəm həz biːn ˈtestɪd"
-            },
-            {
-              "cn": "合同已签署",
-              "en": "the contract has been signed",
-              "ipa": "ðə ˈkɒntrækt həz biːn saɪnd"
-            },
-            {
-              "cn": "供应商已被更换",
-              "en": "the supplier has been replaced",
-              "ipa": "ðə səˈplaɪər həz biːn rɪˈpleɪst"
-            },
-            {
-              "cn": "❌ it was been → ✓ I've been",
-              "en": "I've been good (NOT: it was been good)",
-              "ipa": "aɪv biːn ɡʊd"
-            },
-            {
-              "cn": "❌ hasn't coming → ✓ hasn't come",
-              "en": "he hasn't come back (NOT: hasn't coming)",
-              "ipa": "hiː ˈhæznt kʌm bæk"
-            },
-            {
-              "cn": "❌ have been read → ✓ have read",
-              "en": "I have read the report (NOT: have been read)",
-              "ipa": "aɪ həv red"
-            },
-            {
-              "cn": "❌ successfully install → ✓ have installed",
-              "en": "I have successfully installed it",
-              "ipa": "aɪ həv sʌkˈsesfəli ɪnˈstɔːld"
-            }
-          ]
-        },
-        {
-          "id": "fe4",
-          "icon": "🔗",
-          "image": "images/img1.png",
-          "nameEn": "Grammar: Prepositions & Fixed Phrases",
-          "nameCn": "介词与固定搭配专项",
-          "tags": [
-            "语法重点",
-            "课堂高频错误",
-            "80条"
-          ],
-          "description": "Preposition rules and fixed collocations extracted from Sally's transcripts and CFO workplace context. Covers on/in/at, verb+preposition combinations, noun+preposition, and adjective+preposition patterns.",
-          "terms": [
-            {
-              "cn": "在星期X（规则：星期用on）",
-              "en": "on Monday / on Friday / on weekends",
-              "ipa": "ɒn ˈmʌndeɪ"
-            },
-            {
-              "cn": "在具体日期（规则：日期用on）",
-              "en": "on March 16th / on the 1st of April",
-              "ipa": "ɒn mɑːrtʃ"
-            },
-            {
-              "cn": "在月份（规则：月份用in）",
-              "en": "in March / in October / in December",
-              "ipa": "ɪn mɑːrtʃ"
-            },
-            {
-              "cn": "在年份（规则：年份用in）",
-              "en": "in 2024 / in 2026",
-              "ipa": "ɪn tuː θaʊzənd"
-            },
-            {
-              "cn": "在季度（规则：季度用in）",
-              "en": "in Q3 / in the third quarter",
-              "ipa": "ɪn kjuː θriː"
-            },
-            {
-              "cn": "在早上/下午/晚上（规则：时间段用in）",
-              "en": "in the morning / in the afternoon / in the evening",
-              "ipa": "ɪn ðə ˈmɔːrnɪŋ"
-            },
-            {
-              "cn": "在具体时刻（规则：时刻用at）",
-              "en": "at 8 o'clock / at noon / at midnight",
-              "ipa": "æt eɪt əˈklɒk"
-            },
-            {
-              "cn": "❌ at Friday → ✓ on Friday",
-              "en": "on Friday (NEVER: at Friday)",
-              "ipa": "ɒn ˈfraɪdeɪ"
-            },
-            {
-              "cn": "❌ in Friday → ✓ on Friday",
-              "en": "on Friday (NEVER: in Friday)",
-              "ipa": "ɒn ˈfraɪdeɪ"
-            },
-            {
-              "cn": "❌ at the morning → ✓ in the morning",
-              "en": "in the morning (NEVER: at the morning)",
-              "ipa": "ɪn ðə ˈmɔːrnɪŋ"
-            },
-            {
-              "cn": "从周五到周日",
-              "en": "from Friday to Sunday",
-              "ipa": "frɒm ˈfraɪdeɪ tuː ˈsʌndeɪ"
-            },
-            {
-              "cn": "在节假日（规则：具体节日用on）",
-              "en": "on Christmas / on National Day",
-              "ipa": "ɒn ˈkrɪsməs"
-            },
-            {
-              "cn": "在家（at home）",
-              "en": "at home",
-              "ipa": "æt hoʊm"
-            },
-            {
-              "cn": "在公司/办公室（at the office）",
-              "en": "at the office / at the company",
-              "ipa": "æt ðə ˈɒfɪs"
-            },
-            {
-              "cn": "在学校上课（at school/university）",
-              "en": "at school / at university",
-              "ipa": "æt ˈjuːnɪvɜːrsɪti"
-            },
-            {
-              "cn": "在上海（城市用in）",
-              "en": "in Shanghai / in Beijing / in London",
-              "ipa": "ɪn ʃæŋˈhaɪ"
-            },
-            {
-              "cn": "在中国（国家用in）",
-              "en": "in China / in the UK",
-              "ipa": "ɪn ˈtʃaɪnə"
-            },
-            {
-              "cn": "在会议室（特定地点用in）",
-              "en": "in the meeting room / in the office",
-              "ipa": "ɪn ðə ˈmiːtɪŋ ruːm"
-            },
-            {
-              "cn": "对...负责（必须有be）",
-              "en": "be responsible for",
-              "ipa": "biː rɪˈspɒnsɪbl fɔːr"
-            },
-            {
-              "cn": "适应新环境",
-              "en": "adjust to the environment",
-              "ipa": "əˈdʒʌst tuː ðə ɪnˈvaɪrənmənt"
-            },
-            {
-              "cn": "参加会议/课程（用attend）",
-              "en": "attend a meeting / attend a class",
-              "ipa": "əˈtend ə ˈmiːtɪŋ"
-            },
-            {
-              "cn": "加入公司（用join）",
-              "en": "join a company",
-              "ipa": "dʒɔɪn ə ˈkʌmpəni"
-            },
-            {
-              "cn": "告诉某人某事（用tell）",
-              "en": "tell someone something",
-              "ipa": "tel ˈsʌmwʌn ˈsʌmθɪŋ"
-            },
-            {
-              "cn": "收到请求（用receive）",
-              "en": "receive a request / receive feedback",
-              "ipa": "rɪˈsiːv ə rɪˈkwest"
-            },
-            {
-              "cn": "感染（医学）vs 影响（商业）",
-              "en": "infect (medical) vs affect (business)",
-              "ipa": "ɪnˈfekt vs əˈfekt"
-            },
-            {
-              "cn": "专注于",
-              "en": "focus on",
-              "ipa": "ˈfoʊkəs ɒn"
-            },
-            {
-              "cn": "依赖于",
-              "en": "depend on / rely on",
-              "ipa": "dɪˈpend ɒn"
-            },
-            {
-              "cn": "谈判关于",
-              "en": "negotiate on / negotiate with",
-              "ipa": "nɪˈɡoʊʃieɪt"
-            },
-            {
-              "cn": "申请（用apply for）",
-              "en": "apply for a position / apply for a loan",
-              "ipa": "əˈplaɪ fɔːr"
-            },
-            {
-              "cn": "支付（用pay for）",
-              "en": "pay for the service",
-              "ipa": "peɪ fɔːr"
-            },
-            {
-              "cn": "联系某人（用contact/reach）",
-              "en": "contact HR / reach out to someone",
-              "ipa": "ˈkɒntækt"
-            },
-            {
-              "cn": "提交给（用submit to）",
-              "en": "submit to the board / submit the report to",
-              "ipa": "səbˈmɪt tuː"
-            },
-            {
-              "cn": "同意某事（用agree on/to）",
-              "en": "agree on the terms / agree to the proposal",
-              "ipa": "əˈɡriː ɒn"
-            },
-            {
-              "cn": "结果是（用result in）",
-              "en": "result in cost savings",
-              "ipa": "rɪˈzʌlt ɪn"
-            },
-            {
-              "cn": "基于（用based on）",
-              "en": "based on the data / based on the analysis",
-              "ipa": "beɪst ɒn"
-            },
-            {
-              "cn": "来自（用from）",
-              "en": "information from the report",
-              "ipa": "ɪnfəˈmeɪʃn frɒm"
-            },
-            {
-              "cn": "超出预算（用over）",
-              "en": "over budget / over the limit",
-              "ipa": "ˈoʊvər ˈbʌdʒɪt"
-            },
-            {
-              "cn": "低于目标（用below/under）",
-              "en": "below target / under budget",
-              "ipa": "bɪˈloʊ ˈtɑːrɡɪt"
-            },
-            {
-              "cn": "对...的影响",
-              "en": "impact on / effect on",
-              "ipa": "ˈɪmpækt ɒn"
-            },
-            {
-              "cn": "对...的需求",
-              "en": "demand for",
-              "ipa": "dɪˈmɑːnd fɔːr"
-            },
-            {
-              "cn": "增长X%",
-              "en": "increase of X% / growth of X%",
-              "ipa": "ˈɪŋkriːs ɒv"
-            },
-            {
-              "cn": "降价X%",
-              "en": "reduction of X% / cut by X%",
-              "ipa": "rɪˈdʌkʃn ɒv"
-            },
-            {
-              "cn": "差异在于",
-              "en": "difference between A and B",
-              "ipa": "ˈdɪfrəns bɪˈtwiːn"
-            },
-            {
-              "cn": "原因是",
-              "en": "reason for / reason why",
-              "ipa": "ˈriːzən fɔːr"
-            },
-            {
-              "cn": "对...有信心",
-              "en": "confident about / confident in",
-              "ipa": "ˈkɒnfɪdənt əˈbaʊt"
-            },
-            {
-              "cn": "擅长（用good at）",
-              "en": "good at financial analysis",
-              "ipa": "ɡʊd æt"
-            },
-            {
-              "cn": "对某事感兴趣（用interested in）",
-              "en": "interested in this opportunity",
-              "ipa": "ˈɪntrəstɪd ɪn"
-            },
-            {
-              "cn": "对某事满意（用satisfied with）",
-              "en": "satisfied with the results",
-              "ipa": "ˈsætɪsfaɪd wɪð"
-            },
-            {
-              "cn": "对某事担心（用worried about）",
-              "en": "worried about the cash flow",
-              "ipa": "ˈwʌrid əˈbaʊt"
-            },
-            {
-              "cn": "准备好了（用ready for）",
-              "en": "ready for the IPO review",
-              "ipa": "ˈredi fɔːr"
-            },
-            {
-              "cn": "熟悉（用familiar with）",
-              "en": "familiar with the regulations",
-              "ipa": "fəˈmɪliər wɪð"
-            }
-          ]
-        },
-        {
-          "id": "fe5",
-          "icon": "🏥",
-          "image": "images/img1.png",
-          "nameEn": "Medical Device Industry — Workplace English",
-          "nameCn": "医疗器械职场英语",
-          "tags": [
-            "行业必备",
-            "威高专属",
-            "200词"
-          ],
-          "description": "Workplace English for the medical device industry, covering product presentations, regulatory affairs, procurement negotiation, clinical terms, and cross-department communication at Weigao.",
-          "terms": [
-            {
-              "cn": "一类医疗器械（低风险）",
-              "en": "Class I medical device (low risk)",
-              "ipa": "klɑːs wʌn ˈmedɪkl dɪˈvaɪs"
-            },
-            {
-              "cn": "二类医疗器械（中风险）",
-              "en": "Class II medical device (medium risk)",
-              "ipa": "klɑːs tuː ˈmedɪkl dɪˈvaɪs"
-            },
-            {
-              "cn": "三类医疗器械（高风险）",
-              "en": "Class III medical device (high risk)",
-              "ipa": "klɑːs θriː ˈmedɪkl dɪˈvaɪs"
-            },
-            {
-              "cn": "高值耗材",
-              "en": "high-value consumables",
-              "ipa": "haɪ ˈvæljuː kənˈsjuːməblz"
-            },
-            {
-              "cn": "低值耗材",
-              "en": "low-value consumables",
-              "ipa": "loʊ ˈvæljuː kənˈsjuːməblz"
-            },
-            {
-              "cn": "植入类器械",
-              "en": "implantable device",
-              "ipa": "ɪmˈplæntəbl dɪˈvaɪs"
-            },
-            {
-              "cn": "一次性耗材",
-              "en": "disposable medical supplies",
-              "ipa": "dɪˈspoʊzəbl ˈmedɪkl səˈplaɪz"
-            },
-            {
-              "cn": "国家药品监督管理局",
-              "en": "NMPA (National Medical Products Administration)",
-              "ipa": "ˈnæʃənl ˈmedɪkl ˈprɒdʌkts ədˌmɪnɪˈstreɪʃn"
-            },
-            {
-              "cn": "注册证",
-              "en": "registration certificate",
-              "ipa": "ˌredʒɪˈstreɪʃn səˈtɪfɪkɪt"
-            },
-            {
-              "cn": "产品注册",
-              "en": "product registration",
-              "ipa": "ˈprɒdʌkt ˌredʒɪˈstreɪʃn"
-            },
-            {
-              "cn": "临床试验",
-              "en": "clinical trial",
-              "ipa": "ˈklɪnɪkl ˈtraɪəl"
-            },
-            {
-              "cn": "临床数据",
-              "en": "clinical data",
-              "ipa": "ˈklɪnɪkl ˈdeɪtə"
-            },
-            {
-              "cn": "安全性和有效性",
-              "en": "safety and efficacy",
-              "ipa": "ˈseɪfti ænd ˈefɪkəsi"
-            },
-            {
-              "cn": "监管批准",
-              "en": "regulatory approval",
-              "ipa": "ˌreɡjʊˈleɪtəri əˈpruːvl"
-            },
-            {
-              "cn": "质量管理体系",
-              "en": "quality management system (QMS)",
-              "ipa": "ˈkwɒlɪti ˈmænɪdʒmənt ˈsɪstəm"
-            },
-            {
-              "cn": "ISO认证",
-              "en": "ISO certification",
-              "ipa": "aɪesˈoʊ ˌsɜːrtɪfɪˈkeɪʃn"
-            },
-            {
-              "cn": "GMP规范",
-              "en": "Good Manufacturing Practice (GMP)",
-              "ipa": "ɡʊd ˌmænjʊˈfæktʃərɪŋ ˈpræktɪs"
-            },
-            {
-              "cn": "召回",
-              "en": "product recall",
-              "ipa": "ˈprɒdʌkt rɪˈkɔːl"
-            },
-            {
-              "cn": "唯一器械标识",
-              "en": "UDI (Unique Device Identification)",
-              "ipa": "juːniːk dɪˈvaɪs aɪˌdentɪfɪˈkeɪʃn"
-            },
-            {
-              "cn": "不良事件报告",
-              "en": "adverse event report",
-              "ipa": "ˈædvɜːrs ɪˈvent rɪˈpɔːrt"
-            },
-            {
-              "cn": "上市后监测",
-              "en": "post-market surveillance",
-              "ipa": "poʊst ˈmɑːrkɪt səˈveɪləns"
-            },
-            {
-              "cn": "集中带量采购",
-              "en": "volume-based procurement (VBP)",
-              "ipa": "ˈvɒljuːm beɪst prəˈkjʊərmənt"
-            },
-            {
-              "cn": "集采中标",
-              "en": "win a VBP tender",
-              "ipa": "wɪn ə viːbiːpiː ˈtendər"
-            },
-            {
-              "cn": "集采降价",
-              "en": "VBP price reduction",
-              "ipa": "viːbiːpiː praɪs rɪˈdʌkʃn"
-            },
-            {
-              "cn": "以量换价",
-              "en": "volume for price / trade volume for lower prices",
-              "ipa": "ˈvɒljuːm fɔːr praɪs"
-            },
-            {
-              "cn": "招标",
-              "en": "tender / bidding",
-              "ipa": "ˈtendər"
-            },
-            {
-              "cn": "中标",
-              "en": "win the bid / be awarded the contract",
-              "ipa": "wɪn ðə bɪd"
-            },
-            {
-              "cn": "报价单",
-              "en": "price quotation / quote",
-              "ipa": "praɪs kwoʊˈteɪʃn"
-            },
-            {
-              "cn": "价格谈判",
-              "en": "price negotiation",
-              "ipa": "praɪs nɪˌɡoʊʃiˈeɪʃn"
-            },
-            {
-              "cn": "供应商管理",
-              "en": "supplier management",
-              "ipa": "səˈplaɪər ˈmænɪdʒmənt"
-            },
-            {
-              "cn": "供应商评估",
-              "en": "supplier evaluation",
-              "ipa": "səˈplaɪər ɪˌvæljuˈeɪʃn"
-            },
-            {
-              "cn": "产品不合格",
-              "en": "substandard product / non-conforming product",
-              "ipa": "ˌsʌbˈstændərd ˈprɒdʌkt"
-            },
-            {
-              "cn": "市场份额",
-              "en": "market share",
-              "ipa": "ˈmɑːrkɪt ʃeər"
-            },
-            {
-              "cn": "国内市场份额第一",
-              "en": "market leader in China",
-              "ipa": "ˈmɑːrkɪt ˈliːdər"
-            },
-            {
-              "cn": "国产替代",
-              "en": "domestic substitution / import substitution",
-              "ipa": "dəˈmestɪk ˌsʌbstɪˈtuːʃn"
-            },
-            {
-              "cn": "经销商",
-              "en": "distributor",
-              "ipa": "dɪˈstrɪbjuːtər"
-            },
-            {
-              "cn": "直销模式",
-              "en": "direct sales model",
-              "ipa": "daɪˈrekt seɪlz ˈmɒdl"
-            },
-            {
-              "cn": "学术推广",
-              "en": "academic promotion / KOL engagement",
-              "ipa": "ˌækəˈdemɪk prəˈmoʊʃn"
-            },
-            {
-              "cn": "关键意见领袖",
-              "en": "KOL (Key Opinion Leader)",
-              "ipa": "kiː əˈpɪnjən ˈliːdər"
-            },
-            {
-              "cn": "招投标文件",
-              "en": "tender documents",
-              "ipa": "ˈtendər ˈdɒkjʊmənts"
-            },
-            {
-              "cn": "脊柱内固定",
-              "en": "spinal implant / spinal fixation",
-              "ipa": "ˈspaɪnl ˈɪmplænt"
-            },
-            {
-              "cn": "椎间盘",
-              "en": "intervertebral disc",
-              "ipa": "ˌɪntəˈvɜːrtɪbrəl dɪsk"
-            },
-            {
-              "cn": "退行性椎间盘病",
-              "en": "degenerative disc disease",
-              "ipa": "dɪˈdʒenərətɪv dɪsk dɪˈziːz"
-            },
-            {
-              "cn": "人工膝关节",
-              "en": "knee replacement / total knee arthroplasty",
-              "ipa": "niː rɪˈpleɪsmənt"
-            },
-            {
-              "cn": "人工髋关节",
-              "en": "hip replacement / total hip arthroplasty",
-              "ipa": "hɪp rɪˈpleɪsmənt"
-            },
-            {
-              "cn": "软骨",
-              "en": "cartilage",
-              "ipa": "ˈkɑːrtɪlɪdʒ"
-            },
-            {
-              "cn": "骨关节炎",
-              "en": "osteoarthritis",
-              "ipa": "ˌɒstioʊɑːrˈθraɪtɪs"
-            },
-            {
-              "cn": "骨折",
-              "en": "fracture",
-              "ipa": "ˈfræktʃər"
-            },
-            {
-              "cn": "髓内钉",
-              "en": "intramedullary nail",
-              "ipa": "ˌɪntrəˈmedjʊləri neɪl"
-            },
-            {
-              "cn": "骨螺钉和钢板",
-              "en": "screws and plates",
-              "ipa": "skruːz ænd pleɪts"
-            },
-            {
-              "cn": "钛合金植入物",
-              "en": "titanium implant",
-              "ipa": "taɪˈteɪniəm ˈɪmplænt"
-            },
-            {
-              "cn": "创伤固定",
-              "en": "trauma fixation",
-              "ipa": "ˈtrɔːmə fɪkˈseɪʃn"
-            },
-            {
-              "cn": "骨修复材料",
-              "en": "bone repair material",
-              "ipa": "boʊn rɪˈpeər məˈtɪəriəl"
-            },
-            {
-              "cn": "运动医学",
-              "en": "sports medicine",
-              "ipa": "spɔːrts ˈmedɪsɪn"
-            },
-            {
-              "cn": "冠状动脉",
-              "en": "coronary artery",
-              "ipa": "ˈkɔːrəneri ˈɑːrtəri"
-            },
-            {
-              "cn": "冠脉支架",
-              "en": "coronary stent",
-              "ipa": "ˈkɔːrəneri stent"
-            },
-            {
-              "cn": "药物洗脱支架",
-              "en": "drug-eluting stent (DES)",
-              "ipa": "drʌɡ ɪˈluːtɪŋ stent"
-            },
-            {
-              "cn": "可降解支架",
-              "en": "bioabsorbable stent",
-              "ipa": "ˌbaɪoʊəbˈzɔːrbəbl stent"
-            },
-            {
-              "cn": "球囊导管",
-              "en": "balloon catheter",
-              "ipa": "bəˈluːn ˈkæθɪtər"
-            },
-            {
-              "cn": "经皮冠状动脉介入治疗",
-              "en": "PCI (Percutaneous Coronary Intervention)",
-              "ipa": "ˌpɜːrkjʊˈteɪniəs ˈkɔːrəneri ˌɪntərˈvenʃn"
-            },
-            {
-              "cn": "再狭窄",
-              "en": "restenosis",
-              "ipa": "ˌriːstəˈnoʊsɪs"
-            },
-            {
-              "cn": "心脏瓣膜",
-              "en": "heart valve",
-              "ipa": "hɑːrt vælv"
-            },
-            {
-              "cn": "结构性心脏病",
-              "en": "structural heart disease",
-              "ipa": "ˈstrʌktʃərəl hɑːrt dɪˈziːz"
-            },
-            {
-              "cn": "血液透析",
-              "en": "hemodialysis",
-              "ipa": "ˌhiːmoʊdaɪˈæləsɪs"
-            },
-            {
-              "cn": "透析器",
-              "en": "dialyzer / hemodialyzer",
-              "ipa": "ˈdaɪəlaɪzər"
-            },
-            {
-              "cn": "肾衰竭",
-              "en": "kidney failure / renal failure",
-              "ipa": "ˈkɪdni ˈfeɪljər"
-            },
-            {
-              "cn": "腹膜透析",
-              "en": "peritoneal dialysis",
-              "ipa": "ˌperɪtəˈniːəl daɪˈæləsɪs"
-            },
-            {
-              "cn": "血液净化",
-              "en": "blood purification",
-              "ipa": "blʌd ˌpjʊərɪfɪˈkeɪʃn"
-            },
-            {
-              "cn": "连续性肾脏替代治疗",
-              "en": "CRRT (Continuous Renal Replacement Therapy)",
-              "ipa": "kənˈtɪnjuəs ˈriːnl rɪˈpleɪsmənt ˈθerəpi"
-            },
-            {
-              "cn": "输液器",
-              "en": "infusion set",
-              "ipa": "ɪnˈfjuːʒən set"
-            },
-            {
-              "cn": "注射器",
-              "en": "syringe",
-              "ipa": "sɪˈrɪndʒ"
-            },
-            {
-              "cn": "留置针",
-              "en": "IV catheter / indwelling needle",
-              "ipa": "aɪˈviː ˈkæθɪtər"
-            },
-            {
-              "cn": "静脉输液",
-              "en": "intravenous infusion",
-              "ipa": "ˌɪntrəˈviːnəs ɪnˈfjuːʒən"
-            },
-            {
-              "cn": "伤口护理",
-              "en": "wound care",
-              "ipa": "wuːnd keər"
-            },
-            {
-              "cn": "手术",
-              "en": "surgery / surgical procedure",
-              "ipa": "ˈsɜːrdʒəri"
-            },
-            {
-              "cn": "微创手术",
-              "en": "minimally invasive surgery",
-              "ipa": "ˈmɪnɪməli ɪnˈveɪsɪv ˈsɜːrdʒəri"
-            },
-            {
-              "cn": "麻醉",
-              "en": "anesthesia",
-              "ipa": "ˌænɪsˈθiːziə"
-            },
-            {
-              "cn": "康复",
-              "en": "rehabilitation / recovery",
-              "ipa": "ˌriːhəˌbɪlɪˈteɪʃn"
-            },
-            {
-              "cn": "住院",
-              "en": "hospitalization",
-              "ipa": "ˌhɒspɪtəlaɪˈzeɪʃn"
-            },
-            {
-              "cn": "出院",
-              "en": "discharge from hospital",
-              "ipa": "dɪsˈtʃɑːrdʒ frɒm ˈhɒspɪtl"
-            },
-            {
-              "cn": "并发症",
-              "en": "complications",
-              "ipa": "ˌkɒmplɪˈkeɪʃnz"
-            },
-            {
-              "cn": "生物相容性",
-              "en": "biocompatibility",
-              "ipa": "ˌbaɪoʊkəmˌpætəˈbɪlɪti"
-            },
-            {
-              "cn": "这个产品用于",
-              "en": "this product is used for / designed to",
-              "ipa": "ðɪs ˈprɒdʌkt ɪz juːzd fɔːr"
-            },
-            {
-              "cn": "它的主要优势是",
-              "en": "its main advantage is",
-              "ipa": "ɪts meɪn ədˈvɑːntɪdʒ ɪz"
-            },
-            {
-              "cn": "在中国X%的医院使用过",
-              "en": "X% of hospitals in China have used this",
-              "ipa": "ɒv ˈhɒspɪtlz ɪn ˈtʃaɪnə"
-            },
-            {
-              "cn": "我们是市场领导者",
-              "en": "we are the market leader in China",
-              "ipa": "wiː ɑːr ðə ˈmɑːrkɪt ˈliːdər"
-            },
-            {
-              "cn": "批量购买可获折扣",
-              "en": "bulk purchases qualify for a discount",
-              "ipa": "bʌlk ˈpɜːrtʃəsɪz ˈkwɒlɪfaɪ fɔːr ə ˈdɪskaʊnt"
-            },
-            {
-              "cn": "这个产品已通过临床试验",
-              "en": "this product has completed clinical trials",
-              "ipa": "ðɪs ˈprɒdʌkt həz kəmˈpliːtɪd ˈklɪnɪkl ˈtraɪəlz"
-            },
-            {
-              "cn": "我们可以送货到贵国",
-              "en": "we can ship to your country",
-              "ipa": "wiː kæn ʃɪp tuː jɔːr ˈkʌntri"
-            }
-          ]
-        },
-        {
-          "id": "fe6",
-          "icon": "📋",
-          "image": "images/img1.png",
-          "nameEn": "Industry Policy & Regulatory English",
-          "nameCn": "行业政策与监管英语",
-          "tags": [
-            "政策",
-            "IPO",
-            "集采",
-            "DRG",
-            "120词"
-          ],
-          "description": "English for discussing China's healthcare industry policies: centralized procurement (集采), DRG/DIP reform, IPO regulations, national strategy, and government relations. Directly relevant to Sally's work at Weigao.",
-          "terms": [
-            {
-              "cn": "集中带量采购",
-              "en": "volume-based procurement (VBP) / centralized procurement",
-              "ipa": "ˈvɒljuːm beɪst prəˈkjʊərmənt"
-            },
-            {
-              "cn": "集采降价X%",
-              "en": "VBP cut the price by X%",
-              "ipa": "viːbiːpiː kʌt ðə praɪs"
-            },
-            {
-              "cn": "冠脉支架从1万降到700元",
-              "en": "stent price dropped from 10,000 to 700 RMB",
-              "ipa": "stent praɪs drɒpt frɒm"
-            },
-            {
-              "cn": "以量换价",
-              "en": "exchange volume for lower prices",
-              "ipa": "ɪkˈstʃeɪndʒ ˈvɒljuːm"
-            },
-            {
-              "cn": "减少中间商",
-              "en": "cut out the middlemen / reduce distribution layers",
-              "ipa": "kʌt aʊt ðə ˈmɪdlmɛn"
-            },
-            {
-              "cn": "直接采购",
-              "en": "direct procurement / government direct purchase",
-              "ipa": "daɪˈrekt prəˈkjʊərmənt"
-            },
-            {
-              "cn": "负面冲击",
-              "en": "negative impact / revenue hit",
-              "ipa": "ˈneɡətɪv ˈɪmpækt"
-            },
-            {
-              "cn": "降本压力",
-              "en": "cost reduction pressure",
-              "ipa": "kɒst rɪˈdʌkʃn ˈpreʃər"
-            },
-            {
-              "cn": "以量补价（提销量弥补降价）",
-              "en": "offset price cuts with higher volume",
-              "ipa": "ˈɒfset praɪs kʌts wɪð ˈhaɪər ˈvɒljuːm"
-            },
-            {
-              "cn": "集采常态化",
-              "en": "normalized / institutionalized VBP",
-              "ipa": "ˈnɔːrməlaɪzd viːbiːpiː"
-            },
-            {
-              "cn": "按病种分组付费",
-              "en": "DRG (Diagnosis Related Groups) payment",
-              "ipa": "daɪəɡˈnoʊsɪs rɪˈleɪtɪd ɡruːps"
-            },
-            {
-              "cn": "按病种分值付费",
-              "en": "DIP (Diagnosis-Intervention Packet) payment",
-              "ipa": "daɪəɡˈnoʊsɪs ˌɪntərˈvenʃn ˈpækɪt"
-            },
-            {
-              "cn": "打包付费",
-              "en": "bundled payment / packaged payment",
-              "ipa": "ˈbʌndld ˈpeɪmənt"
-            },
-            {
-              "cn": "医保支付",
-              "en": "medical insurance reimbursement",
-              "ipa": "ˈmedɪkl ɪnˈʃʊərəns ˌriːɪmˈbɜːrsmənt"
-            },
-            {
-              "cn": "医院控费压力",
-              "en": "hospital cost-control pressure",
-              "ipa": "ˈhɒspɪtl kɒst kənˈtroʊl ˈpreʃər"
-            },
-            {
-              "cn": "性价比",
-              "en": "cost-effectiveness / value for money",
-              "ipa": "kɒst ɪˈfektɪvnəs"
-            },
-            {
-              "cn": "国家医保局",
-              "en": "NHSA (National Healthcare Security Administration)",
-              "ipa": "ˈnæʃənl ˈhelθkeər sɪˈkjʊərɪti ədˌmɪnɪˈstreɪʃn"
-            },
-            {
-              "cn": "首次公开募股",
-              "en": "IPO (Initial Public Offering)",
-              "ipa": "ɪˈnɪʃl ˈpʌblɪk ˈɒfərɪŋ"
-            },
-            {
-              "cn": "上市审核",
-              "en": "IPO review / listing review",
-              "ipa": "aɪpiːoʊ rɪˈvjuː"
-            },
-            {
-              "cn": "问询函",
-              "en": "regulatory inquiry letter",
-              "ipa": "ˌreɡjʊˈleɪtəri ˈɪŋkwəri ˈletər"
-            },
-            {
-              "cn": "财务规范化",
-              "en": "financial compliance and standardization",
-              "ipa": "faɪˈnænʃəl kəmˈplaɪəns"
-            },
-            {
-              "cn": "创业板",
-              "en": "ChiNext (Shenzhen GEM board)",
-              "ipa": "ˈtʃaɪnekst"
-            },
-            {
-              "cn": "科创板",
-              "en": "STAR Market (Shanghai)",
-              "ipa": "stɑːr ˈmɑːrkɪt"
-            },
-            {
-              "cn": "中国证监会",
-              "en": "CSRC (China Securities Regulatory Commission)",
-              "ipa": "ˌtʃaɪnə sɪˈkjʊərɪtɪz ˌreɡjʊˈleɪtəri kəˈmɪʃn"
-            },
-            {
-              "cn": "政策市场",
-              "en": "policy-driven market",
-              "ipa": "ˈpɒləsi ˈdrɪvən ˈmɑːrkɪt"
-            },
-            {
-              "cn": "信息披露",
-              "en": "information disclosure",
-              "ipa": "ˌɪnfəˈmeɪʃn dɪsˈkloʊʒər"
-            },
-            {
-              "cn": "投资者关系",
-              "en": "investor relations (IR)",
-              "ipa": "ɪnˈvestər rɪˈleɪʃnz"
-            },
-            {
-              "cn": "国产替代",
-              "en": "domestic substitution / import substitution",
-              "ipa": "dəˈmestɪk ˌsʌbstɪˈtuːʃn"
-            },
-            {
-              "cn": "国家战略",
-              "en": "national strategy",
-              "ipa": "ˈnæʃənl ˈstrætɪdʒi"
-            },
-            {
-              "cn": "十五五规划",
-              "en": "the 15th Five-Year Plan",
-              "ipa": "ðə fɪfˈtiːnθ faɪv jɪər plæn"
-            },
-            {
-              "cn": "高新技术企业",
-              "en": "high-tech enterprise / HNTE",
-              "ipa": "haɪ tek ˈentəpraɪz"
-            },
-            {
-              "cn": "政府补贴",
-              "en": "government subsidy / grant",
-              "ipa": "ˈɡʌvənmənt ˈsʌbsɪdi"
-            },
-            {
-              "cn": "研发税收优惠",
-              "en": "R&D tax incentive",
-              "ipa": "ɑːr ænd diː tæks ɪnˈsentɪv"
-            },
-            {
-              "cn": "低空经济",
-              "en": "low-altitude economy",
-              "ipa": "loʊ ˈæltɪtjuːd ɪˈkɒnəmi"
-            },
-            {
-              "cn": "人口老龄化（推动需求）",
-              "en": "aging population (driving demand)",
-              "ipa": "ˈeɪdʒɪŋ ˌpɒpjʊˈleɪʃn"
-            },
-            {
-              "cn": "医保覆盖扩大",
-              "en": "expanded healthcare coverage",
-              "ipa": "ɪkˈspændɪd ˈhelθkeər ˈkʌvərɪdʒ"
-            },
-            {
-              "cn": "民营企业",
-              "en": "private enterprise",
-              "ipa": "ˈpraɪvɪt ˈentəpraɪz"
-            },
-            {
-              "cn": "国有企业（国家队）",
-              "en": "state-owned enterprise (SOE)",
-              "ipa": "steɪt oʊnd ˈentəpraɪz"
-            },
-            {
-              "cn": "跨国公司",
-              "en": "multinational corporation (MNC)",
-              "ipa": "ˌmʌltiˈnæʃənl ˌkɔːrpəˈreɪʃn"
-            },
-            {
-              "cn": "与国家队竞争",
-              "en": "compete against SOEs",
-              "ipa": "kəmˈpiːt əˈɡenst esˌoʊˈiːz"
-            },
-            {
-              "cn": "市场份额",
-              "en": "market share",
-              "ipa": "ˈmɑːrkɪt ʃeər"
-            },
-            {
-              "cn": "定价权",
-              "en": "pricing power",
-              "ipa": "ˈpraɪsɪŋ paʊər"
-            },
-            {
-              "cn": "行业平均水平",
-              "en": "industry average",
-              "ipa": "ˈɪndəstri ˈævərɪdʒ"
-            },
-            {
-              "cn": "竞争格局",
-              "en": "competitive landscape",
-              "ipa": "kəmˈpetɪtɪv ˈlændskeɪp"
-            },
-            {
-              "cn": "差异化竞争",
-              "en": "differentiated competition",
-              "ipa": "ˌdɪfəˈrenʃieɪtɪd ˌkɒmpɪˈtɪʃn"
-            },
-            {
-              "cn": "技术壁垒",
-              "en": "technology barrier / technical moat",
-              "ipa": "tekˈnɒlədʒi ˈbæriər"
-            }
-          ]
-        }
-      ]
-    },
     {
       "id": "ortho",
       "emoji": "🦴",
       "nameCn": "骨科",
       "nameEn": "Orthopedics",
-      "descEn": "Spine · Joint · Trauma · Sports Medicine · Bone Repair",
+      "descEn": "Orthopedics",
       "badge": "某公司骨科 — 科创板上市 · 国内市场份额第一",
-      "color": "#e3b341",
-      "subcategories": [
-        "脊柱 Spine",
-        "关节 Joint",
-        "创伤 Trauma",
-        "运动医学 Sports Med",
-        "骨修复材料 Bone Repair",
-        "脊柱内窥镜 Spinal Scope"
-      ],
+      "color": "#3fb950",
+      "subcategories": [],
       "products": [
         {
           "id": "p1",
-          "icon": "🔩",
+          "icon": "📦",
+          "image": "images/img1.png",
           "nameEn": "Spinal Implant System",
           "nameCn": "脊柱内固定系统",
           "tags": [
-            "Class III",
-            "集采影响"
+            "医疗器械"
           ],
-          "description": "Metal screws and rods used to stabilize the spine after fractures or degenerative disc disease. Weigao Orthopedics is the market leader in China for orthopedic implants.",
-          "terms": [
-            {
-              "cn": "脊柱内固定",
-              "en": "spinal implant",
-              "ipa": "ˈspaɪnəl ˈɪmplænt"
-            },
-            {
-              "cn": "螺钉和连接棒",
-              "en": "screws and rods",
-              "ipa": "skruːz ænd rɑːdz"
-            },
-            {
-              "cn": "稳定脊柱",
-              "en": "stabilize the spine",
-              "ipa": "ˈsteɪbəlaɪz ðə spaɪn"
-            },
-            {
-              "cn": "骨折",
-              "en": "fractures",
-              "ipa": "ˈfræktʃərz"
-            },
-            {
-              "cn": "退行性椎间盘疾病",
-              "en": "degenerative disc disease",
-              "ipa": "dɪˈdʒenərətɪv dɪsk dɪˈziːz"
-            }
-          ]
+          "description": "Spinal Implant System - Medical device product",
+          "terms": []
         },
         {
           "id": "p2",
-          "icon": "🦵",
+          "icon": "📦",
+          "image": "images/img1.png",
           "nameEn": "Joint Replacement",
           "nameCn": "人工关节（膝/髋）",
           "tags": [
-            "Class III",
-            "集采降价50-80%"
+            "医疗器械"
           ],
-          "description": "Used when a patient's cartilage is completely worn out from osteoarthritis. Weigao makes both knee and hip replacements. Heavily affected by China's volume-based procurement.",
-          "terms": [
-            {
-              "cn": "人工关节",
-              "en": "joint replacement",
-              "ipa": "dʒɔɪnt rɪˈpleɪsmənt"
-            },
-            {
-              "cn": "软骨",
-              "en": "cartilage",
-              "ipa": "ˈkɑːrtɪlɪdʒ"
-            },
-            {
-              "cn": "骨关节炎",
-              "en": "osteoarthritis",
-              "ipa": "ˌɑːstioʊɑːrˈθraɪtɪs"
-            }
-          ]
+          "description": "Joint Replacement - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "op1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Unicondylar Knee System",
+          "nameCn": "单髁膝关节系统",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Unicondylar Knee System - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "op2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Hip Femoral Stem",
+          "nameCn": "股骨柄家族（髋关节）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Hip Femoral Stem - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "op3",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Trauma Fixation Products",
+          "nameCn": "创伤内固定产品系列",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Trauma Fixation Products - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "op4",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Sports Medicine Implants",
+          "nameCn": "运动医学产品",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Sports Medicine Implants - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "op5",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Bone Repair Materials",
+          "nameCn": "骨修复材料（磷酸钙人工骨系列）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Bone Repair Materials - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "op6",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Orthopedic Surgical Instruments",
+          "nameCn": "骨科器械（脊柱微创管道/骨折复位器）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Orthopedic Surgical Instruments - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "sm1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "PEEK Suture Anchor",
+          "nameCn": "PEEK带线锚钉",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "PEEK Suture Anchor - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "br1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Bone Repair Materials",
+          "nameCn": "自固化磷酸人工骨系列",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Bone Repair Materials - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "ot1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Orthopedic Surgical Instruments",
+          "nameCn": "骨科器械（手术工具）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Orthopedic Surgical Instruments - Medical device product",
+          "terms": []
         }
       ]
     },
@@ -2564,43 +157,82 @@
       "emoji": "💉",
       "nameCn": "血液净化",
       "nameEn": "Blood Purification",
-      "descEn": "Hemodialysis · Peritoneal Dialysis · CRRT",
+      "descEn": "Blood Purification",
       "badge": "某公司血液净化 — 国内血透耗材龙头",
       "color": "#58a6ff",
-      "subcategories": [
-        "血液透析设备",
-        "血液透析耗材",
-        "腹膜透析制剂",
-        "腹膜透析耗材"
-      ],
+      "subcategories": [],
       "products": [
         {
-          "id": "p10",
-          "icon": "🫘",
+          "id": "p3",
+          "icon": "📦",
+          "image": "images/img1.png",
           "nameEn": "Dialyzer (Hemodialyzer)",
           "nameCn": "血液透析器（人工肾）",
           "tags": [
-            "Class III",
-            "核心耗材"
+            "医疗器械"
           ],
-          "description": "Artificial kidney used in hemodialysis to filter waste and excess water from blood in patients with kidney failure.",
-          "terms": [
-            {
-              "cn": "血液透析器",
-              "en": "dialyzer",
-              "ipa": "ˈdaɪəlaɪzər"
-            },
-            {
-              "cn": "血液透析",
-              "en": "hemodialysis",
-              "ipa": "ˌhiːmoʊdaɪˈæləsɪs"
-            },
-            {
-              "cn": "肾衰竭",
-              "en": "kidney failure",
-              "ipa": "ˈkɪdni ˈfeɪljər"
-            }
-          ]
+          "description": "Dialyzer (Hemodialyzer) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "p4",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Peritoneal Dialysis Solution",
+          "nameCn": "腹膜透析液",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Peritoneal Dialysis Solution - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "dp1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Hemodialysis Concentrate (A+B)",
+          "nameCn": "血液透析浓缩物 / 浓缩液（WEGO公司品牌）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Hemodialysis Concentrate (A+B) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "dp2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Hemodialysis Powder (A+B bags)",
+          "nameCn": "血液透析粉（A+B袋装，WEGO品牌）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Hemodialysis Powder (A+B bags) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "dp3",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Peritoneal Dialysis Transfer Set",
+          "nameCn": "腹膜透析用外接软管",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Peritoneal Dialysis Transfer Set - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "dp4",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Dialysis Machine Disinfection Products",
+          "nameCn": "血液透析设备管路洗消产品（瑞可安品牌）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Dialysis Machine Disinfection Products - Medical device product",
+          "terms": []
         }
       ]
     },
@@ -2609,42 +241,226 @@
       "emoji": "❤️",
       "nameCn": "介入",
       "nameEn": "Interventional",
-      "descEn": "PCI · Structural Heart · Peripheral Vascular",
+      "descEn": "Interventional",
       "badge": "某公司介入 — 冠脉支架国产领先",
       "color": "#f85149",
-      "subcategories": [
-        "冠脉介入",
-        "结构性心脏病",
-        "外周血管介入"
-      ],
+      "subcategories": [],
       "products": [
         {
-          "id": "p15",
-          "icon": "🩸",
-          "nameEn": "Drug-Eluting Stent (DES)",
-          "nameCn": "药物洗脱支架",
+          "id": "p5",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Coronary Stent",
+          "nameCn": "冠状动脉支架",
           "tags": [
-            "Class III",
-            "集采产品"
+            "医疗器械"
           ],
-          "description": "A tiny mesh tube coated with medication that is inserted into a blocked coronary artery to keep it open and prevent restenosis.",
-          "terms": [
-            {
-              "cn": "药物洗脱支架",
-              "en": "drug-eluting stent",
-              "ipa": "drʌg ɪˈluːtɪŋ stent"
-            },
-            {
-              "cn": "冠状动脉",
-              "en": "coronary artery",
-              "ipa": "ˈkɔːrəneri ˈɑːrtəri"
-            },
-            {
-              "cn": "再狭窄",
-              "en": "restenosis",
-              "ipa": "ˌriːstəˈnoʊsɪs"
-            }
-          ]
+          "description": "Coronary Stent - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "p6",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Balloon Catheter",
+          "nameCn": "球囊导管",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Balloon Catheter - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Septal Occluder (VSD/ASD/PDA)",
+          "nameCn": "封堵器（室间隔/房间隔/动脉导管未闭）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Septal Occluder (VSD/ASD/PDA) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "RF Ablation Catheter",
+          "nameCn": "射频消融导管",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "RF Ablation Catheter - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv3",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Pressure Guidewire (FFR)",
+          "nameCn": "压力导丝系统",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Pressure Guidewire (FFR) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv4",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Stent Retriever (Thrombectomy)",
+          "nameCn": "取栓支架",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Stent Retriever (Thrombectomy) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv5",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Microcatheter & Microguidewire",
+          "nameCn": "微导管 / 微导丝",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Microcatheter &amp; Microguidewire - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv6",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Detachable Coil System",
+          "nameCn": "电解脱弹簧圈",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Detachable Coil System - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv7",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "IVC Filter System",
+          "nameCn": "腔静脉滤器",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "IVC Filter System - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv8",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Vascular Snare / Retrieval Loop",
+          "nameCn": "圈套器 / 游离圈",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Vascular Snare / Retrieval Loop - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv9",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Rotational Thrombectomy (CLEANERXT™)",
+          "nameCn": "旋转式血栓清除",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Rotational Thrombectomy (CLEANERXT™) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv10",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Vascular Sheath (Axcess™)",
+          "nameCn": "经皮血管鞘",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Vascular Sheath (Axcess™) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv11",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Biopsy Needle Family",
+          "nameCn": "活检针系列",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Biopsy Needle Family - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv12",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "SKATER™ Drainage Catheter",
+          "nameCn": "引流管系列",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "SKATER™ Drainage Catheter - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv13",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Bone Biopsy & Specialty Needles",
+          "nameCn": "骨穿针/乳腺定位针/心肌活检钳",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Bone Biopsy &amp; Specialty Needles - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv14",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Body Lumen Stents",
+          "nameCn": "管腔内支架（食道/胆道/尿道）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Body Lumen Stents - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv15",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "PICC Line",
+          "nameCn": "经外周穿刺中心静脉导管",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "PICC Line - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "iv16",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "MST Safety Puncture Kit",
+          "nameCn": "MST安全穿刺附件包",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "MST Safety Puncture Kit - Medical device product",
+          "terms": []
         }
       ]
     },
@@ -2652,43 +468,155 @@
       "id": "consumable",
       "emoji": "🩹",
       "nameCn": "通用耗材",
-      "nameEn": "General Consumables",
-      "descEn": "Infusion · Injection · Wound Care",
-      "badge": "某公司股份 — A股上市 · 输注耗材龙头",
-      "color": "#3fb950",
-      "subcategories": [
-        "输液输血",
-        "注射穿刺",
-        "伤口护理"
-      ],
+      "nameEn": "Medical Consumables",
+      "descEn": "Medical Consumables",
+      "badge": "某公司通用耗材 — 输液器/注射器等",
+      "color": "#e3b341",
+      "subcategories": [],
       "products": [
         {
-          "id": "p20",
-          "icon": "💧",
+          "id": "p7",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Indwelling Needle (IV Cannula)",
+          "nameCn": "留置针（静脉套管针）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Indwelling Needle (IV Cannula) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "p8",
+          "icon": "📦",
+          "image": "images/img1.png",
           "nameEn": "Infusion Set",
           "nameCn": "输液器",
           "tags": [
-            "Class II",
-            "高频耗材"
+            "医疗器械"
           ],
-          "description": "Disposable tubing system used to deliver IV fluids from a bag into a patient's vein.",
-          "terms": [
-            {
-              "cn": "输液器",
-              "en": "infusion set",
-              "ipa": "ɪnˈfjuːʒən set"
-            },
-            {
-              "cn": "静脉输液",
-              "en": "intravenous fluids",
-              "ipa": "ˌɪntrəˈviːnəs ˈfluːɪdz"
-            },
-            {
-              "cn": "滴速调节器",
-              "en": "flow regulator",
-              "ipa": "floʊ ˈreɡjəleɪtər"
-            }
-          ]
+          "description": "Infusion Set - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "CVC Insertion Kit",
+          "nameCn": "一次性使用中心静脉导管辅助套件",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "CVC Insertion Kit - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Disposable ECG Electrode",
+          "nameCn": "一次性使用心电电极",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Disposable ECG Electrode - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp3",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Single-Use Pen Needle",
+          "nameCn": "一次性使用笔式注射针",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Single-Use Pen Needle - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp4",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Invasive Blood Pressure Sensor",
+          "nameCn": "一次性使用有创血压传感器",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Invasive Blood Pressure Sensor - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp5",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Central Venous Catheter (CVC)",
+          "nameCn": "中心静脉导管包",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Central Venous Catheter (CVC) - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp6",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "PPE — Protective Suit & N95 Mask",
+          "nameCn": "医用防护服 / 医用防护口罩",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "PPE — Protective Suit & N95 Mask - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp7",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Infusion Consumables — Full Range",
+          "nameCn": "输注耗材全产品线（公司官网截图）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Infusion Consumables — Full Range - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp8",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "IV Cannula (Indwelling Needle) — Full Range",
+          "nameCn": "静脉留置针全产品线",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "IV Cannula (Indwelling Needle) — Full Range - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp9",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Anesthesia & Respiratory Consumables",
+          "nameCn": "麻醉呼吸耗材",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Anesthesia & Respiratory Consumables - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "rp10",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Sterile Surgical Packs & OR Consumables",
+          "nameCn": "手术室耗材包（无菌手术包/手术衣/口罩等）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Sterile Surgical Packs & OR Consumables - Medical device product",
+          "terms": []
         }
       ]
     },
@@ -2697,77 +625,240 @@
       "emoji": "🔪",
       "nameCn": "手术器械",
       "nameEn": "Surgical Instruments",
-      "descEn": "Surgical Instruments Products",
+      "descEn": "Surgical Instruments",
       "badge": "某公司手术器械产品线",
       "color": "#bc8cff",
       "subcategories": [],
-      "products": []
+      "products": [
+        {
+          "id": "p11",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Endoscope System",
+          "nameCn": "内窥镜系统",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Endoscope System - Medical device product",
+          "terms": []
+        }
+      ]
     },
     {
       "id": "pharma",
       "emoji": "💊",
       "nameCn": "制药",
       "nameEn": "Pharmaceuticals",
-      "descEn": "Pharmaceuticals Products",
-      "badge": "某公司制药产品线",
+      "descEn": "Pharmaceuticals",
+      "badge": "某公司制药 — 腹透液等",
       "color": "#39d353",
       "subcategories": [],
-      "products": []
+      "products": [
+        {
+          "id": "p10",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Pre-filled Syringe System",
+          "nameCn": "预灌封给药系统",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Pre-filled Syringe System - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "pp1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Pre-filled Syringe System — Full Range",
+          "nameCn": "预灌封给药系统全产品线",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Pre-filled Syringe System — Full Range - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "pp2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Auto-Injection System",
+          "nameCn": "自动给药系统（安全装置/笔式/自动注射笔）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Auto-Injection System - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "pp3",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Triple-Layer Co-extruded IV Bag Film",
+          "nameCn": "三层共挤输液膜（软袋输液材料）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Triple-Layer Co-extruded IV Bag Film - Medical device product",
+          "terms": []
+        }
+      ]
     },
     {
       "id": "endo",
       "emoji": "🔬",
       "nameCn": "内窥镜",
       "nameEn": "Endoscopy",
-      "descEn": "Endoscopy Products",
+      "descEn": "Endoscopy",
       "badge": "某公司内窥镜产品线",
       "color": "#f0883e",
       "subcategories": [],
-      "products": []
+      "products": [
+        {
+          "id": "endo2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "GI Mucosal Staining Agent Series",
+          "nameCn": "消化道黏膜染色剂系列",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "GI Mucosal Staining Agent Series - Medical device product",
+          "terms": []
+        }
+      ]
     },
     {
       "id": "ivd",
       "emoji": "📊",
       "nameCn": "体外诊断",
       "nameEn": "In Vitro Diagnostics",
-      "descEn": "In Vitro Diagnostics Products",
+      "descEn": "In Vitro Diagnostics",
       "badge": "某公司体外诊断产品线",
       "color": "#f0883e",
       "subcategories": [],
-      "products": []
+      "products": [
+        {
+          "id": "p12",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "In Vitro Diagnostics (IVD)",
+          "nameCn": "体外诊断产品",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "In Vitro Diagnostics (IVD) - Medical device product",
+          "terms": []
+        }
+      ]
     },
     {
       "id": "robot",
       "emoji": "🤖",
       "nameCn": "手术机器人",
       "nameEn": "Surgical Robotics",
-      "descEn": "Surgical Robotics Products",
-      "badge": "某公司手术机器人产品线",
+      "descEn": "Surgical Robotics",
+      "badge": "某公司手术机器人",
       "color": "#58a6ff",
       "subcategories": [],
-      "products": []
+      "products": [
+        {
+          "id": "p9",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Surgical Robot (Mirohand / 妙手)",
+          "nameCn": "腹腔镜手术机器人（妙手系列）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Surgical Robot (Mirohand / 妙手) - Medical device product",
+          "terms": []
+        }
+      ]
     },
     {
       "id": "healthit",
       "emoji": "💻",
       "nameCn": "医疗信息化",
       "nameEn": "Health IT",
-      "descEn": "Health IT Products",
-      "badge": "某公司医疗信息化产品线",
+      "descEn": "Health IT",
+      "badge": "某公司医疗信息化",
       "color": "#79c0ff",
       "subcategories": [],
-      "products": []
+      "products": [
+        {
+          "id": "it1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Smart Healthcare IT Solutions",
+          "nameCn": "医疗信息化解决方案",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Smart Healthcare IT Solutions - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "it2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Blood Glucose Monitor",
+          "nameCn": "血糖仪及血糖试纸条（WEGO品牌）",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Blood Glucose Monitor - Medical device product",
+          "terms": []
+        }
+      ]
     },
     {
       "id": "other",
       "emoji": "🏥",
       "nameCn": "其他",
       "nameEn": "Others",
-      "descEn": "Others Products",
-      "badge": "某公司其他产品线",
+      "descEn": "Others",
+      "badge": "某公司其他产品",
       "color": "#8b949e",
       "subcategories": [],
-      "products": []
+      "products": [
+        {
+          "id": "oral1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Xteady Dental Implant System",
+          "nameCn": "Xteady牙种植体系统",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Xteady Dental Implant System - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "equip1",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "LED Petal Shadowless Surgical Light",
+          "nameCn": "LED花瓣式无影灯",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "LED Petal Shadowless Surgical Light - Medical device product",
+          "terms": []
+        },
+        {
+          "id": "equip2",
+          "icon": "📦",
+          "image": "images/img1.png",
+          "nameEn": "Weighing Electric Nursing Bed",
+          "nameCn": "称重护理电动病床",
+          "tags": [
+            "医疗器械"
+          ],
+          "description": "Weighing Electric Nursing Bed - Medical device product",
+          "terms": []
+        }
+      ]
     }
   ]
 }
