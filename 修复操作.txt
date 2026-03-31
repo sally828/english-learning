@@ -1,0 +1,59 @@
+# GitHub Pages v5.0 修复说明
+
+---
+
+## 第一步：找到音频函数
+
+访问网站：https://sally828.github.io/english-learning/
+
+按 F12 打开「开发者工具」→「Elements」→ 搜索 `function speak` 或 `<script`。
+
+找到 `<script>` 标签内的 `speak()` 函数定义。
+
+---
+
+## 第二步：修改音频逻辑
+
+### 原代码：
+```javascript
+// 统一播放入口：Google真人音 → 有道备用 → 浏览器兜底
+async function speak(text) {
+  let ok = await googleSpeak(text);  // 中国不能用
+  if (!ok) ok = await ydSpeak(text); // 被浏览器拦截
+  if (!ok) ok = await synthSpeak(text);
+  return ok;
+}
+```
+
+### 修改后：
+```javascript
+// 统一播放入口：浏览器优先 → Google → 有道
+async function speak(text) {
+  let ok = await synthSpeak(text);  // 浏览器原生秒播
+  if (!ok) ok = await googleSpeak(text);
+  if (!ok) ok = await ydSpeak(text);
+  return ok;
+}
+```
+
+---
+
+## 第三步：上传到 GitHub 仓库
+
+如果你有仓库权限：
+1. 打开：https://github.com/sally828/english-learning
+2. 点击要修改的文件（HTML文件）
+3. 点击小笔图标「Edit file」
+4. 修改上面那段代码
+5. 翻到最下面，点击绿色按钮「Commit changes...」
+6. 等待 1-2 分钟，刷新页面即可
+
+---
+
+## 临时方案（无需仓库权限）
+
+1. 在网页按 F12 打开「开发者工具」→「Console」
+2. 复制 `FIX_GITHUB_PAGES.md` 中的**一键修复**代码
+3. 粘贴到控制台回车
+
+修复完成后，喇叭按钮立即正常工作！

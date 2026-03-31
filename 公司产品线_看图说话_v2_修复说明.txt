@@ -1,0 +1,61 @@
+# GitHub Pages 版本修复完成
+
+## 修复内容
+
+### 1. 🔊 喇叭无声音（核心修复）
+**问题原因：**
+- `speak()` 函数调用顺序是：Google → 有道 → 浏览器
+- Google TTS 在中国超时（`net::ERR_CONNECTION_TIMED_OUT`）
+- 有道 TTS 被浏览器 CORB 拦截（`ERR_BLOCKED_BY_ORB`）
+- 浏览器原生 `speechSynthesis` 才是最可靠的，但被放在最后
+
+**修复：**
+- 修改 `speak()` 函数，把浏览器原生 `synthSpeak()` **放在第一位**
+
+```javascript
+// 修复前：Google → 有道 → 浏览器
+async function speak(text) {
+  let ok = await googleSpeak(text);
+  if (!ok) ok = await ydSpeak(text);
+  if (!ok) ok = await synthSpeak(text);
+  return ok;
+}
+
+// 修复后：浏览器优先，秒播
+async function speak(text) {
+  let ok = await synthSpeak(text);  // 优先用浏览器
+  if (!ok) ok = await googleSpeak(text);
+  if (!ok) ok = await ydSpeak(text);
+  return ok;
+}
+```
+
+### 2. 🖼️ 图片加载失败
+给所有 `<img>` 标签添加 `onerror` 回退处理。
+
+---
+
+## 使用方法
+
+### 方案一：直接打开本地文件
+直接双击 `公司产品线_看图说话_v2_修复版.html` 即可。
+
+### 方案二：部署回 GitHub Pages
+
+1. 打开：https://github.com/sally828/english-learning
+2. 找到仓库里的 `index.html` 文件
+3. 点击右侧小笔图标「Edit file」
+4. 用 `公司产品线_看图说话_v2_修复版.html` 的内容全部替换
+5. 翻到页面最底部，点击绿色按钮「Commit changes...」
+6. 等待 1-2 分钟，刷新 https://sally828.github.io/english-learning/
+
+---
+
+## 文件位置
+
+- `公司产品线_看图说话_v2_修复版.html` — 已修复的完整 HTML 文件
+- 本说明文件
+
+## 测试
+
+打开修复版后，点击任意单词旁边的 🔊 喇叭，应该立即听到浏览器的标准发音。

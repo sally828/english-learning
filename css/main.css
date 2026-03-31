@@ -852,3 +852,46 @@ body {
   }
 }
 
+/* ==================== Vocab Header ==================== */
+.vocab-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
+
+.vocab-header h2 {
+  font-size: 24px;
+}
+
+.import-btn {
+  background: var(--accent);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: var(--transition);
+}
+
+.import-btn:hover {
+  opacity: 0.8;
+}
+
+.delete-btn {
+  background: var(--red);
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: var(--transition);
+}
+
+.delete-btn:hover {
+  opacity: 0.8;
+}
+

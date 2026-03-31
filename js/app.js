@@ -120,7 +120,7 @@ class App {
         <div class="card-top" onclick="app.toggleCard('${product.id}')">
           <div class="prod-icon">
             ${product.image
-              ? `<img src="${product.image}" alt="${product.nameCn}" class="prod-img">`
+              ? `<img src="${product.image}" alt="${product.nameCn}" class="prod-img" onerror="this.outerHTML='${product.icon}'">`
               : product.icon}
           </div>
           <div class="card-info">
@@ -147,8 +147,8 @@ class App {
               <tbody>
                 ${product.terms.map(term => `
                   <tr>
-                    <td>${term.cn}</td>
-                    <td>
+                    <td onclick="app.addToVocab('${term.en}', '${term.cn}', '${term.ipa}')" style="cursor:pointer" title="点击添加到生词本">${term.cn}</td>
+                    <td onclick="app.addToVocab('${term.en}', '${term.cn}', '${term.ipa}')" style="cursor:pointer" title="点击添加到生词本">
                       <div>${term.en}</div>
                       <div style="font-size:11px;color:var(--muted)">${term.ipa}</div>
                     </td>
@@ -180,6 +180,11 @@ class App {
 
   async playAudio(text, button) {
     await window.audioManager.playWord(text, button);
+  }
+
+  addToVocab(en, cn, ipa) {
+    window.storage.addWord({ en, cn, ipa });
+    this.showToast(`已添加「${en}」到生词本`);
   }
 
   showCategory(categoryId) {
@@ -244,28 +249,77 @@ class App {
     const vocab = window.storage.getVocab();
     const container = document.getElementById('main-content');
 
-    if (vocab.words.length === 0) {
-      container.innerHTML = `
+    container.innerHTML = `
+      <div class="vocab-header">
+        <h2>📚 生词本</h2>
+        <button class="import-btn" onclick="app.showImportDialog()">📥 导入生词</button>
+      </div>
+
+      ${vocab.words.length === 0 ? `
         <div class="empty-state">
           <p style="font-size:48px;margin-bottom:16px">📚</p>
           <p>生词本是空的</p>
           <p style="font-size:13px;color:var(--muted);margin-top:8px">在学习模式中点击词汇可以添加到生词本</p>
         </div>
-      `;
-      return;
-    }
-
-    container.innerHTML = `
-      <div class="vocab-list">
-        <h2>我的生词本 (${vocab.words.length})</h2>
-        ${vocab.words.map(word => `
-          <div class="vocab-item">
-            <span>${word}</span>
-            <button onclick="app.removeVocab('${word}')">删除</button>
-          </div>
-        `).join('')}
-      </div>
+      ` : `
+        <table class="terms-table">
+          <thead>
+            <tr>
+              <th>中文</th>
+              <th>English / IPA</th>
+              <th>发音</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${vocab.words.map((word, idx) => `
+              <tr>
+                <td>${word.cn || '-'}</td>
+                <td>
+                  <div>${word.en}</div>
+                  <div style="font-size:11px;color:var(--muted)">${word.ipa || ''}</div>
+                </td>
+                <td>
+                  <button class="audio-btn" onclick="app.playAudio('${word.en}', this)">🔊</button>
+                </td>
+                <td>
+                  <button class="delete-btn" onclick="app.removeFromVocab(${idx})">删除</button>
+                </td>
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      `}
     `;
+  }
+
+  showImportDialog() {
+    const text = prompt('请输入要导入的生词（每行一个，格式：英文,中文,音标 或 英文）：\n\n例如：\nfracture,骨折,ˈfræktʃər\ncartilage,软骨');
+    if (!text) return;
+
+    const lines = text.trim().split('\n');
+    let count = 0;
+
+    lines.forEach(line => {
+      const parts = line.split(',').map(s => s.trim());
+      if (parts[0]) {
+        window.storage.addWord({
+          en: parts[0],
+          cn: parts[1] || '',
+          ipa: parts[2] || ''
+        });
+        count++;
+      }
+    });
+
+    this.showToast(`成功导入 ${count} 个生词`);
+    this.renderVocabMode();
+  }
+
+  removeFromVocab(index) {
+    window.storage.removeWord(index);
+    this.showToast('已删除');
+    this.renderVocabMode();
   }
 
   renderProgressMode() {
