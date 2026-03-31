@@ -337,6 +337,8 @@ class App {
               <th>中文</th>
               <th>English / IPA</th>
               <th>发音</th>
+              <th>重点</th>
+              <th>熟悉</th>
               <th>操作</th>
             </tr>
           </thead>
@@ -352,6 +354,16 @@ class App {
                   <button class="audio-btn" onclick="app.playAudio('${word.en}', this)">🔊</button>
                 </td>
                 <td>
+                  <button class="toggle-btn" onclick="app.toggleImportant(${idx})" style="font-size:20px">
+                    ${word.important ? '⭐' : '☆'}
+                  </button>
+                </td>
+                <td>
+                  <button class="toggle-btn" onclick="app.toggleFamiliar(${idx})" style="font-size:20px">
+                    ${word.familiar ? '✅' : '⬜'}
+                  </button>
+                </td>
+                <td>
                   <button class="delete-btn" onclick="app.removeFromVocab(${idx})">删除</button>
                 </td>
               </tr>
@@ -360,6 +372,16 @@ class App {
         </table>
       `}
     `;
+  }
+
+  toggleImportant(index) {
+    window.storage.toggleWordImportant(index);
+    this.renderVocabMode();
+  }
+
+  toggleFamiliar(index) {
+    window.storage.toggleWordFamiliar(index);
+    this.renderVocabMode();
   }
 
   showImportDialog() {
@@ -410,11 +432,22 @@ class App {
   renderProgressMode() {
     const progress = window.storage.getProgress();
     const stats = window.spacedRepetition.getStats();
+    const plan = window.storage.getStudyPlan();
+    const vocab = window.storage.getVocab();
     const container = document.getElementById('main-content');
+
+    const completedGoals = plan.goals.filter(g => g.completed).length;
+    const totalGoals = plan.goals.length;
 
     container.innerHTML = `
       <div class="progress-container">
-        <h2>学习进度</h2>
+        <h2>📊 学习进度</h2>
+
+        <div class="stat-card">
+          <div class="stat-label">学习计划完成度</div>
+          <div class="stat-value">${totalGoals > 0 ? Math.round(completedGoals / totalGoals * 100) : 0}%</div>
+          <div style="font-size:13px;color:var(--muted);margin-top:4px">${completedGoals} / ${totalGoals} 个目标已完成</div>
+        </div>
 
         <div class="stat-card">
           <div class="stat-label">已学习产品</div>
@@ -422,13 +455,12 @@ class App {
         </div>
 
         <div class="stat-card">
-          <div class="stat-label">已学习词汇</div>
-          <div class="stat-value">${progress.studiedTerms.length}</div>
-        </div>
-
-        <div class="stat-card">
-          <div class="stat-label">累计学习时间</div>
-          <div class="stat-value">${Math.round(progress.totalStudyTime)} 分钟</div>
+          <div class="stat-label">生词本词汇</div>
+          <div class="stat-value">${vocab.words.length}</div>
+          <div style="font-size:13px;color:var(--muted);margin-top:4px">
+            重点: ${vocab.words.filter(w => w.important).length} ·
+            已熟悉: ${vocab.words.filter(w => w.familiar).length}
+          </div>
         </div>
 
         <div class="stat-card">
@@ -436,11 +468,54 @@ class App {
           <div class="stat-value">${stats.due}</div>
         </div>
 
-        <div class="suggestion">
+        <div style="margin-top:24px">
+          <h3 style="margin-bottom:12px">📝 学习计划</h3>
+          <button class="import-btn" onclick="app.addStudyGoal()" style="margin-bottom:16px">➕ 添加学习目标</button>
+
+          ${plan.goals.length === 0 ? `
+            <div class="empty-state">
+              <p style="font-size:13px;color:var(--muted)">还没有设定学习目标</p>
+            </div>
+          ` : `
+            <div style="display:flex;flex-direction:column;gap:8px">
+              ${plan.goals.map(goal => `
+                <div style="display:flex;align-items:center;gap:12px;padding:12px;background:var(--card-bg);border-radius:8px">
+                  <button onclick="app.toggleStudyGoal(${goal.id})" style="font-size:24px;background:none;border:none;cursor:pointer">
+                    ${goal.completed ? '✅' : '⬜'}
+                  </button>
+                  <div style="flex:1;${goal.completed ? 'text-decoration:line-through;opacity:0.6' : ''}">
+                    ${goal.text}
+                  </div>
+                  <button class="delete-btn" onclick="app.deleteStudyGoal(${goal.id})">删除</button>
+                </div>
+              `).join('')}
+            </div>
+          `}
+        </div>
+
+        <div class="suggestion" style="margin-top:24px">
           ${window.spacedRepetition.getSuggestion()}
         </div>
       </div>
     `;
+  }
+
+  addStudyGoal() {
+    const text = prompt('输入学习目标：\n\n例如：\n- 本周完成骨科产品学习\n- 掌握50个财务英语词汇\n- 复习外教课程第1-3节');
+    if (text && text.trim()) {
+      window.storage.addGoal(text.trim());
+      this.renderProgressMode();
+    }
+  }
+
+  toggleStudyGoal(goalId) {
+    window.storage.toggleGoal(goalId);
+    this.renderProgressMode();
+  }
+
+  deleteStudyGoal(goalId) {
+    window.storage.deleteGoal(goalId);
+    this.renderProgressMode();
   }
 
   bindEvents() {

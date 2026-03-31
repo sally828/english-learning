@@ -40,7 +40,28 @@ class Storage {
     const vocab = this.getVocab();
     const exists = vocab.words.some(w => w.en === word.en);
     if (!exists) {
-      vocab.words.push(word);
+      vocab.words.push({
+        ...word,
+        important: false,
+        familiar: false,
+        addedAt: Date.now()
+      });
+      this.saveVocab(vocab);
+    }
+  }
+
+  toggleWordImportant(index) {
+    const vocab = this.getVocab();
+    if (vocab.words[index]) {
+      vocab.words[index].important = !vocab.words[index].important;
+      this.saveVocab(vocab);
+    }
+  }
+
+  toggleWordFamiliar(index) {
+    const vocab = this.getVocab();
+    if (vocab.words[index]) {
+      vocab.words[index].familiar = !vocab.words[index].familiar;
       this.saveVocab(vocab);
     }
   }
@@ -72,7 +93,10 @@ class Storage {
         vocab.words.push({
           en: parts[0],
           cn: parts[1] || '',
-          ipa: parts[2] || ''
+          ipa: parts[2] || '',
+          important: false,
+          familiar: false,
+          addedAt: Date.now()
         });
         count++;
       }
@@ -80,6 +104,50 @@ class Storage {
 
     this.saveVocab(vocab);
     return count;
+  }
+
+  getStudyPlan() {
+    try {
+      const data = localStorage.getItem('company_study_plan');
+      return data ? JSON.parse(data) : { goals: [], completedGoals: [] };
+    } catch {
+      return { goals: [], completedGoals: [] };
+    }
+  }
+
+  saveStudyPlan(plan) {
+    localStorage.setItem('company_study_plan', JSON.stringify(plan));
+  }
+
+  addGoal(goal) {
+    const plan = this.getStudyPlan();
+    plan.goals.push({
+      id: Date.now(),
+      text: goal,
+      createdAt: Date.now(),
+      completed: false
+    });
+    this.saveStudyPlan(plan);
+  }
+
+  toggleGoal(goalId) {
+    const plan = this.getStudyPlan();
+    const goal = plan.goals.find(g => g.id === goalId);
+    if (goal) {
+      goal.completed = !goal.completed;
+      if (goal.completed) {
+        goal.completedAt = Date.now();
+      } else {
+        delete goal.completedAt;
+      }
+      this.saveStudyPlan(plan);
+    }
+  }
+
+  deleteGoal(goalId) {
+    const plan = this.getStudyPlan();
+    plan.goals = plan.goals.filter(g => g.id !== goalId);
+    this.saveStudyPlan(plan);
   }
 }
 
